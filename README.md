@@ -2,6 +2,20 @@
 ![Pendulo](https://github.com/Nava844/Dise-no-de-un-sistema-hardware-in-the-loop-para-un-p-endulo-invertido-sobre-un-riel/blob/main/ros2_ws/src/Renders/Pendulo%20de%20furuta.png)
 ## Recursos necesarios para el proyecto
 
+Para este proyecto, es necesario tener instalados los siguientes componentes:
+
+- **ROS 2 Jazzy Jalisco**  
+  Guía de instalación:  
+  [https://docs-ros-org.translate.goog/en/jazzy/Installation/Alternatives/Ubuntu-Development-Setup.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc](https://docs-ros-org.translate.goog/en/jazzy/Installation/Alternatives/Ubuntu-Development-Setup.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc)
+
+- **micro-ROS**  
+  Sitio oficial:  
+  [https://micro.ros.org/](https://micro.ros.org/)
+
+- **Gazebo Harmonic**  
+  Guía de instalación:  
+  [https://gazebosim-org.translate.goog/docs/harmonic/install_ubuntu/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc](https://gazebosim-org.translate.goog/docs/harmonic/install_ubuntu/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc)
+
 ## RViz y Gazebo
 https://github.com/user-attachments/assets/40fa5955-9b4c-4265-8a6d-3a43da75b027
 ## Costruir el Espacio de Trabajo
