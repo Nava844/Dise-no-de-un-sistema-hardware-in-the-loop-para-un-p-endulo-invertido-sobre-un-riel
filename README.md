@@ -13,4 +13,5 @@ ros2 launch modelo_robot robot_simulation_launch.py
 ### Comado para mover el carro
 ```bash
 ros2 topic pub /movil_cmd std_msgs/msg/Float64 '{data: 0.22}'
+ros2 topic pub /pendulo std_msgs/msg/Float64 '{data: 2.8}'
 ```
