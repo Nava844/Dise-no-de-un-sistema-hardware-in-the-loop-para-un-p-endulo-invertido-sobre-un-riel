@@ -2,12 +2,13 @@
 ![Pendulo](https://github.com/Nava844/Dise-no-de-un-sistema-hardware-in-the-loop-para-un-p-endulo-invertido-sobre-un-riel/blob/main/ros2_ws/src/Renders/Pendulo%20de%20furuta.png)
 ## RViz y Gazebo
 https://github.com/user-attachments/assets/40fa5955-9b4c-4265-8a6d-3a43da75b027
-### Comandos para correr la simulación
+### Costruir el Espacio de Trabajo
 
 ```bash
 cd ros2_ws/
 colcon build
 source install/setup.bash
+```
 ros2 launch modelo_robot robot_simulation_launch.py
 ```
 ### Comado para mover el carro
