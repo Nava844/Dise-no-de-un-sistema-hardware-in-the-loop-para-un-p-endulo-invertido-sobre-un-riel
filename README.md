@@ -9,6 +9,9 @@ cd ros2_ws/
 colcon build
 source install/setup.bash
 ```
+### Ejecutar lanzador
+Este comando manda a llamar a Rviz y Gazebo desde el archivo robot_simulation_launch.py
+```bash
 ros2 launch modelo_robot robot_simulation_launch.py
 ```
 ### Comado para mover el carro
