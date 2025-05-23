@@ -1,0 +1,18 @@
+{
+  "package_name": "visualization_msgs",
+  "non_idl_tuples": [
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/ImageMarker.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarker.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerControl.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerFeedback.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerInit.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerPose.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerUpdate.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/Marker.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/MarkerArray.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/MenuEntry.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/MeshFile.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:msg/UVCoordinate.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs:srv/GetInteractiveMarkers.srv"
+  ]
+}

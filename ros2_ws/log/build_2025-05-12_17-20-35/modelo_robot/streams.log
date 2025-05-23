@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/nava/ros2_ws/build/modelo_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/ros2_ws/build/modelo_robot -- -j12 -l12
+[0.149s] Invoked command in '/home/nava/ros2_ws/build/modelo_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/ros2_ws/build/modelo_robot -- -j12 -l12
+[0.157s] Invoking command in '/home/nava/ros2_ws/build/modelo_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/ros2_ws/build/modelo_robot
+[0.163s] -- Install configuration: ""
+[0.165s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/urdf
+[0.165s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/urdf/final.sdf
+[0.165s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/urdf/mimundo.sdf
+[0.165s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/urdf/final.urdf
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/launch
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/launch/display.launch.py
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/launch/robot_simulation_launch.py
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/launch/world.launch.py
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/ament_index/resource_index/package_run_dependencies/modelo_robot
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/ament_index/resource_index/parent_prefix_path/modelo_robot
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/environment/ament_prefix_path.sh
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/environment/path.sh
+[0.166s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/environment/path.dsv
+[0.167s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/local_setup.bash
+[0.167s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/local_setup.sh
+[0.167s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/local_setup.zsh
+[0.167s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/local_setup.dsv
+[0.167s] -- Installing: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/package.dsv
+[0.167s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/ament_index/resource_index/packages/modelo_robot
+[0.167s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/cmake/modelo_robotConfig.cmake
+[0.167s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/cmake/modelo_robotConfig-version.cmake
+[0.167s] -- Up-to-date: /home/nava/ros2_ws/install/modelo_robot/share/modelo_robot/package.xml
+[0.168s] Invoked command in '/home/nava/ros2_ws/build/modelo_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/ros2_ws/build/modelo_robot

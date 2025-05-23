@@ -1,0 +1,10 @@
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Goals.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/LoadMap.idl
+/home/nava/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl

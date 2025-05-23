@@ -1,0 +1,33 @@
+{
+  "package_name": "sensor_msgs",
+  "non_idl_tuples": [
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/BatteryState.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/CameraInfo.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/ChannelFloat32.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/CompressedImage.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/FluidPressure.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/Illuminance.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/Image.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/Imu.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/JointState.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/Joy.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/JoyFeedback.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/JoyFeedbackArray.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/LaserEcho.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/LaserScan.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/MagneticField.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/MultiDOFJointState.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/MultiEchoLaserScan.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/NavSatFix.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/NavSatStatus.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/PointCloud.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/PointCloud2.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/PointField.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/Range.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/RegionOfInterest.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/RelativeHumidity.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/Temperature.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:msg/TimeReference.msg",
+    "/home/nava/microros_ws/src/ros2/common_interfaces/sensor_msgs:srv/SetCameraInfo.srv"
+  ]
+}

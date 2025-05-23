@@ -1,0 +1,314 @@
+[0.089s] Invoking command in '/home/nava/microros_ws/build/complex_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/uros/micro-ROS-demos/messages/complex_msg -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/complex_msgs
+[0.934s] -- The C compiler identification is GNU 13.3.0
+[0.934s] -- The CXX compiler identification is GNU 13.3.0
+[0.934s] -- Detecting C compiler ABI info
+[0.935s] -- Detecting C compiler ABI info - done
+[0.935s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.935s] -- Detecting C compile features
+[0.935s] -- Detecting C compile features - done
+[0.935s] -- Detecting CXX compiler ABI info
+[1.217s] -- Detecting CXX compiler ABI info - done
+[1.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.274s] -- Detecting CXX compile features
+[1.275s] -- Detecting CXX compile features - done
+[1.281s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.737s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.200s] -- Found builtin_interfaces: 2.0.2 (/home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[2.428s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.512s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.580s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.687s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.920s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.033s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.345s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.795s] -- Found PythonExtra: /usr/bin/python3  
+[11.008s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[11.138s] -- Configuring done (11.0s)
+[11.260s] -- Generating done (0.1s)
+[11.314s] -- Build files have been written to: /home/nava/microros_ws/build/complex_msgs
+[11.411s] Invoked command in '/home/nava/microros_ws/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/uros/micro-ROS-demos/messages/complex_msg -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/complex_msgs
+[11.411s] Invoking command in '/home/nava/microros_ws/build/complex_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/complex_msgs -- -j12 -l12
+[11.550s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.571s] [  1%] Built target ament_cmake_python_copy_complex_msgs
+[12.451s] [  1%] Built target complex_msgs__rosidl_generator_type_description
+[12.505s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.547s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.748s] running egg_info
+[12.753s] creating complex_msgs.egg-info
+[12.864s] writing complex_msgs.egg-info/PKG-INFO
+[12.864s] writing dependency_links to complex_msgs.egg-info/dependency_links.txt
+[12.864s] writing top-level names to complex_msgs.egg-info/top_level.txt
+[12.865s] writing manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[13.279s] reading manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[13.281s] writing manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[13.455s] [  5%] Built target ament_cmake_python_build_complex_msgs_egg
+[13.810s] [  7%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/multi_string_test__description.c.o[0m
+[13.823s] [ 11%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/nested_msg_test__description.c.o[0m
+[13.824s] [ 11%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/multi_string_test__functions.c.o[0m
+[13.828s] [ 12%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/nested_msg_test__type_support.c.o[0m
+[13.841s] [ 14%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/nested_msg_test__functions.c.o[0m
+[13.853s] [ 16%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/multi_string_test__type_support.c.o[0m
+[14.118s] [ 18%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_generator_c.so[0m
+[14.255s] [ 18%] Built target complex_msgs__rosidl_generator_c
+[14.287s] [ 20%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[14.316s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.318s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.333s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.469s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[14.470s]   warnings.warn(
+[14.637s] [ 25%] Built target complex_msgs__cpp
+[14.703s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.735s] [ 29%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[14.745s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.750s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.078s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[15.079s]   warnings.warn(
+[15.902s] [ 35%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_c.c.o[0m
+[15.906s] [ 37%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_c.c.o[0m
+[16.176s] [ 38%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[16.386s] [ 38%] Built target complex_msgs__rosidl_typesupport_microxrcedds_c
+[16.503s] [ 40%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/complex_msgs/msg/detail/dds_fastrtps/multi_string_test__type_support.cpp.o[0m
+[16.547s] [ 42%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/complex_msgs/msg/detail/dds_fastrtps/nested_msg_test__type_support.cpp.o[0m
+[16.553s] [ 44%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp.o[0m
+[16.571s] [ 46%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp.o[0m
+[16.937s] [ 48%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/complex_msgs/msg/nested_msg_test__type_support.cpp.o[0m
+[16.968s] [ 50%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/complex_msgs/msg/multi_string_test__type_support.cpp.o[0m
+[17.008s] [ 51%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/complex_msgs/msg/detail/nested_msg_test__type_support.c.o[0m
+[17.043s] [ 53%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/complex_msgs/msg/detail/multi_string_test__type_support.c.o[0m
+[17.067s] [ 55%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/complex_msgs/msg/multi_string_test__type_support.cpp.o[0m
+[17.088s] [ 57%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/complex_msgs/msg/nested_msg_test__type_support.cpp.o[0m
+[17.317s] [ 59%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.422s] [ 61%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_c.so[0m
+[17.515s] [ 61%] Built target complex_msgs__rosidl_typesupport_introspection_c
+[17.551s] [ 61%] Built target complex_msgs__rosidl_typesupport_c
+[17.713s] [ 62%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/complex_msgs/msg/detail/multi_string_test__type_support.cpp.o[0m
+[17.713s] [ 64%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/complex_msgs/msg/detail/nested_msg_test__type_support.cpp.o[0m
+[17.925s] [ 66%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/complex_msgs/msg/detail/multi_string_test__type_support_c.cpp.o[0m
+[17.952s] [ 68%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/complex_msgs/msg/detail/nested_msg_test__type_support_c.cpp.o[0m
+[18.812s] [01m[K/home/nava/microros_ws/build/complex_msgs/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp:332:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.812s]   332 | [01;35m[K}[m[K;
+[18.812s]       | [01;35m[K^[m[K
+[18.813s] [01m[K/home/nava/microros_ws/build/complex_msgs/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp:332:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.813s] [01m[K/home/nava/microros_ws/build/complex_msgs/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp:332:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.956s] [01m[K/home/nava/microros_ws/build/complex_msgs/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp:199:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.957s]   199 | [01;35m[K}[m[K;
+[18.957s]       | [01;35m[K^[m[K
+[18.957s] [01m[K/home/nava/microros_ws/build/complex_msgs/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp:199:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.957s] [01m[K/home/nava/microros_ws/build/complex_msgs/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp:199:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[19.231s] [ 70%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[19.314s] [ 72%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_cpp.so[0m
+[19.457s] [ 72%] Built target complex_msgs__rosidl_typesupport_microxrcedds_cpp
+[19.460s] [ 72%] Built target complex_msgs__rosidl_typesupport_cpp
+[19.772s] [ 74%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.091s] [ 74%] Built target complex_msgs__rosidl_typesupport_introspection_cpp
+[20.178s] [ 75%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.676s] [ 77%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[20.685s] [ 77%] Built target complex_msgs__rosidl_typesupport_fastrtps_cpp
+[21.059s] [ 77%] Built target complex_msgs__rosidl_typesupport_fastrtps_c
+[21.150s] [ 77%] Built target complex_msgs
+[21.243s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.733s] [ 79%] Built target complex_msgs__py
+[22.803s] [ 81%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_py.dir/rosidl_generator_py/complex_msgs/msg/_multi_string_test_s.c.o[0m
+[23.150s] [ 83%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_py.dir/rosidl_generator_py/complex_msgs/msg/_nested_msg_test_s.c.o[0m
+[23.470s] [ 85%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_generator_py.so[0m
+[23.661s] [ 85%] Built target complex_msgs__rosidl_generator_py
+[23.727s] [ 87%] [32mBuilding C object CMakeFiles/complex_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[23.996s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[24.111s] [ 88%] Built target complex_msgs_s__rosidl_typesupport_microxrcedds_c
+[24.183s] [ 90%] [32mBuilding C object CMakeFiles/complex_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[24.428s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_c.so[0m
+[24.504s] [ 92%] Built target complex_msgs_s__rosidl_typesupport_c
+[24.542s] [ 94%] [32mBuilding C object CMakeFiles/complex_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.729s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[24.787s] [ 96%] Built target complex_msgs_s__rosidl_typesupport_introspection_c
+[24.869s] [ 98%] [32mBuilding C object CMakeFiles/complex_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.096s] [100%] [32m[1mLinking C shared module rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[25.171s] [100%] Built target complex_msgs_s__rosidl_typesupport_fastrtps_c
+[25.292s] Invoked command in '/home/nava/microros_ws/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/complex_msgs -- -j12 -l12
+[25.293s] Invoking command in '/home/nava/microros_ws/build/complex_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/complex_msgs
+[25.364s] -- Install configuration: ""
+[25.364s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/ament_index/resource_index/rosidl_interfaces/complex_msgs
+[25.364s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.json
+[25.364s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.json
+[25.364s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[25.365s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[25.365s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/multi_string_test.h
+[25.365s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[25.368s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__functions.c
+[25.368s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.h
+[25.368s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__struct.h
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__description.c
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.h
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__functions.c
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__functions.h
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.c
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.c
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__struct.h
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__functions.h
+[25.369s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__description.c
+[25.370s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_generator_c__visibility_control.h
+[25.370s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/nested_msg_test.h
+[25.370s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/environment/library_path.sh
+[25.370s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/environment/library_path.dsv
+[25.370s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_c.so
+[25.370s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_c.so" to ""
+[25.370s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[25.371s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[25.371s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[25.371s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_fastrtps_c.h
+[25.371s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_fastrtps_c.h
+[25.371s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.371s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_c.so
+[25.371s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[25.371s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[25.372s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[25.372s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[25.372s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__struct.hpp
+[25.372s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__builder.hpp
+[25.376s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__traits.hpp
+[25.376s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__traits.hpp
+[25.376s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__builder.hpp
+[25.376s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.hpp
+[25.377s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__struct.hpp
+[25.377s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.hpp
+[25.377s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/multi_string_test.hpp
+[25.377s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/nested_msg_test.hpp
+[25.382s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.383s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[25.383s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[25.384s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[25.384s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_fastrtps_cpp.hpp
+[25.384s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/dds_fastrtps
+[25.384s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_fastrtps_cpp.hpp
+[25.385s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.385s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so
+[25.385s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.386s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs
+[25.386s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg
+[25.386s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail
+[25.395s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_microxrcedds_c.h
+[25.396s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds
+[25.396s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_c.h
+[25.397s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[25.397s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so
+[25.397s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[25.398s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[25.398s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[25.398s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[25.398s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_introspection_c.h
+[25.399s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.c
+[25.399s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_introspection_c.h
+[25.399s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.c
+[25.399s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.400s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_c.so
+[25.404s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_c.so" to ""
+[25.405s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_c.so
+[25.405s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_c.so" to ""
+[25.409s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs
+[25.409s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg
+[25.409s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail
+[25.409s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[25.410s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds
+[25.410s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp
+[25.410s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp
+[25.410s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[25.410s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[25.410s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[25.410s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[25.411s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[25.411s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[25.411s] -- Up-to-date: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[25.411s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_introspection_cpp.hpp
+[25.411s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_introspection_cpp.hpp
+[25.411s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.cpp
+[25.412s] -- Installing: /home/nava/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.cpp
+[25.412s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_cpp.so
+[25.412s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[25.412s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_cpp.so
+[25.413s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_cpp.so" to ""
+[25.413s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/environment/pythonpath.sh
+[25.413s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/environment/pythonpath.dsv
+[25.413s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs-5.0.1-py3.12.egg-info
+[25.414s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs-5.0.1-py3.12.egg-info/dependency_links.txt
+[25.414s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs-5.0.1-py3.12.egg-info/top_level.txt
+[25.414s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs-5.0.1-py3.12.egg-info/SOURCES.txt
+[25.414s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs-5.0.1-py3.12.egg-info/PKG-INFO
+[25.414s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs
+[25.415s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[25.415s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/__init__.py
+[25.415s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.422s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_c.c
+[25.422s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.so
+[25.422s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[25.423s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[25.423s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg
+[25.423s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg/_multi_string_test_s.c
+[25.423s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg/__init__.py
+[25.423s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg/_multi_string_test.py
+[25.423s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg/_nested_msg_test.py
+[25.423s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg/_nested_msg_test_s.c
+[25.424s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.so
+[25.424s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.so
+[25.425s] Listing '/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs'...
+[25.425s] Compiling '/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/__init__.py'...
+[25.425s] Listing '/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg'...
+[25.426s] Compiling '/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg/__init__.py'...
+[25.426s] Compiling '/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg/_multi_string_test.py'...
+[25.426s] Compiling '/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/msg/_nested_msg_test.py'...
+[25.440s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[25.440s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[25.440s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.so
+[25.440s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[25.440s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.so
+[25.459s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[25.460s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.so
+[25.460s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.so" to ""
+[25.460s] -- Installing: /home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_py.so
+[25.460s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_py.so" to ""
+[25.460s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.idl
+[25.460s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.idl
+[25.461s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.msg
+[25.461s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.msg
+[25.461s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/ament_index/resource_index/package_run_dependencies/complex_msgs
+[25.461s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/ament_index/resource_index/parent_prefix_path/complex_msgs
+[25.461s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/environment/ament_prefix_path.sh
+[25.461s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/environment/ament_prefix_path.dsv
+[25.463s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/environment/path.sh
+[25.464s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/environment/path.dsv
+[25.464s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/local_setup.bash
+[25.464s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/local_setup.sh
+[25.464s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/local_setup.zsh
+[25.464s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/local_setup.dsv
+[25.464s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/package.dsv
+[25.464s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/ament_index/resource_index/packages/complex_msgs
+[25.465s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cExport.cmake
+[25.465s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cExport-noconfig.cmake
+[25.465s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[25.465s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[25.465s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cppExport.cmake
+[25.465s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[25.465s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cExport.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cExport.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cppExport.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[25.466s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_pyExport.cmake
+[25.467s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_pyExport-noconfig.cmake
+[25.467s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake-extras.cmake
+[25.467s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.467s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.471s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[25.471s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[25.472s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[25.472s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[25.472s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgsConfig.cmake
+[25.474s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgsConfig-version.cmake
+[25.474s] -- Installing: /home/nava/microros_ws/install/complex_msgs/share/complex_msgs/package.xml
+[25.540s] Invoked command in '/home/nava/microros_ws/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/complex_msgs

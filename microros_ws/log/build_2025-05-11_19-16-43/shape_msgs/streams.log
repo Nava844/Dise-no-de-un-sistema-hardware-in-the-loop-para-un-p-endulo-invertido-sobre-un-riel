@@ -1,0 +1,402 @@
+[0.014s] Invoking command in '/home/nava/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/shape_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/shape_msgs
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.121s] -- The CXX compiler identification is GNU 13.3.0
+[0.133s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.330s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.598s] -- Found geometry_msgs: 5.3.6 (/home/nava/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.644s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.661s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.689s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.773s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.437s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.994s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.998s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.133s] -- Found PythonExtra: /usr/bin/python3  
+[3.582s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.655s] -- Configuring done (3.6s)
+[3.714s] -- Generating done (0.0s)
+[3.729s] -- Build files have been written to: /home/nava/microros_ws/build/shape_msgs
+[3.741s] Invoked command in '/home/nava/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/shape_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/shape_msgs
+[3.743s] Invoking command in '/home/nava/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/shape_msgs -- -j12 -l12
+[3.796s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.820s] [  1%] Built target ament_cmake_python_copy_shape_msgs
+[4.101s] running egg_info
+[4.102s] creating shape_msgs.egg-info
+[4.127s] writing shape_msgs.egg-info/PKG-INFO
+[4.127s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[4.128s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[4.128s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[4.202s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[4.203s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[4.237s] [  1%] Built target ament_cmake_python_build_shape_msgs_egg
+[4.439s] [  1%] Built target shape_msgs__rosidl_generator_type_description
+[4.457s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.475s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.678s] [  3%] Built target shape_msgs__cpp
+[5.719s] [  5%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[5.813s] [  6%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__description.c.o[0m
+[5.818s] [  7%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__functions.c.o[0m
+[5.828s] [ 10%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__description.c.o[0m
+[5.830s] [ 10%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__description.c.o[0m
+[5.832s] [ 11%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__type_support.c.o[0m
+[5.847s] [ 12%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__functions.c.o[0m
+[5.856s] [ 14%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o[0m
+[5.914s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[5.914s]   warnings.warn(
+[5.948s] [ 15%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__functions.c.o[0m
+[5.952s] [ 16%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o[0m
+[5.972s] [ 17%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__description.c.o[0m
+[5.982s] [ 19%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__type_support.c.o[0m
+[6.023s] [ 20%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__functions.c.o[0m
+[6.188s] [ 21%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_c.so[0m
+[6.315s] [ 21%] Built target shape_msgs__rosidl_generator_c
+[6.355s] [ 23%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.357s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.360s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.360s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.368s] [ 28%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[6.368s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.642s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[6.643s]   warnings.warn(
+[7.846s] [ 30%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh__type_support.cpp.o[0m
+[7.858s] [ 32%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh_triangle__type_support.cpp.o[0m
+[7.892s] [ 33%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/plane__type_support.cpp.o[0m
+[7.897s] [ 34%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/solid_primitive__type_support.cpp.o[0m
+[8.529s] [ 35%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/mesh__type_support_cpp.cpp.o[0m
+[8.541s] [ 37%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/mesh_triangle__type_support_cpp.cpp.o[0m
+[8.996s] [ 38%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh__type_support.c.o[0m
+[9.195s] [ 39%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o[0m
+[9.207s] [ 41%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[9.230s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/mesh_triangle__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.230s]   168 | [01;35m[K}[m[K;
+[9.230s]       | [01;35m[K^[m[K
+[9.230s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/mesh_triangle__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.230s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/mesh_triangle__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.293s] [ 42%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh__type_support_c.cpp.o[0m
+[9.356s] [ 43%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/plane__type_support.c.o[0m
+[9.370s] [ 44%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh_triangle__type_support_c.cpp.o[0m
+[9.568s] [ 46%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o[0m
+[9.601s] [ 47%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[9.741s] [ 48%] [32m[1mLinking C shared library libshape_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.827s] [ 50%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/mesh__type_support_c.c.o[0m
+[9.843s] [ 51%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[9.933s] [ 51%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[10.033s] [ 52%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp.o[0m
+[10.144s] [ 53%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/mesh_triangle__type_support_c.c.o[0m
+[10.233s] [ 55%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[10.322s] [ 56%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/plane__type_support_c.c.o[0m
+[10.379s] [ 57%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_c.so[0m
+[10.472s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/mesh__type_support_cpp.cpp:287:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.472s]   287 | [01;35m[K}[m[K;
+[10.472s]       | [01;35m[K^[m[K
+[10.472s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/mesh__type_support_cpp.cpp:287:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.472s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/mesh__type_support_cpp.cpp:287:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.483s] [ 58%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[10.483s] [ 60%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/solid_primitive__type_support_c.c.o[0m
+[10.489s] [ 60%] Built target shape_msgs__rosidl_typesupport_c
+[10.613s] [ 61%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.626s] [ 62%] [32m[1mLinking C shared library libshape_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[10.771s] [ 62%] Built target shape_msgs__rosidl_typesupport_microxrcedds_c
+[10.849s] [ 64%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/solid_primitive__type_support_cpp.cpp.o[0m
+[10.934s] [ 64%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[11.198s] [ 65%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[11.414s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/solid_primitive__type_support_cpp.cpp:229:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.414s]   229 | [01;35m[K}[m[K;
+[11.414s]       | [01;35m[K^[m[K
+[11.415s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/solid_primitive__type_support_cpp.cpp:229:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.415s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/solid_primitive__type_support_cpp.cpp:229:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.438s] [ 66%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/solid_primitive__type_support_c.cpp.o[0m
+[11.546s] [ 67%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/plane__type_support_cpp.cpp.o[0m
+[11.811s] [ 69%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp.o[0m
+[12.027s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/plane__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[12.027s]   168 | [01;35m[K}[m[K;
+[12.027s]       | [01;35m[K^[m[K
+[12.027s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/plane__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[12.027s] [01m[K/home/nava/microros_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_cpp/shape_msgs/msg/detail/microxrcedds/plane__type_support_cpp.cpp:168:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[12.032s] [ 70%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/plane__type_support_c.cpp.o[0m
+[12.108s] [ 71%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[12.264s] [ 71%] Built target shape_msgs__rosidl_typesupport_microxrcedds_cpp
+[12.344s] [ 73%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_cpp.so[0m
+[12.399s] [ 73%] Built target shape_msgs__rosidl_typesupport_cpp
+[12.556s] [ 74%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.611s] [ 74%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[12.623s] [ 75%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.205s] [ 76%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh__type_support.cpp.o[0m
+[13.598s] [ 78%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/solid_primitive__type_support.cpp.o[0m
+[14.002s] [ 79%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/plane__type_support.cpp.o[0m
+[14.310s] [ 80%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh_triangle__type_support.cpp.o[0m
+[14.611s] [ 82%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.681s] [ 82%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[14.700s] [ 82%] Built target shape_msgs
+[14.720s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.613s] [ 83%] Built target shape_msgs__py
+[15.632s] [ 84%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_s.c.o[0m
+[15.758s] [ 85%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_solid_primitive_s.c.o[0m
+[15.888s] [ 87%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_plane_s.c.o[0m
+[16.007s] [ 88%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_triangle_s.c.o[0m
+[16.126s] [ 89%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_py.so[0m
+[16.170s] [ 89%] Built target shape_msgs__rosidl_generator_py
+[16.189s] [ 91%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[16.304s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[16.340s] [ 92%] Built target shape_msgs_s__rosidl_typesupport_microxrcedds_c
+[16.359s] [ 93%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.460s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so[0m
+[16.489s] [ 94%] Built target shape_msgs_s__rosidl_typesupport_c
+[16.508s] [ 96%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.609s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[16.638s] [ 97%] Built target shape_msgs_s__rosidl_typesupport_introspection_c
+[16.655s] [ 98%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.758s] [100%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.787s] [100%] Built target shape_msgs_s__rosidl_typesupport_fastrtps_c
+[16.798s] Invoked command in '/home/nava/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/shape_msgs -- -j12 -l12
+[16.800s] Invoking command in '/home/nava/microros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/shape_msgs
+[16.808s] -- Install configuration: ""
+[16.808s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[16.808s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.json
+[16.808s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.json
+[16.808s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.json
+[16.808s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.json
+[16.809s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.809s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.809s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.809s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.c
+[16.809s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__description.c
+[16.809s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[16.809s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[16.809s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__description.c
+[16.810s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.c
+[16.810s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[16.810s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[16.810s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[16.810s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[16.810s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[16.810s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__description.c
+[16.811s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[16.811s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[16.811s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[16.811s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[16.811s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.c
+[16.811s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.c
+[16.811s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[16.811s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[16.812s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[16.812s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[16.812s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[16.812s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__description.c
+[16.812s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.812s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[16.812s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.h
+[16.812s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.h
+[16.813s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[16.813s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.sh
+[16.813s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.dsv
+[16.813s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so
+[16.813s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so" to ""
+[16.813s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.814s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.814s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.814s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[16.814s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[16.814s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[16.814s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[16.814s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.815s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[16.815s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.815s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.815s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.815s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.815s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[16.815s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[16.815s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[16.816s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[16.816s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp
+[16.816s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[16.816s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.hpp
+[16.816s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.hpp
+[16.816s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[16.816s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[16.816s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[16.817s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[16.817s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[16.817s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[16.817s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[16.817s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.hpp
+[16.817s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[16.817s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.hpp
+[16.817s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[16.818s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[16.818s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.818s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.818s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.818s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.818s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[16.818s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[16.818s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[16.819s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/dds_fastrtps
+[16.819s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[16.819s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.819s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.819s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.819s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs
+[16.819s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg
+[16.819s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail
+[16.820s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/plane__rosidl_typesupport_microxrcedds_c.h
+[16.820s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/mesh__rosidl_typesupport_microxrcedds_c.h
+[16.820s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_microxrcedds_c.h
+[16.820s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds
+[16.820s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_microxrcedds_c.h
+[16.820s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[16.820s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_microxrcedds_c.so
+[16.820s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[16.821s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.821s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.821s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.821s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[16.821s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[16.821s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[16.821s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[16.821s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[16.822s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[16.822s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[16.822s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[16.822s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.822s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[16.822s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.822s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so
+[16.822s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so" to ""
+[16.823s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs
+[16.823s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg
+[16.823s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail
+[16.823s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.823s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/plane__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.823s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/mesh__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.823s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds
+[16.824s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds/mesh_triangle__type_support_cpp.cpp
+[16.824s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds/plane__type_support_cpp.cpp
+[16.824s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds/mesh__type_support_cpp.cpp
+[16.824s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/microxrcedds/solid_primitive__type_support_cpp.cpp
+[16.824s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.824s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[16.824s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[16.824s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[16.825s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[16.825s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[16.825s] -- Up-to-date: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[16.825s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.cpp
+[16.825s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.cpp
+[16.825s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[16.825s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.cpp
+[16.825s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.cpp
+[16.826s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[16.826s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[16.826s] -- Installing: /home/nava/microros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[16.826s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[16.826s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.826s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[16.826s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so" to ""
+[16.826s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.sh
+[16.827s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.dsv
+[16.827s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info
+[16.827s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[16.827s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[16.827s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[16.827s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[16.827s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs
+[16.828s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.828s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/__init__.py
+[16.828s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[16.828s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.828s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[16.828s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[16.828s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg
+[16.828s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/__init__.py
+[16.829s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py
+[16.829s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane.py
+[16.829s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_s.c
+[16.829s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive_s.c
+[16.829s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py
+[16.829s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py
+[16.829s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane_s.c
+[16.830s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle_s.c
+[16.830s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[16.830s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.830s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[16.872s] Listing '/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs'...
+[16.872s] Compiling '/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/__init__.py'...
+[16.872s] Listing '/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg'...
+[16.872s] Compiling '/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/__init__.py'...
+[16.872s] Compiling '/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py'...
+[16.872s] Compiling '/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py'...
+[16.872s] Compiling '/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane.py'...
+[16.872s] Compiling '/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py'...
+[16.878s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[16.878s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[16.878s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.878s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.878s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[16.878s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[16.879s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[16.879s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so" to ""
+[16.879s] -- Installing: /home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so
+[16.879s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so" to ""
+[16.879s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.idl
+[16.879s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.idl
+[16.879s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.idl
+[16.879s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.idl
+[16.879s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.msg
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.msg
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.msg
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.msg
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.sh
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.dsv
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/environment/path.sh
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/environment/path.dsv
+[16.880s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.bash
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.sh
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.zsh
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/local_setup.dsv
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/package.dsv
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/ament_index/resource_index/packages/shape_msgs
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.881s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.882s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.883s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[16.883s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.883s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[16.883s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.883s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[16.883s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.883s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.884s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.884s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.884s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.884s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.884s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[16.884s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[16.884s] -- Installing: /home/nava/microros_ws/install/shape_msgs/share/shape_msgs/package.xml
+[16.886s] Invoked command in '/home/nava/microros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/shape_msgs

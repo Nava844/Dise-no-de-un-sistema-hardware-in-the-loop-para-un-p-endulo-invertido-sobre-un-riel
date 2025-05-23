@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-156d1d79600f78d72648.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "unique_identifier_msgs__py",
+					"jsonFile" : "directory-unique_identifier_msgs__py-9554ec4effadc67b5ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nava/microros_ws/build/unique_identifier_msgs/unique_identifier_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "unique_identifier_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_unique_identifier_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_unique_identifier_msgs_egg-f3e7a05e6b463e9196d1.json",
+					"name" : "ament_cmake_python_build_unique_identifier_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_unique_identifier_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_unique_identifier_msgs-5f8235fe582ae61c5a10.json",
+					"name" : "ament_cmake_python_copy_unique_identifier_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-894757f6d096ef0d33fb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs-537c44635098012fe34e.json",
+					"name" : "unique_identifier_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__cpp-5beaf37d59485662dcfb.json",
+					"name" : "unique_identifier_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unique_identifier_msgs__py::@95dd87b89bd68cb4460c",
+					"jsonFile" : "target-unique_identifier_msgs__py-8618d833bbc27bbe7e21.json",
+					"name" : "unique_identifier_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_generator_c-efc75d012b1eabbe8e57.json",
+					"name" : "unique_identifier_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_generator_py-3a7183a41c5e0bb54f5e.json",
+					"name" : "unique_identifier_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_generator_type_description-5520568d0fdaa5eee96d.json",
+					"name" : "unique_identifier_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_c-2fb0ee2f3405600b8a3b.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_cpp-c18f5cdce3ad11444879.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_fastrtps_c-c32824d78b5694dad66b.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp-4ac1e203c1896b776235.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_introspection_c-6821b8f1061d14da0ead.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_introspection_cpp-acdc2a7e17a9b9fed49b.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_microxrcedds_c-03aa93da0d164ea79e51.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_microxrcedds_cpp-c7a7b69f97aaa3526b21.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_s__rosidl_typesupport_c-ec9a18bd512920fcd78b.json",
+					"name" : "unique_identifier_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c-2beff36525b0e85c3d5f.json",
+					"name" : "unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_s__rosidl_typesupport_introspection_c-33387f12d14cea6f3e1c.json",
+					"name" : "unique_identifier_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c-545f91a576c28ce20bc3.json",
+					"name" : "unique_identifier_msgs_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_uninstall-de2ae40d1a9570a6ec0f.json",
+					"name" : "unique_identifier_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nava/microros_ws/build/unique_identifier_msgs",
+		"source" : "/home/nava/microros_ws/src/ros2/unique_identifier_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

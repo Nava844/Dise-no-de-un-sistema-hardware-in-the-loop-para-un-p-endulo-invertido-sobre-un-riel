@@ -1,0 +1,22 @@
+[0.061s] Invoking command in '/home/nava/microros_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/eProsima/Micro-CDR -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/microcdr
+[0.180s] -- Configuring done (0.0s)
+[0.199s] -- Generating done (0.0s)
+[0.202s] -- Build files have been written to: /home/nava/microros_ws/build/microcdr
+[0.207s] Invoked command in '/home/nava/microros_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/eProsima/Micro-CDR -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/microcdr
+[0.209s] Invoking command in '/home/nava/microros_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/microcdr -- -j12 -l12
+[0.630s] [100%] Built target microcdr
+[0.632s] Invoked command in '/home/nava/microros_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/microcdr -- -j12 -l12
+[0.650s] Invoking command in '/home/nava/microros_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/microcdr
+[0.693s] -- Install configuration: "Release"
+[0.693s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+[0.693s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0
+[0.693s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/lib/libmicrocdr.so
+[0.693s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/include/ucdr
+[0.693s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/include/ucdr/visibility.h
+[0.693s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/include/ucdr/microcdr.h
+[0.693s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/include/ucdr/config.h
+[0.694s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[0.694s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.694s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[0.694s] -- Up-to-date: /home/nava/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.701s] Invoked command in '/home/nava/microros_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/microcdr

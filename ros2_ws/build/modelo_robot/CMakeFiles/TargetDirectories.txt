@@ -1,0 +1,9 @@
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/uninstall.dir
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/modelo_robot_uninstall.dir
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/test.dir
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/edit_cache.dir
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/rebuild_cache.dir
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/list_install_components.dir
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/install.dir
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/install/local.dir
+/home/nava/ros2_ws/build/modelo_robot/CMakeFiles/install/strip.dir

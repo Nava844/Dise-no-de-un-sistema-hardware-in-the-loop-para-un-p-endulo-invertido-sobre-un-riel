@@ -1,0 +1,838 @@
+[0.010s] Invoking command in '/home/nava/microros_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/visualization_msgs
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.100s] -- The CXX compiler identification is GNU 13.3.0
+[0.113s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.426s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.528s] -- Found builtin_interfaces: 2.0.2 (/home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.569s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.584s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.610s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.653s] -- Found geometry_msgs: 5.3.6 (/home/nava/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.688s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.702s] -- Found sensor_msgs: 5.3.6 (/home/nava/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+[1.382s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.741s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.853s] -- Found PythonExtra: /usr/bin/python3  
+[3.215s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.291s] -- Configuring done (3.3s)
+[3.370s] -- Generating done (0.1s)
+[3.385s] -- Build files have been written to: /home/nava/microros_ws/build/visualization_msgs
+[3.395s] Invoked command in '/home/nava/microros_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/visualization_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/visualization_msgs
+[3.395s] Invoking command in '/home/nava/microros_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/visualization_msgs -- -j12 -l12
+[3.445s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.453s] [  1%] Built target ament_cmake_python_copy_visualization_msgs
+[3.667s] running egg_info
+[3.668s] creating visualization_msgs.egg-info
+[3.689s] writing visualization_msgs.egg-info/PKG-INFO
+[3.689s] writing dependency_links to visualization_msgs.egg-info/dependency_links.txt
+[3.689s] writing top-level names to visualization_msgs.egg-info/top_level.txt
+[3.689s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[3.752s] reading manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[3.752s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[3.777s] [  1%] Built target ament_cmake_python_build_visualization_msgs_egg
+[4.831s] [  1%] Built target visualization_msgs__rosidl_generator_type_description
+[4.844s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.854s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.510s] [  1%] Built target visualization_msgs__cpp
+[6.519s] [  2%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[6.583s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[6.583s]   warnings.warn(
+[6.791s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__functions.c.o[0m
+[6.791s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__description.c.o[0m
+[6.792s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[6.792s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__description.c.o[0m
+[6.792s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__functions.c.o[0m
+[6.793s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[6.793s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__functions.c.o[0m
+[6.793s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__description.c.o[0m
+[6.793s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[6.793s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c.o[0m
+[6.793s] [  8%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__description.c.o[0m
+[6.842s] [ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[6.842s] [ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__description.c.o[0m
+[6.842s] [ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__functions.c.o[0m
+[6.859s] [ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[6.868s] [ 11%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__description.c.o[0m
+[6.870s] [ 12%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[6.871s] [ 12%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__functions.c.o[0m
+[6.873s] [ 13%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__functions.c.o[0m
+[6.873s] [ 13%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__description.c.o[0m
+[6.874s] [ 13%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[6.883s] [ 14%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__description.c.o[0m
+[6.896s] [ 14%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__functions.c.o[0m
+[6.917s] [ 15%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[6.927s] [ 16%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__description.c.o[0m
+[6.927s] [ 16%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__functions.c.o[0m
+[6.928s] [ 17%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[6.931s] [ 17%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__description.c.o[0m
+[6.937s] [ 18%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__functions.c.o[0m
+[6.960s] [ 18%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[6.964s] [ 19%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__description.c.o[0m
+[6.966s] [ 19%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__functions.c.o[0m
+[6.972s] [ 20%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[6.980s] [ 20%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__description.c.o[0m
+[6.985s] [ 21%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__functions.c.o[0m
+[6.996s] [ 21%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[6.997s] [ 22%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__description.c.o[0m
+[7.009s] [ 23%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__functions.c.o[0m
+[7.010s] [ 23%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[7.087s] [ 24%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_c.so[0m
+[7.124s] [ 24%] Built target visualization_msgs__rosidl_generator_c
+[7.135s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.135s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.136s] [ 25%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[7.136s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.136s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.136s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.139s] [ 26%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.218s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[7.218s]   warnings.warn(
+[8.514s] [ 26%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_cpp.cpp.o[0m
+[8.515s] [ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_cpp.cpp.o[0m
+[8.515s] [ 26%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_cpp.cpp.o[0m
+[8.515s] [ 26%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_cpp.cpp.o[0m
+[8.515s] [ 28%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_cpp.cpp.o[0m
+[9.025s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_cpp.cpp:345:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.025s]   345 | [01;35m[K}[m[K;
+[9.025s]       | [01;35m[K^[m[K
+[9.026s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_cpp.cpp:345:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.026s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_cpp.cpp:345:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.032s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_cpp.cpp:565:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.033s]   565 | [01;35m[K}[m[K;
+[9.033s]       | [01;35m[K^[m[K
+[9.033s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_cpp.cpp:565:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.033s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_cpp.cpp:565:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.047s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_cpp.cpp:408:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.047s]   408 | [01;35m[K}[m[K;
+[9.048s]       | [01;35m[K^[m[K
+[9.048s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_cpp.cpp:408:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.048s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_cpp.cpp:408:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.056s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_cpp.cpp:241:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.056s]   241 | [01;35m[K}[m[K;
+[9.056s]       | [01;35m[K^[m[K
+[9.056s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_cpp.cpp:241:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.056s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_cpp.cpp:241:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.059s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_cpp.cpp:329:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.059s]   329 | [01;35m[K}[m[K;
+[9.059s]       | [01;35m[K^[m[K
+[9.059s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_cpp.cpp:329:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.060s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_cpp.cpp:329:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.118s] [ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_cpp.cpp.o[0m
+[9.210s] [ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_cpp.cpp.o[0m
+[9.298s] [ 30%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker__type_support_cpp.cpp.o[0m
+[9.300s] [ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_cpp.cpp.o[0m
+[9.311s] [ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_cpp.cpp.o[0m
+[9.624s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_cpp.cpp:244:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.624s]   244 | [01;35m[K}[m[K;
+[9.624s]       | [01;35m[K^[m[K
+[9.624s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_cpp.cpp:244:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.624s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_cpp.cpp:244:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.706s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/mesh_file__type_support_cpp.cpp.o[0m
+[9.727s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/image_marker__type_support.cpp.o[0m
+[9.751s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_cpp.cpp:368:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.752s]   368 | [01;35m[K}[m[K;
+[9.752s]       | [01;35m[K^[m[K
+[9.752s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_cpp.cpp:368:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.752s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_cpp.cpp:368:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.844s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_cpp.cpp:217:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.844s]   217 | [01;35m[K}[m[K;
+[9.844s]       | [01;35m[K^[m[K
+[9.844s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_cpp.cpp:217:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.845s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_cpp.cpp:217:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.845s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_cpp.cpp:206:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.845s]   206 | [01;35m[K}[m[K;
+[9.845s]       | [01;35m[K^[m[K
+[9.845s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_cpp.cpp:206:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.845s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_cpp.cpp:206:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.852s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker__type_support_cpp.cpp:758:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.852s]   758 | [01;35m[K}[m[K;
+[9.852s]       | [01;35m[K^[m[K
+[9.852s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker__type_support_cpp.cpp:758:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.852s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker__type_support_cpp.cpp:758:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.916s] [ 32%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_c.c.o[0m
+[9.939s] [ 33%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_c.c.o[0m
+[10.035s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/uv_coordinate__type_support_cpp.cpp.o[0m
+[10.039s] [ 33%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_c.c.o[0m
+[10.057s] [ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker__type_support.cpp.o[0m
+[10.080s] [ 35%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_c.c.o[0m
+[10.120s] [ 35%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp.o[0m
+[10.138s] [ 36%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp.o[0m
+[10.175s] [ 36%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_c.c.o[0m
+[10.228s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/mesh_file__type_support_cpp.cpp:187:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.228s]   187 | [01;35m[K}[m[K;
+[10.228s]       | [01;35m[K^[m[K
+[10.229s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/mesh_file__type_support_cpp.cpp:187:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.229s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/mesh_file__type_support_cpp.cpp:187:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.258s] [ 37%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/image_marker__type_support.cpp.o[0m
+[10.270s] [ 38%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_c.c.o[0m
+[10.355s] [ 38%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_c.c.o[0m
+[10.379s] [ 38%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker__type_support.cpp.o[0m
+[10.397s] [ 39%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[10.406s] [ 39%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp.o[0m
+[10.435s] [ 40%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[10.464s] [ 41%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/marker__type_support_c.c.o[0m
+[10.467s] [ 41%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[10.544s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/uv_coordinate__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.544s]   169 | [01;35m[K}[m[K;
+[10.544s]       | [01;35m[K^[m[K
+[10.544s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/uv_coordinate__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.544s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/uv_coordinate__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[10.546s] [ 42%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[10.577s] [ 42%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_c.c.o[0m
+[10.623s] [ 42%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[10.631s] [ 43%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp.o[0m
+[10.663s] [ 44%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_c.c.o[0m
+[10.698s] [ 45%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[10.735s] [ 45%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[10.749s] [ 46%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/mesh_file__type_support_c.c.o[0m
+[10.777s] [ 46%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[10.836s] [ 46%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/uv_coordinate__type_support_c.c.o[0m
+[10.853s] [ 47%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[10.908s] [ 48%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[10.919s] [ 49%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_c.c.o[0m
+[10.933s] [ 50%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[10.986s] [ 51%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[10.991s] [ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[11.012s] [ 52%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[11.030s] [ 52%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[11.069s] [ 52%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[11.069s] [ 53%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[11.116s] [ 54%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_control__type_support.cpp.o[0m
+[11.122s] [ 54%] Built target visualization_msgs__rosidl_typesupport_microxrcedds_c
+[11.140s] [ 55%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[11.141s] [ 55%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[11.155s] [ 55%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[11.186s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.186s]   158 | [01;35m[K}[m[K;
+[11.186s]       | [01;35m[K^[m[K
+[11.186s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.187s] [ 56%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[11.187s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.189s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:424:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.190s]   424 | [01;35m[K}[m[K;
+[11.190s]       | [01;35m[K^[m[K
+[11.191s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:424:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.191s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:424:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.192s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:485:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.192s]   485 | [01;35m[K}[m[K;
+[11.192s]       | [01;35m[K^[m[K
+[11.192s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:485:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.193s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:485:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.193s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:485:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.193s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:485:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.193s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:485:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.193s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:485:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.193s] [01m[K/home/nava/microros_ws/build/visualization_msgs/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp:485:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[11.209s] [ 56%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[11.211s] [ 57%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[11.265s] [ 58%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[11.281s] [ 59%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[11.285s] [ 59%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[11.314s] [ 60%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp.o[0m
+[11.350s] [ 60%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[11.368s] [ 61%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so[0m
+[11.438s] [ 62%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[11.460s] [ 62%] Built target visualization_msgs__rosidl_typesupport_c
+[11.464s] [ 62%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[11.471s] [ 62%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[11.480s] [ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[11.494s] [ 64%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/image_marker__type_support_c.cpp.o[0m
+[11.534s] [ 64%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[11.593s] [ 64%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker__type_support_c.cpp.o[0m
+[11.617s] [ 65%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[11.675s] [ 65%] Built target visualization_msgs__rosidl_typesupport_microxrcedds_cpp
+[11.677s] [ 65%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[11.687s] [ 66%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_control__type_support_c.cpp.o[0m
+[11.694s] [ 67%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support_c.cpp.o[0m
+[11.697s] [ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_feedback__type_support.cpp.o[0m
+[11.745s] [ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp.o[0m
+[11.750s] [ 69%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[11.810s] [ 69%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[11.810s] [ 69%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[11.881s] [ 69%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_init__type_support_c.cpp.o[0m
+[11.904s] [ 70%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.964s] [ 70%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[11.979s] [ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_init__type_support.cpp.o[0m
+[12.029s] [ 71%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker__type_support.cpp.o[0m
+[12.038s] [ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support_c.cpp.o[0m
+[12.170s] [ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[12.361s] [ 73%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[12.400s] [ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/menu_entry__type_support.cpp.o[0m
+[12.464s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_pose__type_support.cpp.o[0m
+[12.559s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[12.563s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/mesh_file__type_support.cpp.o[0m
+[12.570s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_update__type_support_c.cpp.o[0m
+[12.737s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_update__type_support.cpp.o[0m
+[12.798s] [ 76%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[12.899s] [ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[12.907s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp.o[0m
+[12.963s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker_array__type_support_c.cpp.o[0m
+[13.031s] [ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/menu_entry__type_support_c.cpp.o[0m
+[13.105s] [ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/mesh_file__type_support_c.cpp.o[0m
+[13.139s] [ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/uv_coordinate__type_support_c.cpp.o[0m
+[13.155s] [ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[13.171s] [ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/srv/detail/get_interactive_markers__type_support_c.cpp.o[0m
+[13.322s] [ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp.o[0m
+[13.352s] [ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[13.446s] [ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[13.467s] [ 83%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/menu_entry__type_support.cpp.o[0m
+[13.773s] [ 83%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/mesh_file__type_support.cpp.o[0m
+[13.826s] [ 84%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/uv_coordinate__type_support.cpp.o[0m
+[13.868s] [ 84%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/srv/detail/dds_fastrtps/get_interactive_markers__type_support.cpp.o[0m
+[14.009s] [ 85%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.112s] [ 85%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[14.286s] [ 86%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so[0m
+[14.381s] [ 86%] Built target visualization_msgs__rosidl_typesupport_cpp
+[14.528s] [ 86%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[14.612s] [ 86%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[14.796s] [ 87%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.869s] [ 87%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[14.885s] [ 87%] Built target visualization_msgs
+[14.901s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.744s] [ 88%] Built target visualization_msgs__py
+[17.767s] [ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_update_s.c.o[0m
+[17.767s] [ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_init_s.c.o[0m
+[17.767s] [ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_control_s.c.o[0m
+[17.768s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_feedback_s.c.o[0m
+[17.768s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_s.c.o[0m
+[17.768s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_pose_s.c.o[0m
+[17.768s] [ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_image_marker_s.c.o[0m
+[17.768s] [ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_array_s.c.o[0m
+[17.768s] [ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_menu_entry_s.c.o[0m
+[17.768s] [ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_s.c.o[0m
+[17.768s] [ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_mesh_file_s.c.o[0m
+[17.768s] [ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_uv_coordinate_s.c.o[0m
+[17.967s] [ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/srv/_get_interactive_markers_s.c.o[0m
+[18.093s] [ 95%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_py.so[0m
+[18.137s] [ 95%] Built target visualization_msgs__rosidl_generator_py
+[18.155s] [ 99%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.155s] [ 99%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[18.155s] [ 99%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.155s] [ 99%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.280s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so[0m
+[18.280s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[18.283s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[18.284s] [100%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[18.307s] [100%] Built target visualization_msgs_s__rosidl_typesupport_c
+[18.307s] [100%] Built target visualization_msgs_s__rosidl_typesupport_introspection_c
+[18.310s] [100%] Built target visualization_msgs_s__rosidl_typesupport_fastrtps_c
+[18.317s] [100%] Built target visualization_msgs_s__rosidl_typesupport_microxrcedds_c
+[18.327s] Invoked command in '/home/nava/microros_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/visualization_msgs -- -j12 -l12
+[18.327s] Invoking command in '/home/nava/microros_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/visualization_msgs
+[18.334s] -- Install configuration: ""
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.json
+[18.335s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.json
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.json
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.json
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.json
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.h
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.h
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__description.c
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.c
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.c
+[18.336s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__description.c
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__description.c
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.h
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.h
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.h
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.c
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__description.c
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__description.c
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.c
+[18.337s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.h
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.c
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__description.c
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__description.c
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.h
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.h
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.h
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.c
+[18.338s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.c
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__description.c
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.c
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+[18.339s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.h
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__description.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.h
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.h
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__description.c
+[18.340s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__description.c
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__description.c
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.h
+[18.341s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.c
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__description.c
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.h
+[18.342s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+[18.343s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+[18.343s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+[18.343s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+[18.343s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[18.343s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[18.343s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[18.343s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+[18.343s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+[18.343s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.344s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[18.344s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+[18.344s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+[18.345s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.345s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[18.345s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.hpp
+[18.345s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+[18.345s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__traits.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__builder.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__builder.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__traits.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__builder.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.hpp
+[18.346s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+[18.347s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__builder.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.hpp
+[18.348s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.349s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.hpp
+[18.349s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+[18.349s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+[18.350s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[18.350s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[18.350s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/dds_fastrtps
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[18.350s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+[18.351s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+[18.351s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.351s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[18.351s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[18.351s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[18.351s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/dds_fastrtps
+[18.351s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.351s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.351s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs
+[18.351s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[18.351s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[18.351s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_microxrcedds_c.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[18.352s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/microxrcedds
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_microxrcedds_c.h
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so
+[18.353s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[18.353s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[18.353s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[18.353s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[18.353s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_c.h
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[18.354s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+[18.355s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[18.355s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[18.355s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.355s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[18.355s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[18.355s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[18.355s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+[18.355s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+[18.355s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.355s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+[18.356s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+[18.356s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs
+[18.356s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[18.356s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.356s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_cpp.cpp
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_cpp.cpp
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_cpp.cpp
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/marker__type_support_cpp.cpp
+[18.356s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_cpp.cpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/mesh_file__type_support_cpp.cpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_cpp.cpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_cpp.cpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_cpp.cpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_cpp.cpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_cpp.cpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/uv_coordinate__type_support_cpp.cpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.357s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[18.358s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[18.358s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[18.358s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/microxrcedds
+[18.358s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp
+[18.358s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_microxrcedds_cpp.hpp
+[18.358s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[18.358s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[18.358s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[18.358s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[18.358s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[18.358s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[18.358s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.cpp
+[18.358s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+[18.358s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_cpp.hpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp
+[18.359s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+[18.360s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.cpp
+[18.360s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+[18.360s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_cpp.hpp
+[18.360s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+[18.360s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+[18.360s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[18.360s] -- Up-to-date: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[18.360s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+[18.360s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp
+[18.360s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+[18.361s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.361s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+[18.361s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+[18.361s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+[18.361s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+[18.361s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info
+[18.361s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[18.361s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/__init__.py
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker.py
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry.py
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/__init__.py
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate_s.c
+[18.362s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker.py
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate.py
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control.py
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose.py
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry_s.c
+[18.363s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file.py
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker.py
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array.py
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init.py
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update.py
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/__init__.py
+[18.364s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers.py
+[18.365s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+[18.416s] Listing '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/__init__.py'...
+[18.416s] Listing '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/__init__.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array.py'...
+[18.416s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry.py'...
+[18.417s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file.py'...
+[18.417s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate.py'...
+[18.417s] Listing '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv'...
+[18.417s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/__init__.py'...
+[18.417s] Compiling '/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers.py'...
+[18.420s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[18.420s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[18.420s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+[18.421s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[18.421s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+[18.421s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[18.421s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+[18.421s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so" to ""
+[18.422s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so
+[18.422s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so" to ""
+[18.422s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+[18.422s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+[18.422s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+[18.422s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+[18.422s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+[18.422s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+[18.422s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.idl
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.idl
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+[18.423s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.msg
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+[18.424s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+[18.425s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+[18.426s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/package.dsv
+[18.426s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+[18.426s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport.cmake
+[18.426s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+[18.426s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[18.426s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.426s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cppExport.cmake
+[18.426s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+[18.427s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.428s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+[18.429s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+[18.429s] -- Installing: /home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/package.xml
+[18.431s] Invoked command in '/home/nava/microros_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/visualization_msgs

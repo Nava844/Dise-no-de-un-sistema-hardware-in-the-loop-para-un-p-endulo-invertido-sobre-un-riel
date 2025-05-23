@@ -1,0 +1,138 @@
+[0.011s] Invoking command in '/home/nava/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/nava/microros_ws/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/microxrcedds_client
+[0.506s] -- The C compiler identification is GNU 13.3.0
+[0.508s] -- Detecting C compiler ABI info
+[0.508s] -- Detecting C compiler ABI info - done
+[0.508s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.508s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.508s] -- Setting build type to 'Release' as none was specified.
+[0.508s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.508s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.508s] -- Found Threads: TRUE  
+[0.508s] -- Configuring done (0.3s)
+[0.508s] -- Generating done (0.0s)
+[0.508s] -- Build files have been written to: /home/nava/microros_ws/build/microxrcedds_client
+[0.511s] [33mCMake Warning:
+[0.511s]   Manually-specified variables were not used by the project:
+[0.512s] 
+[0.512s]     BUILD_TESTING
+[0.512s] 
+[0.512s] [0m
+[0.532s] Invoked command in '/home/nava/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/nava/microros_ws/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/microxrcedds_client
+[0.532s] Invoking command in '/home/nava/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/nava/microros_ws/build/microxrcedds_client -- -j12 -l12
+[0.590s] [  2%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[0.595s] [  5%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[0.595s] [  8%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[0.595s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[0.600s] [ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[0.600s] [ 17%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[0.603s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[0.607s] [ 22%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[0.613s] [ 25%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[0.613s] [ 28%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[0.629s] [ 31%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[0.648s] [ 34%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[0.681s] [ 37%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[0.690s] [ 40%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[0.697s] [ 42%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[0.720s] [ 45%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[0.720s] [ 48%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[0.727s] [ 51%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[0.755s] [ 54%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[0.763s] [ 57%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[0.763s] [ 60%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[0.764s] [ 62%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[0.765s] [ 65%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/multithread/multithread.c.o[0m
+[0.780s] [ 68%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[0.826s] [ 71%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[0.855s] [ 74%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[0.881s] [ 77%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[0.890s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[0.890s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[0.894s] [ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[0.939s] [ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[0.940s] [ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[0.993s] [ 94%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[0.998s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[1.346s] [100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[1.407s] [100%] Built target microxrcedds_client
+[1.423s] Invoked command in '/home/nava/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/nava/microros_ws/build/microxrcedds_client -- -j12 -l12
+[1.425s] Invoking command in '/home/nava/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/nava/microros_ws/build/microxrcedds_client
+[1.437s] -- Install configuration: "Release"
+[1.437s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.2
+[1.437s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4
+[1.437s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.2" to ""
+[1.438s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so
+[1.438s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client
+[1.438s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/transport.h
+[1.438s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/defines.h
+[1.438s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/client.h
+[1.439s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/util
+[1.439s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/util/time.h
+[1.439s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/util/ping.h
+[1.439s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core
+[1.439s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session
+[1.439s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_ref.h
+[1.439s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/session.h
+[1.439s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/read_access.h
+[1.440s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_bin.h
+[1.440s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream
+[1.440s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/input_reliable_stream.h
+[1.440s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/output_reliable_stream.h
+[1.440s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/seq_num.h
+[1.440s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[1.440s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[1.441s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/reliable_stream.h
+[1.441s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_id.h
+[1.441s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_storage.h
+[1.441s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/time_sync.h
+[1.441s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/object_id.h
+[1.442s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/common_create_entities.h
+[1.442s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_xml.h
+[1.442s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/session_info.h
+[1.442s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/write_access.h
+[1.442s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/type
+[1.442s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/type/xrce_types.h
+[1.443s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/communication
+[1.443s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/core/communication/communication.h
+[1.443s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/visibility.h
+[1.443s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile
+[1.443s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/multithread
+[1.443s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/multithread/multithread.h
+[1.443s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/discovery
+[1.443s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/discovery/discovery.h
+[1.444s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport
+[1.444s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial
+[1.444s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[1.444s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[1.444s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport.h
+[1.444s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[1.444s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip
+[1.444s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[1.445s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/ip.h
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport_posix.h
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport.h
+[1.446s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/custom
+[1.447s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/custom/custom_transport.h
+[1.447s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing
+[1.447s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[1.447s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/include/uxr/client/config.h
+[1.447s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[1.447s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[1.447s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[1.447s] -- Installing: /home/nava/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[1.449s] Invoked command in '/home/nava/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/nava/microros_ws/build/microxrcedds_client

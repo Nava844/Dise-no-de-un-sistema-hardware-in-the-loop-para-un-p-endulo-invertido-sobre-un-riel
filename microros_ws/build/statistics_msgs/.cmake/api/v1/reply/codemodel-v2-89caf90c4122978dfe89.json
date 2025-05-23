@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-36e900f90d20d6ca715f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "statistics_msgs__py",
+					"jsonFile" : "directory-statistics_msgs__py-7597f83e26783370a788.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nava/microros_ws/build/statistics_msgs/statistics_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "statistics_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_statistics_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_statistics_msgs_egg-c84f5a207457beae7cec.json",
+					"name" : "ament_cmake_python_build_statistics_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_statistics_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_statistics_msgs-40f89d0961cf72f66e5b.json",
+					"name" : "ament_cmake_python_copy_statistics_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs-74d052ef4861267cdf7c.json",
+					"name" : "statistics_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__cpp-22608e45cf1f1664c219.json",
+					"name" : "statistics_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "statistics_msgs__py::@4e49b324e6aa2cdd6506",
+					"jsonFile" : "target-statistics_msgs__py-02c7cc036418ddcc3d6b.json",
+					"name" : "statistics_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_generator_c-d8e3e7da26c9a39e9f90.json",
+					"name" : "statistics_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_generator_py-20ed6fc0f3b85dddfe3a.json",
+					"name" : "statistics_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_generator_type_description-d9cf9721b22fbc71126e.json",
+					"name" : "statistics_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_typesupport_c-0478cad90c150f5529ff.json",
+					"name" : "statistics_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_typesupport_cpp-03ea852308964aa39033.json",
+					"name" : "statistics_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_typesupport_fastrtps_c-c202f4e05b026a003507.json",
+					"name" : "statistics_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_typesupport_fastrtps_cpp-6c02653eb78ce6edc285.json",
+					"name" : "statistics_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_typesupport_introspection_c-7dbfe6fc771198661e8a.json",
+					"name" : "statistics_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_typesupport_introspection_cpp-8ac50174a7e3da3679c3.json",
+					"name" : "statistics_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_typesupport_microxrcedds_c-a0a127fdfbacae251493.json",
+					"name" : "statistics_msgs__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs__rosidl_typesupport_microxrcedds_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs__rosidl_typesupport_microxrcedds_cpp-09859d1f609887e21a97.json",
+					"name" : "statistics_msgs__rosidl_typesupport_microxrcedds_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs_s__rosidl_typesupport_c-37c7afae8204c19cf166.json",
+					"name" : "statistics_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs_s__rosidl_typesupport_fastrtps_c-da63fe7097cf95f05a7f.json",
+					"name" : "statistics_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs_s__rosidl_typesupport_introspection_c-0a1e9c8e63a7451eb1cd.json",
+					"name" : "statistics_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs_s__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs_s__rosidl_typesupport_microxrcedds_c-5eba3090f395a5899d38.json",
+					"name" : "statistics_msgs_s__rosidl_typesupport_microxrcedds_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics_msgs_uninstall-c12b6a6087f42587b388.json",
+					"name" : "statistics_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-84292b97354ec88f55ec.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nava/microros_ws/build/statistics_msgs",
+		"source" : "/home/nava/microros_ws/src/ros2/rcl_interfaces/statistics_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

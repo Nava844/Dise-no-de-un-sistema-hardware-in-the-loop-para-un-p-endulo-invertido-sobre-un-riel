@@ -1,0 +1,407 @@
+[0.029s] Invoking command in '/home/nava/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/std_srvs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/std_srvs
+[0.116s] -- The C compiler identification is GNU 13.3.0
+[0.198s] -- The CXX compiler identification is GNU 13.3.0
+[0.216s] -- Detecting C compiler ABI info
+[0.334s] -- Detecting C compiler ABI info - done
+[0.348s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.349s] -- Detecting C compile features
+[0.349s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.490s] -- Detecting CXX compile features
+[0.490s] -- Detecting CXX compile features - done
+[0.493s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.704s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.840s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.903s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.937s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.999s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.251s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.379s] -- Found PythonExtra: /usr/bin/python3  
+[3.822s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.868s] -- Configuring done (3.8s)
+[3.908s] -- Generating done (0.0s)
+[3.921s] -- Build files have been written to: /home/nava/microros_ws/build/std_srvs
+[3.931s] Invoked command in '/home/nava/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/std_srvs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/std_srvs
+[3.932s] Invoking command in '/home/nava/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/std_srvs -- -j12 -l12
+[3.979s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.996s] [  1%] Built target ament_cmake_python_copy_std_srvs
+[4.357s] running egg_info
+[4.357s] creating std_srvs.egg-info
+[4.392s] writing std_srvs.egg-info/PKG-INFO
+[4.392s] writing dependency_links to std_srvs.egg-info/dependency_links.txt
+[4.393s] writing top-level names to std_srvs.egg-info/top_level.txt
+[4.393s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[4.423s] [  1%] Built target std_srvs__rosidl_generator_type_description
+[4.451s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.463s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.497s] reading manifest file 'std_srvs.egg-info/SOURCES.txt'
+[4.497s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[4.570s] [  4%] Built target ament_cmake_python_build_std_srvs_egg
+[5.604s] [  4%] Built target std_srvs__cpp
+[5.658s] [  6%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[5.814s] [  7%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__functions.c.o[0m
+[5.819s] [  9%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__description.c.o[0m
+[5.828s] [ 10%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/empty__type_support.c.o[0m
+[5.842s] [ 12%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__description.c.o[0m
+[5.847s] [ 13%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__type_support.c.o[0m
+[5.848s] [ 15%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__description.c.o[0m
+[5.855s] [ 16%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/set_bool__functions.c.o[0m
+[5.857s] [ 18%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__type_support.c.o[0m
+[5.866s] [ 19%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_c.dir/rosidl_generator_c/std_srvs/srv/detail/trigger__functions.c.o[0m
+[6.044s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[6.044s]   warnings.warn(
+[6.143s] [ 21%] [32m[1mLinking C shared library libstd_srvs__rosidl_generator_c.so[0m
+[6.321s] [ 21%] Built target std_srvs__rosidl_generator_c
+[6.370s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.378s] [ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.378s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.380s] [ 27%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[6.388s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.392s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.396s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.801s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[6.801s]   warnings.warn(
+[7.203s] [ 33%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/trigger__type_support.cpp.o[0m
+[7.210s] [ 34%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/set_bool__type_support.cpp.o[0m
+[7.212s] [ 36%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_srvs/srv/detail/empty__type_support.cpp.o[0m
+[7.758s] [ 37%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp.o[0m
+[7.769s] [ 39%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp.o[0m
+[7.780s] [ 40%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp.o[0m
+[7.812s] [ 42%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/empty__type_support.cpp.o[0m
+[8.031s] [ 43%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/set_bool__type_support.cpp.o[0m
+[8.283s] [ 45%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/std_srvs/srv/trigger__type_support.cpp.o[0m
+[8.482s] [ 46%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_c.so[0m
+[8.508s] [ 48%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/empty__type_support.cpp.o[0m
+[8.616s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.616s]   158 | [01;35m[K}[m[K;
+[8.616s]       | [01;35m[K^[m[K
+[8.621s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.621s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.622s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.622s]   367 | [01;35m[K}[m[K;
+[8.622s]       | [01;35m[K^[m[K
+[8.622s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.622s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.622s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.622s]   428 | [01;35m[K}[m[K;
+[8.622s]       | [01;35m[K^[m[K
+[8.622s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.623s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.623s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.623s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.623s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.623s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.623s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.674s] [ 48%] Built target std_srvs__rosidl_typesupport_c
+[8.719s] [ 50%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/trigger__type_support.cpp.o[0m
+[8.726s] [ 51%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_srvs/srv/set_bool__type_support.cpp.o[0m
+[9.024s] [ 53%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/empty__type_support_c.c.o[0m
+[9.120s] [ 54%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/set_bool__type_support_c.c.o[0m
+[9.128s] [ 56%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/empty__type_support_c.cpp.o[0m
+[9.268s] [ 57%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/trigger__type_support_c.c.o[0m
+[9.268s] [ 59%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/set_bool__type_support_c.cpp.o[0m
+[9.368s] [ 60%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/std_srvs/srv/detail/trigger__type_support_c.cpp.o[0m
+[9.396s] [ 62%] [32m[1mLinking C shared library libstd_srvs__rosidl_typesupport_microxrcedds_c.so[0m
+[9.453s] [ 63%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/empty__type_support.cpp.o[0m
+[9.499s] [ 65%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/set_bool__type_support.cpp.o[0m
+[9.504s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.504s]   158 | [01;35m[K}[m[K;
+[9.504s]       | [01;35m[K^[m[K
+[9.505s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.505s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.506s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.506s]   367 | [01;35m[K}[m[K;
+[9.506s]       | [01;35m[K^[m[K
+[9.506s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.506s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:367:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.507s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.507s]   428 | [01;35m[K}[m[K;
+[9.507s]       | [01;35m[K^[m[K
+[9.507s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.507s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.507s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.507s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.507s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.508s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.508s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp:428:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.553s] [ 65%] Built target std_srvs__rosidl_typesupport_microxrcedds_c
+[9.563s] [ 66%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/empty__type_support.c.o[0m
+[9.582s] [ 68%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/set_bool__type_support.c.o[0m
+[9.621s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.621s]   158 | [01;35m[K}[m[K;
+[9.621s]       | [01;35m[K^[m[K
+[9.621s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.621s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.627s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:354:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.627s]   354 | [01;35m[K}[m[K;
+[9.627s]       | [01;35m[K^[m[K
+[9.627s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:354:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.628s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:354:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.628s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:415:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.628s]   415 | [01;35m[K}[m[K;
+[9.628s]       | [01;35m[K^[m[K
+[9.628s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:415:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.628s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:415:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.629s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:415:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.629s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:415:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.631s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:415:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.631s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:415:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.631s] [01m[K/home/nava/microros_ws/build/std_srvs/rosidl_typesupport_microxrcedds_cpp/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp:415:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.690s] [ 69%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[9.753s] [ 71%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/std_srvs/srv/detail/trigger__type_support.c.o[0m
+[9.768s] [ 72%] [32mBuilding CXX object CMakeFiles/std_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_srvs/srv/detail/dds_fastrtps/trigger__type_support.cpp.o[0m
+[9.814s] [ 74%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[9.936s] [ 75%] [32m[1mLinking C shared library libstd_srvs__rosidl_typesupport_introspection_c.so[0m
+[10.070s] [ 75%] Built target std_srvs__rosidl_typesupport_microxrcedds_cpp
+[10.124s] [ 75%] Built target std_srvs__rosidl_typesupport_introspection_c
+[10.200s] [ 75%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[10.399s] [ 77%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_cpp.so[0m
+[10.593s] [ 77%] Built target std_srvs__rosidl_typesupport_cpp
+[10.926s] [ 78%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[11.062s] [ 78%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[11.095s] [ 80%] [32m[1mLinking CXX shared library libstd_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.233s] [ 80%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[11.257s] [ 80%] Built target std_srvs
+[11.288s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.314s] [ 81%] Built target std_srvs__py
+[13.385s] [ 83%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_set_bool_s.c.o[0m
+[13.386s] [ 84%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_empty_s.c.o[0m
+[13.387s] [ 86%] [32mBuilding C object CMakeFiles/std_srvs__rosidl_generator_py.dir/rosidl_generator_py/std_srvs/srv/_trigger_s.c.o[0m
+[13.908s] [ 87%] [32m[1mLinking C shared library libstd_srvs__rosidl_generator_py.so[0m
+[14.034s] [ 87%] Built target std_srvs__rosidl_generator_py
+[14.098s] [ 89%] [32mBuilding C object CMakeFiles/std_srvs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.112s] [ 90%] [32mBuilding C object CMakeFiles/std_srvs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[14.119s] [ 92%] [32mBuilding C object CMakeFiles/std_srvs_s__rosidl_typesupport_c.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.127s] [ 93%] [32mBuilding C object CMakeFiles/std_srvs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.406s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so[0m
+[14.506s] [ 95%] Built target std_srvs_s__rosidl_typesupport_fastrtps_c
+[14.577s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_c.so[0m
+[14.632s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[14.697s] [ 98%] Built target std_srvs_s__rosidl_typesupport_c
+[14.701s] [100%] [32m[1mLinking C shared module rosidl_generator_py/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so[0m
+[14.753s] [100%] Built target std_srvs_s__rosidl_typesupport_microxrcedds_c
+[14.787s] [100%] Built target std_srvs_s__rosidl_typesupport_introspection_c
+[14.813s] Invoked command in '/home/nava/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/std_srvs -- -j12 -l12
+[14.815s] Invoking command in '/home/nava/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/std_srvs
+[23.349s] -- Install configuration: ""
+[23.349s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[23.350s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.json
+[23.350s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.json
+[23.350s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.json
+[23.350s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[23.350s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[23.350s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[23.350s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[23.350s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[23.351s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__description.c
+[23.352s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.h
+[23.354s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.h
+[23.354s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[23.354s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[23.354s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__description.c
+[23.354s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.h
+[23.355s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.h
+[23.355s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__description.c
+[23.355s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.c
+[23.355s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.c
+[23.355s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[23.355s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.h
+[23.355s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.h
+[23.355s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.h
+[23.356s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.c
+[23.356s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.h
+[23.356s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.h
+[23.356s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.h
+[23.356s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/empty.h
+[23.356s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.h
+[23.357s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/environment/library_path.sh
+[23.357s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[23.357s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[23.357s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so" to ""
+[23.357s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs
+[23.357s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/msg
+[23.357s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[23.357s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv
+[23.358s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[23.358s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h
+[23.358s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+[23.358s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_c.h
+[23.358s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_c.h
+[23.358s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.so
+[23.359s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.so" to ""
+[23.359s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[23.359s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[23.360s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.360s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[23.382s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[23.382s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[23.382s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[23.383s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[23.383s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[23.383s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[23.383s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[23.383s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[23.383s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.383s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[23.384s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[23.384s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[23.384s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[23.384s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[23.384s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[23.384s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[23.384s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[23.384s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[23.385s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so" to ""
+[23.385s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[23.385s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so" to ""
+[23.385s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[23.385s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[23.385s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.385s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[23.386s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.hpp
+[23.386s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.hpp
+[23.386s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[23.386s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp
+[23.386s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp
+[23.386s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp
+[23.386s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
+[23.387s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp
+[23.387s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp
+[23.387s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+[23.387s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp
+[23.387s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp
+[23.387s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp
+[23.387s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp
+[23.387s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
+[23.388s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/empty.hpp
+[23.388s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs
+[23.388s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/msg
+[23.388s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[23.388s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv
+[23.388s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[23.388s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_cpp.hpp
+[23.388s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_cpp.hpp
+[23.389s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_cpp.hpp
+[23.389s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+[23.389s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp
+[23.389s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp
+[23.389s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp
+[23.389s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so
+[23.389s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[23.390s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[23.394s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg
+[23.403s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.403s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[23.403s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[23.404s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[23.404s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[23.404s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[23.404s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/dds_fastrtps
+[23.404s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[23.404s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.404s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs
+[23.404s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv
+[23.405s] -- Up-to-date: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[23.405s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[23.405s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[23.405s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[23.405s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.cpp
+[23.405s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.cpp
+[23.405s] -- Installing: /home/nava/microros_ws/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.cpp
+[23.406s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[23.406s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.406s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[23.406s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so" to ""
+[23.406s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[23.406s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[23.406s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info
+[23.406s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info/dependency_links.txt
+[23.407s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info/top_level.txt
+[23.407s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info/SOURCES.txt
+[23.407s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info/PKG-INFO
+[23.407s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs
+[23.407s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/__init__.py
+[23.407s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[23.407s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.so
+[23.408s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c
+[23.408s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.so
+[23.408s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.408s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so
+[23.408s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv
+[23.408s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_empty_s.c
+[23.408s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/__init__.py
+[23.408s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_set_bool.py
+[23.409s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_set_bool_s.c
+[23.409s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_empty.py
+[23.409s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_trigger_s.c
+[23.409s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_trigger.py
+[23.409s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so
+[23.409s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[23.409s] Listing '/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs'...
+[23.410s] Compiling '/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/__init__.py'...
+[23.410s] Listing '/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv'...
+[23.410s] Compiling '/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/__init__.py'...
+[23.410s] Compiling '/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_empty.py'...
+[23.410s] Compiling '/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_set_bool.py'...
+[23.410s] Compiling '/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_trigger.py'...
+[23.410s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.so
+[23.411s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[23.415s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so
+[23.415s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[23.415s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so
+[23.415s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so" to ""
+[23.415s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.so
+[23.415s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.so" to ""
+[23.416s] -- Installing: /home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so
+[23.416s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so" to ""
+[23.416s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.idl
+[23.416s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[23.416s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[23.438s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.srv
+[23.438s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[23.438s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[23.438s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[23.439s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[23.439s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[23.439s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[23.439s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/environment/path.sh
+[23.439s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/environment/path.dsv
+[23.439s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/local_setup.bash
+[23.439s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/local_setup.sh
+[23.440s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/local_setup.zsh
+[23.440s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/local_setup.dsv
+[23.440s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/package.dsv
+[23.440s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[23.440s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport.cmake
+[23.444s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport-noconfig.cmake
+[23.444s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[23.444s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.445s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[23.445s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.445s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[23.445s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[23.445s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cppExport.cmake
+[23.445s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.445s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.446s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[23.446s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.446s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[23.446s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[23.446s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport.cmake
+[23.446s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport-noconfig.cmake
+[23.446s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[23.446s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.447s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.447s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.447s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[23.447s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.447s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.447s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[23.447s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[23.448s] -- Installing: /home/nava/microros_ws/install/std_srvs/share/std_srvs/package.xml
+[23.501s] Invoked command in '/home/nava/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/std_srvs

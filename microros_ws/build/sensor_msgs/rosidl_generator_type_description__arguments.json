@@ -1,0 +1,40 @@
+{
+  "package_name": "sensor_msgs",
+  "output_dir": "/home/nava/microros_ws/build/sensor_msgs/rosidl_generator_type_description/sensor_msgs",
+  "idl_tuples": [
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/BatteryState.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/CameraInfo.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/ChannelFloat32.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/CompressedImage.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/FluidPressure.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Illuminance.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Image.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Imu.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JointState.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Joy.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JoyFeedback.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JoyFeedbackArray.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/LaserEcho.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/LaserScan.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MagneticField.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MultiDOFJointState.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MultiEchoLaserScan.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/NavSatFix.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/NavSatStatus.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointCloud.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointCloud2.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointField.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Range.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/RegionOfInterest.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/RelativeHumidity.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Temperature.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/TimeReference.idl",
+    "/home/nava/microros_ws/build/sensor_msgs/rosidl_adapter/sensor_msgs:srv/SetCameraInfo.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces",
+    "geometry_msgs:/home/nava/microros_ws/install/geometry_msgs/share/geometry_msgs",
+    "std_msgs:/home/nava/microros_ws/install/std_msgs/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

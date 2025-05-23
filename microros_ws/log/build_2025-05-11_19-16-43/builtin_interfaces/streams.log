@@ -1,0 +1,311 @@
+[0.048s] Invoking command in '/home/nava/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/builtin_interfaces
+[0.127s] -- The C compiler identification is GNU 13.3.0
+[0.222s] -- The CXX compiler identification is GNU 13.3.0
+[0.239s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.362s] -- Detecting C compile features
+[0.362s] -- Detecting C compile features - done
+[0.372s] -- Detecting CXX compiler ABI info
+[0.489s] -- Detecting CXX compiler ABI info - done
+[0.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.506s] -- Detecting CXX compile features
+[0.507s] -- Detecting CXX compile features - done
+[0.512s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.747s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.916s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[0.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.996s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.051s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.111s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.668s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.299s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.427s] -- Found PythonExtra: /usr/bin/python3  
+[3.872s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.912s] -- Configuring done (3.9s)
+[3.945s] -- Generating done (0.0s)
+[3.957s] -- Build files have been written to: /home/nava/microros_ws/build/builtin_interfaces
+[3.964s] Invoked command in '/home/nava/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/builtin_interfaces
+[3.964s] Invoking command in '/home/nava/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/builtin_interfaces -- -j12 -l12
+[4.007s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.025s] [  1%] Built target ament_cmake_python_copy_builtin_interfaces
+[4.389s] running egg_info
+[4.389s] creating builtin_interfaces.egg-info
+[4.422s] writing builtin_interfaces.egg-info/PKG-INFO
+[4.422s] writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+[4.422s] writing top-level names to builtin_interfaces.egg-info/top_level.txt
+[4.423s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[4.449s] [  1%] Built target builtin_interfaces__rosidl_generator_type_description
+[4.466s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.488s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.531s] reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[4.532s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[4.599s] [  5%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[5.061s] [  5%] Built target builtin_interfaces__cpp
+[5.094s] [  7%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[5.265s] [  9%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__description.c.o[0m
+[5.279s] [ 11%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[5.279s] [ 12%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__functions.c.o[0m
+[5.287s] [ 14%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__description.c.o[0m
+[5.293s] [ 16%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__functions.c.o[0m
+[5.293s] [ 18%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[5.320s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[5.320s]   warnings.warn(
+[5.483s] [ 20%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_c.so[0m
+[5.580s] [ 20%] Built target builtin_interfaces__rosidl_generator_c
+[5.613s] [ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.613s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.613s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.615s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.615s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.618s] [ 31%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[5.634s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.946s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[5.946s]   warnings.warn(
+[6.191s] [ 35%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp.o[0m
+[6.198s] [ 37%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp.o[0m
+[6.771s] [ 38%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_c.c.o[0m
+[6.791s] [ 40%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/duration__type_support.cpp.o[0m
+[6.791s] [ 42%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/time__type_support.cpp.o[0m
+[6.792s] [ 44%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/builtin_interfaces/msg/detail/microxrcedds/time__type_support_c.c.o[0m
+[7.035s] [ 46%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so[0m
+[7.265s] [ 46%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[7.297s] [ 48%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/time__type_support_c.cpp.o[0m
+[7.300s] [ 50%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/duration__type_support_c.cpp.o[0m
+[7.324s] [ 51%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[7.341s] [ 53%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[7.350s] [ 55%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[7.407s] [ 57%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[7.460s] [ 59%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.494s] [ 61%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[7.496s] [ 62%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/duration__type_support.cpp.o[0m
+[7.522s] [ 64%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[7.654s] [ 64%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[7.684s] [ 66%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[7.775s] [01m[K/home/nava/microros_ws/build/builtin_interfaces/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.775s]   169 | [01;35m[K}[m[K;
+[7.775s]       | [01;35m[K^[m[K
+[7.775s] [01m[K/home/nava/microros_ws/build/builtin_interfaces/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.775s] [01m[K/home/nava/microros_ws/build/builtin_interfaces/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.841s] [ 68%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[7.875s] [01m[K/home/nava/microros_ws/build/builtin_interfaces/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.875s]   169 | [01;35m[K}[m[K;
+[7.875s]       | [01;35m[K^[m[K
+[7.875s] [01m[K/home/nava/microros_ws/build/builtin_interfaces/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.875s] [01m[K/home/nava/microros_ws/build/builtin_interfaces/rosidl_typesupport_microxrcedds_cpp/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp:169:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.009s] [ 68%] Built target builtin_interfaces__rosidl_typesupport_c
+[8.110s] [ 70%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so[0m
+[8.314s] [ 70%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[8.930s] [ 72%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.093s] [ 72%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[9.275s] [ 74%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[9.438s] [ 74%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[9.699s] [ 75%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.857s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[9.954s] [ 77%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.181s] [ 77%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.252s] [ 77%] Built target builtin_interfaces
+[10.303s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.256s] [ 79%] Built target builtin_interfaces__py
+[11.280s] [ 83%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o[0m
+[11.280s] [ 83%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o[0m
+[11.391s] [ 85%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_py.so[0m
+[11.428s] [ 85%] Built target builtin_interfaces__rosidl_generator_py
+[11.455s] [ 88%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.457s] [ 88%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[11.461s] [ 90%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.461s] [ 92%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.633s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[11.633s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.so[0m
+[11.654s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.685s] [100%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so[0m
+[11.694s] [100%] Built target builtin_interfaces_s__rosidl_typesupport_microxrcedds_c
+[11.725s] [100%] Built target builtin_interfaces_s__rosidl_typesupport_introspection_c
+[11.741s] [100%] Built target builtin_interfaces_s__rosidl_typesupport_fastrtps_c
+[11.776s] [100%] Built target builtin_interfaces_s__rosidl_typesupport_c
+[11.818s] Invoked command in '/home/nava/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/builtin_interfaces -- -j12 -l12
+[11.819s] Invoking command in '/home/nava/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/builtin_interfaces
+[11.848s] -- Install configuration: ""
+[11.848s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[11.848s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.json
+[11.849s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.json
+[11.849s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[11.850s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[11.850s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+[11.850s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[11.851s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+[11.851s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.c
+[11.853s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+[11.853s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+[11.854s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[11.854s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+[11.854s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__description.c
+[11.855s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__description.c
+[11.855s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+[11.855s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.c
+[11.855s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+[11.860s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[11.860s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.860s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+[11.860s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[11.860s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[11.860s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[11.861s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so" to ""
+[11.861s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[11.862s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[11.862s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[11.862s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[11.862s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[11.862s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[11.868s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[11.868s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so
+[11.868s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so" to ""
+[11.868s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[11.869s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[11.869s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[11.869s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[11.869s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[11.869s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.869s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.869s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.870s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[11.870s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[11.871s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[11.877s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[11.877s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[11.877s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[11.877s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[11.877s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.878s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[11.878s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.878s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[11.878s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[11.878s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[11.878s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[11.878s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[11.879s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp
+[11.879s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+[11.879s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+[11.879s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+[11.879s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+[11.879s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+[11.879s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp
+[11.880s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+[11.880s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+[11.880s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+[11.880s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.880s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[11.882s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[11.882s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[11.882s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[11.882s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[11.883s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[11.883s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[11.886s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[11.886s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[11.886s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[11.887s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[11.887s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[11.887s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[11.887s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[11.887s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[11.887s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/dds_fastrtps
+[11.887s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[11.887s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.888s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.888s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.888s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[11.888s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[11.888s] -- Up-to-date: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[11.888s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.cpp
+[11.888s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[11.888s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.cpp
+[11.889s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[11.889s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.889s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.889s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[11.889s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.889s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[11.889s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[11.889s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info
+[11.889s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info/dependency_links.txt
+[11.890s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info/top_level.txt
+[11.890s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info/SOURCES.txt
+[11.891s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces-2.0.2-py3.12.egg-info/PKG-INFO
+[11.891s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces
+[11.891s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/__init__.py
+[11.891s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.so
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_duration_s.c
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/__init__.py
+[11.892s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_duration.py
+[11.893s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_time_s.c
+[11.893s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_time.py
+[11.893s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_microxrcedds_c.c
+[11.893s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.955s] Listing '/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces'...
+[11.955s] Compiling '/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/__init__.py'...
+[11.955s] Listing '/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg'...
+[11.955s] Compiling '/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/__init__.py'...
+[11.956s] Compiling '/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_duration.py'...
+[11.956s] Compiling '/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/msg/_time.py'...
+[11.964s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.so
+[11.964s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[11.964s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.964s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[11.965s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.965s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[11.965s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so
+[11.965s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so" to ""
+[11.966s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+[11.966s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so" to ""
+[11.966s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[11.966s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[11.966s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[11.967s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[11.967s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[11.967s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[11.967s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[11.967s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[11.968s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[11.968s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[11.968s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[11.968s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[11.969s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[11.969s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[11.969s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[11.969s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[11.969s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+[11.969s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.970s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.970s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.970s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.970s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.970s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[11.970s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.970s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+[11.971s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.971s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.971s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.971s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.974s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[11.974s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.974s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+[11.974s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.975s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.975s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.975s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.975s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.975s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.975s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.975s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.976s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[11.976s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[11.976s] -- Installing: /home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[11.978s] Invoked command in '/home/nava/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/builtin_interfaces

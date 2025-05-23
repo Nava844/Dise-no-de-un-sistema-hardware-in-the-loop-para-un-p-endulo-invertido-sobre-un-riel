@@ -1,0 +1,658 @@
+[0.024s] Invoking command in '/home/nava/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/lifecycle_msgs
+[0.104s] -- The C compiler identification is GNU 13.3.0
+[0.171s] -- The CXX compiler identification is GNU 13.3.0
+[0.191s] -- Detecting C compiler ABI info
+[0.296s] -- Detecting C compiler ABI info - done
+[0.308s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.308s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.427s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.448s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.655s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.809s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.866s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.036s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.272s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.399s] -- Found PythonExtra: /usr/bin/python3  
+[3.841s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.882s] -- Configuring done (3.8s)
+[3.966s] -- Generating done (0.1s)
+[3.986s] -- Build files have been written to: /home/nava/microros_ws/build/lifecycle_msgs
+[4.010s] Invoked command in '/home/nava/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/lifecycle_msgs
+[4.010s] Invoking command in '/home/nava/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/lifecycle_msgs -- -j12 -l12
+[4.092s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.101s] [  1%] Built target ament_cmake_python_copy_lifecycle_msgs
+[4.461s] running egg_info
+[4.463s] creating lifecycle_msgs.egg-info
+[4.502s] writing lifecycle_msgs.egg-info/PKG-INFO
+[4.503s] writing dependency_links to lifecycle_msgs.egg-info/dependency_links.txt
+[4.504s] writing top-level names to lifecycle_msgs.egg-info/top_level.txt
+[4.504s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[4.611s] reading manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[4.612s] writing manifest file 'lifecycle_msgs.egg-info/SOURCES.txt'
+[4.659s] [  1%] Built target ament_cmake_python_build_lifecycle_msgs_egg
+[5.863s] [  1%] Built target lifecycle_msgs__rosidl_generator_type_description
+[5.933s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.933s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.206s] [  2%] Built target lifecycle_msgs__cpp
+[11.216s] [  3%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[11.295s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[11.296s]   warnings.warn(
+[11.618s] [  4%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/state__description.c.o[0m
+[11.623s] [  5%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/state__type_support.c.o[0m
+[11.624s] [  5%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/state__functions.c.o[0m
+[11.628s] [  6%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition__description.c.o[0m
+[11.628s] [  7%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition__type_support.c.o[0m
+[11.630s] [  8%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition__functions.c.o[0m
+[11.633s] [  8%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_description__description.c.o[0m
+[11.644s] [  9%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_description__type_support.c.o[0m
+[11.658s] [ 10%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_description__functions.c.o[0m
+[11.669s] [ 11%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_event__functions.c.o[0m
+[11.669s] [ 12%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_event__description.c.o[0m
+[11.699s] [ 12%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/msg/detail/transition_event__type_support.c.o[0m
+[11.716s] [ 14%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/change_state__functions.c.o[0m
+[11.716s] [ 14%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/change_state__description.c.o[0m
+[11.728s] [ 15%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/change_state__type_support.c.o[0m
+[11.748s] [ 16%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_states__description.c.o[0m
+[11.770s] [ 17%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_states__type_support.c.o[0m
+[11.770s] [ 17%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_states__functions.c.o[0m
+[11.778s] [ 18%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_transitions__description.c.o[0m
+[11.780s] [ 19%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c.o[0m
+[11.780s] [ 20%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_available_transitions__functions.c.o[0m
+[11.816s] [ 20%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_state__description.c.o[0m
+[11.818s] [ 21%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_state__functions.c.o[0m
+[11.849s] [ 22%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_c.dir/rosidl_generator_c/lifecycle_msgs/srv/detail/get_state__type_support.c.o[0m
+[11.940s] [ 23%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_generator_c.so[0m
+[11.992s] [ 23%] Built target lifecycle_msgs__rosidl_generator_c
+[12.008s] [ 24%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.008s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.015s] [ 26%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[12.022s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.026s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.029s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.033s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.174s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[12.174s]   warnings.warn(
+[13.851s] [ 28%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp.o[0m
+[13.857s] [ 29%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp.o[0m
+[13.861s] [ 29%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp.o[0m
+[13.861s] [ 30%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp.o[0m
+[13.863s] [ 31%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp.o[0m
+[14.446s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp:171:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.446s]   171 | [01;35m[K}[m[K;
+[14.447s]       | [01;35m[K^[m[K
+[14.447s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp:171:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.447s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp:171:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.568s] [ 32%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp.o[0m
+[14.912s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp:284:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.912s]   284 | [01;35m[K}[m[K;
+[14.913s]       | [01;35m[K^[m[K
+[14.913s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp:284:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.913s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp:284:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.998s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp:273:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.998s]   273 | [01;35m[K}[m[K;
+[14.998s]       | [01;35m[K^[m[K
+[14.998s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp:273:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[14.998s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp:273:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.013s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:189:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.014s]   189 | [01;35m[K}[m[K;
+[15.014s]       | [01;35m[K^[m[K
+[15.014s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:189:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.014s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:189:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.018s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.018s]   385 | [01;35m[K}[m[K;
+[15.018s]       | [01;35m[K^[m[K
+[15.019s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.019s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.022s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.022s]   446 | [01;35m[K}[m[K;
+[15.022s]       | [01;35m[K^[m[K
+[15.022s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.022s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.022s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.023s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.023s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.023s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.023s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.074s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp:171:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.074s]   171 | [01;35m[K}[m[K;
+[15.074s]       | [01;35m[K^[m[K
+[15.074s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp:171:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.074s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp:171:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.115s] [ 33%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp.o[0m
+[15.158s] [ 33%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp.o[0m
+[15.211s] [ 34%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/state__type_support.cpp.o[0m
+[15.245s] [ 35%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition__type_support.cpp.o[0m
+[15.272s] [ 36%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition_description__type_support.cpp.o[0m
+[15.349s] [ 37%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_c.c.o[0m
+[15.362s] [ 38%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/msg/transition_event__type_support.cpp.o[0m
+[15.390s] [ 39%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_available_states__type_support.cpp.o[0m
+[15.391s] [ 39%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/change_state__type_support.cpp.o[0m
+[15.488s] [ 40%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_c.c.o[0m
+[15.501s] [ 40%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_c.c.o[0m
+[15.544s] [ 41%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_available_transitions__type_support.cpp.o[0m
+[15.563s] [ 42%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_c.c.o[0m
+[15.577s] [ 43%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/state__type_support.cpp.o[0m
+[15.605s] [ 44%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lifecycle_msgs/srv/get_state__type_support.cpp.o[0m
+[15.641s] [ 45%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition__type_support.cpp.o[0m
+[15.725s] [ 46%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_c.so[0m
+[15.736s] [ 47%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition_description__type_support.cpp.o[0m
+[15.757s] [ 48%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_c.c.o[0m
+[15.869s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.869s]   158 | [01;35m[K}[m[K;
+[15.869s]       | [01;35m[K^[m[K
+[15.869s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.869s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.874s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:413:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.874s]   413 | [01;35m[K}[m[K;
+[15.874s]       | [01;35m[K^[m[K
+[15.874s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:413:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.874s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:413:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.875s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.875s]   474 | [01;35m[K}[m[K;
+[15.875s]       | [01;35m[K^[m[K
+[15.875s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.875s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.875s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.875s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.876s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.876s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.876s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.890s] [ 48%] Built target lifecycle_msgs__rosidl_typesupport_c
+[15.920s] [ 49%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_c.c.o[0m
+[15.936s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.936s]   158 | [01;35m[K}[m[K;
+[15.936s]       | [01;35m[K^[m[K
+[15.940s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.941s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.941s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.941s]   385 | [01;35m[K}[m[K;
+[15.941s]       | [01;35m[K^[m[K
+[15.941s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.941s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.942s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.942s]   446 | [01;35m[K}[m[K;
+[15.942s]       | [01;35m[K^[m[K
+[15.942s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.942s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.942s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.942s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.942s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.943s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.943s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.948s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.949s]   158 | [01;35m[K}[m[K;
+[15.949s]       | [01;35m[K^[m[K
+[15.949s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.950s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.952s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:413:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.952s]   413 | [01;35m[K}[m[K;
+[15.952s]       | [01;35m[K^[m[K
+[15.952s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:413:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.952s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:413:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.954s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.954s]   474 | [01;35m[K}[m[K;
+[15.954s]       | [01;35m[K^[m[K
+[15.954s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.954s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.954s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.955s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.955s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.956s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.956s] [01m[K/home/nava/microros_ws/build/lifecycle_msgs/rosidl_typesupport_microxrcedds_cpp/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp:474:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.956s] [ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/msg/transition_event__type_support.cpp.o[0m
+[16.116s] [ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/change_state__type_support.cpp.o[0m
+[16.123s] [ 51%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/state__type_support.c.o[0m
+[16.155s] [ 52%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_c.c.o[0m
+[16.172s] [ 53%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_available_states__type_support.cpp.o[0m
+[16.208s] [ 54%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[16.276s] [ 55%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition__type_support.c.o[0m
+[16.339s] [ 56%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/state__type_support.cpp.o[0m
+[16.394s] [ 56%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_c.c.o[0m
+[16.466s] [ 57%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition_description__type_support.c.o[0m
+[16.480s] [ 58%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_available_transitions__type_support.cpp.o[0m
+[16.593s] [ 59%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[16.602s] [ 59%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_cpp
+[16.612s] [ 59%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/msg/detail/transition_event__type_support.c.o[0m
+[16.654s] [ 60%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/change_state__type_support.c.o[0m
+[16.657s] [ 61%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lifecycle_msgs/srv/get_state__type_support.cpp.o[0m
+[16.761s] [ 62%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_available_states__type_support.c.o[0m
+[16.778s] [ 62%] Built target lifecycle_msgs__rosidl_typesupport_microxrcedds_c
+[16.839s] [ 63%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition__type_support.cpp.o[0m
+[16.848s] [ 64%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c.o[0m
+[16.887s] [ 65%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lifecycle_msgs/srv/detail/get_state__type_support.c.o[0m
+[17.011s] [ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition_description__type_support.cpp.o[0m
+[17.053s] [ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/msg/detail/transition_event__type_support.cpp.o[0m
+[17.127s] [ 66%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.171s] [ 67%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/change_state__type_support.cpp.o[0m
+[17.230s] [ 68%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[17.259s] [ 68%] Built target lifecycle_msgs__rosidl_typesupport_introspection_c
+[17.289s] [ 69%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition__type_support_c.cpp.o[0m
+[17.326s] [ 70%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_available_states__type_support.cpp.o[0m
+[17.520s] [ 71%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[17.657s] [ 72%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition__type_support.cpp.o[0m
+[17.824s] [ 73%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition_description__type_support.cpp.o[0m
+[17.863s] [ 74%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition_description__type_support_c.cpp.o[0m
+[17.900s] [ 74%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_state__type_support.cpp.o[0m
+[17.903s] [ 75%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lifecycle_msgs/srv/detail/get_available_transitions__type_support.cpp.o[0m
+[18.118s] [ 76%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_cpp.so[0m
+[18.129s] [ 77%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/msg/detail/transition_event__type_support_c.cpp.o[0m
+[18.311s] [ 77%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/msg/detail/dds_fastrtps/transition_event__type_support.cpp.o[0m
+[18.498s] [ 77%] Built target lifecycle_msgs__rosidl_typesupport_cpp
+[18.532s] [ 77%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/change_state__type_support_c.cpp.o[0m
+[18.534s] [ 78%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/change_state__type_support.cpp.o[0m
+[18.709s] [ 79%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_available_states__type_support_c.cpp.o[0m
+[18.796s] [ 80%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_available_transitions__type_support_c.cpp.o[0m
+[18.936s] [ 81%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_available_states__type_support.cpp.o[0m
+[19.180s] [ 82%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lifecycle_msgs/srv/detail/get_state__type_support_c.cpp.o[0m
+[19.269s] [ 83%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_available_transitions__type_support.cpp.o[0m
+[19.295s] [ 84%] [32mBuilding CXX object CMakeFiles/lifecycle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lifecycle_msgs/srv/detail/dds_fastrtps/get_state__type_support.cpp.o[0m
+[19.459s] [ 85%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[19.897s] [ 85%] Built target lifecycle_msgs__rosidl_typesupport_introspection_cpp
+[20.488s] [ 85%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[20.720s] [ 85%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_c
+[20.911s] [ 85%] [32m[1mLinking CXX shared library liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.172s] [ 85%] Built target lifecycle_msgs__rosidl_typesupport_fastrtps_cpp
+[21.229s] [ 85%] Built target lifecycle_msgs
+[21.308s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.324s] [ 86%] Built target lifecycle_msgs__py
+[33.395s] [ 87%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_state_s.c.o[0m
+[33.784s] [ 88%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_state_s.c.o[0m
+[34.173s] [ 89%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_available_transitions_s.c.o[0m
+[34.534s] [ 89%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_get_available_states_s.c.o[0m
+[34.894s] [ 90%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/srv/_change_state_s.c.o[0m
+[35.301s] [ 91%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_event_s.c.o[0m
+[35.616s] [ 92%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_description_s.c.o[0m
+[36.029s] [ 92%] [32mBuilding C object CMakeFiles/lifecycle_msgs__rosidl_generator_py.dir/rosidl_generator_py/lifecycle_msgs/msg/_transition_s.c.o[0m
+[36.330s] [ 93%] [32m[1mLinking C shared library liblifecycle_msgs__rosidl_generator_py.so[0m
+[36.463s] [ 93%] Built target lifecycle_msgs__rosidl_generator_py
+[36.521s] [ 94%] [32mBuilding C object CMakeFiles/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[36.992s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[37.086s] [ 95%] Built target lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c
+[37.124s] [ 96%] [32mBuilding C object CMakeFiles/lifecycle_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[37.505s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.so[0m
+[37.570s] [ 97%] Built target lifecycle_msgs_s__rosidl_typesupport_c
+[37.603s] [ 98%] [32mBuilding C object CMakeFiles/lifecycle_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[37.914s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[38.014s] [ 99%] Built target lifecycle_msgs_s__rosidl_typesupport_introspection_c
+[38.049s] [100%] [32mBuilding C object CMakeFiles/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.377s] [100%] [32m[1mLinking C shared module rosidl_generator_py/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[38.443s] [100%] Built target lifecycle_msgs_s__rosidl_typesupport_fastrtps_c
+[38.468s] Invoked command in '/home/nava/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/lifecycle_msgs -- -j12 -l12
+[38.471s] Invoking command in '/home/nava/microros_ws/build/lifecycle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/lifecycle_msgs
+[39.423s] -- Install configuration: ""
+[39.424s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/rosidl_interfaces/lifecycle_msgs
+[39.424s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.json
+[39.427s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.json
+[39.428s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.json
+[39.428s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.json
+[39.428s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.json
+[39.429s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.json
+[39.429s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.json
+[39.429s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.json
+[39.429s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[39.429s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[39.429s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h
+[39.429s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[39.429s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.c
+[39.430s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__description.c
+[39.430s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__description.c
+[39.430s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.c
+[39.430s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__description.c
+[39.430s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.h
+[39.430s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.c
+[39.430s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.c
+[39.431s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.c
+[39.431s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.c
+[39.431s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__description.c
+[39.431s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h
+[39.431s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__functions.h
+[39.431s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h
+[39.434s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.h
+[39.435s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.h
+[39.435s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.h
+[39.435s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.c
+[39.441s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h
+[39.441s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__functions.c
+[39.441s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h
+[39.441s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h
+[39.441s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.h
+[39.441s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__functions.h
+[39.441s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.h
+[39.442s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.442s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.h
+[39.442s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.h
+[39.442s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[39.442s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[39.442s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.c
+[39.442s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.h
+[39.442s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.h
+[39.443s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__functions.c
+[39.443s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c
+[39.443s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__description.c
+[39.443s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.h
+[39.443s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.c
+[39.443s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__description.c
+[39.444s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.h
+[39.444s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.h
+[39.444s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.c
+[39.444s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__description.c
+[39.444s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.h
+[39.444s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.h
+[39.445s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__functions.h
+[39.445s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__description.c
+[39.445s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.c
+[39.445s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.h
+[39.445s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.h
+[39.445s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.h
+[39.446s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__functions.h
+[39.446s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.c
+[39.447s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__functions.c
+[39.447s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.h
+[39.447s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.h
+[39.447s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.h
+[39.447s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.h
+[39.448s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.sh
+[39.448s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/library_path.dsv
+[39.448s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so
+[39.448s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_c.so" to ""
+[39.448s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs
+[39.448s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg
+[39.448s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail
+[39.448s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_c.h
+[39.449s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_c.h
+[39.449s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_c.h
+[39.449s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds
+[39.449s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_c.h
+[39.449s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[39.449s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv
+[39.449s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail
+[39.450s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_c.h
+[39.450s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_c.h
+[39.450s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_c.h
+[39.450s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds
+[39.450s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_c.h
+[39.452s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so
+[39.452s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[39.452s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[39.452s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[39.452s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[39.452s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_c.h
+[39.452s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_c.h
+[39.453s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[39.453s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_c.h
+[39.453s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.453s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[39.453s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[39.453s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_c.h
+[39.453s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_c.h
+[39.454s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h
+[39.454s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_c.h
+[39.454s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+[39.454s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[39.454s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[39.454s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[39.454s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[39.455s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.c
+[39.455s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_c.h
+[39.455s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.c
+[39.455s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[39.455s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.c
+[39.455s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_c.h
+[39.459s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_c.h
+[39.459s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.c
+[39.459s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.459s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[39.460s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[39.460s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.c
+[39.460s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.c
+[39.460s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.c
+[39.460s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_c.h
+[39.460s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_c.h
+[39.460s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_c.h
+[39.461s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_c.h
+[39.461s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.c
+[39.461s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+[39.461s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[39.461s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so
+[39.461s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_c.so" to ""
+[39.461s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[39.462s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[39.462s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[39.462s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp
+[39.462s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__struct.hpp
+[39.462s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__builder.hpp
+[39.462s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.hpp
+[39.463s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.hpp
+[39.463s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp
+[39.463s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp
+[39.463s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp
+[39.463s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp
+[39.464s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__traits.hpp
+[39.464s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp
+[39.464s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp
+[39.464s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.hpp
+[39.464s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp
+[39.464s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__builder.hpp
+[39.465s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__traits.hpp
+[39.465s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp
+[39.465s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_description.hpp
+[39.465s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.hpp
+[39.465s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[39.465s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp
+[39.465s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[39.466s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[39.466s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.hpp
+[39.466s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__builder.hpp
+[39.466s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__struct.hpp
+[39.466s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__struct.hpp
+[39.466s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__traits.hpp
+[39.466s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.hpp
+[39.467s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__traits.hpp
+[39.467s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__builder.hpp
+[39.467s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.hpp
+[39.467s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__builder.hpp
+[39.467s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.hpp
+[39.467s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__struct.hpp
+[39.467s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__struct.hpp
+[39.467s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__traits.hpp
+[39.468s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__traits.hpp
+[39.468s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__builder.hpp
+[39.468s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_state.hpp
+[39.468s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_states.hpp
+[39.468s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/get_available_transitions.hpp
+[39.468s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/change_state.hpp
+[39.468s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs
+[39.469s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg
+[39.469s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail
+[39.469s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.469s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds
+[39.469s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_description__type_support_cpp.cpp
+[39.470s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition_event__type_support_cpp.cpp
+[39.470s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/state__type_support_cpp.cpp
+[39.470s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/microxrcedds/transition__type_support_cpp.cpp
+[39.470s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.470s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.471s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/detail/state__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.471s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[39.471s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv
+[39.471s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail
+[39.471s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.472s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.472s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds
+[39.472s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_state__type_support_cpp.cpp
+[39.472s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_states__type_support_cpp.cpp
+[39.472s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/get_available_transitions__type_support_cpp.cpp
+[39.473s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/microxrcedds/change_state__type_support_cpp.cpp
+[39.473s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.473s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[39.473s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[39.473s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[39.473s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[39.473s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[39.473s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[39.474s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_fastrtps_cpp.hpp
+[39.474s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_fastrtps_cpp.hpp
+[39.474s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/dds_fastrtps
+[39.474s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_fastrtps_cpp.hpp
+[39.474s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[39.474s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.474s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[39.475s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[39.475s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_fastrtps_cpp.hpp
+[39.475s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp
+[39.475s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_fastrtps_cpp.hpp
+[39.475s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_fastrtps_cpp.hpp
+[39.475s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/dds_fastrtps
+[39.475s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[39.475s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.476s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs
+[39.476s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg
+[39.476s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail
+[39.476s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__type_support.cpp
+[39.476s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[39.476s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__rosidl_typesupport_introspection_cpp.hpp
+[39.477s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.cpp
+[39.477s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__rosidl_typesupport_introspection_cpp.hpp
+[39.477s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.cpp
+[39.477s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.cpp
+[39.477s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_description__rosidl_typesupport_introspection_cpp.hpp
+[39.477s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv
+[39.477s] -- Up-to-date: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail
+[39.477s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__type_support.cpp
+[39.478s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp
+[39.478s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/change_state__rosidl_typesupport_introspection_cpp.hpp
+[39.478s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__rosidl_typesupport_introspection_cpp.hpp
+[39.478s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_states__type_support.cpp
+[39.478s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__rosidl_typesupport_introspection_cpp.hpp
+[39.478s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_available_transitions__type_support.cpp
+[39.478s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/include/lifecycle_msgs/lifecycle_msgs/srv/detail/get_state__type_support.cpp
+[39.479s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+[39.479s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[39.479s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+[39.479s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so" to ""
+[39.479s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.sh
+[39.479s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/pythonpath.dsv
+[39.479s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info
+[39.480s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info/dependency_links.txt
+[39.480s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info/top_level.txt
+[39.480s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info/SOURCES.txt
+[39.480s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs-2.0.2-py3.12.egg-info/PKG-INFO
+[39.480s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs
+[39.480s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[39.480s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_c.c
+[39.480s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.481s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/__init__.py
+[39.481s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.so
+[39.481s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[39.481s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/_lifecycle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[39.481s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg
+[39.481s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_state.py
+[39.481s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition.py
+[39.482s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/__init__.py
+[39.482s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_description.py
+[39.482s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_event.py
+[39.482s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_state_s.c
+[39.482s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_s.c
+[39.483s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_event_s.c
+[39.483s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_description_s.c
+[39.483s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.so
+[39.483s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.so
+[39.483s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv
+[39.483s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_transitions.py
+[39.485s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_change_state.py
+[39.485s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/__init__.py
+[39.485s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_state_s.c
+[39.485s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_transitions_s.c
+[39.486s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_states_s.c
+[39.486s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_states.py
+[39.486s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_state.py
+[39.486s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_change_state_s.c
+[39.589s] Listing '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs'...
+[39.589s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/__init__.py'...
+[39.589s] Listing '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg'...
+[39.589s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/__init__.py'...
+[39.589s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_state.py'...
+[39.589s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition.py'...
+[39.589s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_description.py'...
+[39.589s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/msg/_transition_event.py'...
+[39.590s] Listing '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv'...
+[39.590s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/__init__.py'...
+[39.590s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_change_state.py'...
+[39.590s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_states.py'...
+[39.590s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_available_transitions.py'...
+[39.590s] Compiling '/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/srv/_get_state.py'...
+[39.598s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[39.599s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[39.599s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.so
+[39.600s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[39.601s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.so
+[39.601s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[39.602s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.so
+[39.603s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/python3.12/site-packages/lifecycle_msgs/lifecycle_msgs_s__rosidl_typesupport_c.so" to ""
+[39.603s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so
+[39.604s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/lifecycle_msgs/lib/liblifecycle_msgs__rosidl_generator_py.so" to ""
+[39.604s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.idl
+[39.604s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.idl
+[39.605s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.idl
+[39.605s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.idl
+[39.606s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.idl
+[39.606s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.idl
+[39.607s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.idl
+[39.607s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.idl
+[39.607s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/State.msg
+[39.608s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/Transition.msg
+[39.608s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionDescription.msg
+[39.609s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/msg/TransitionEvent.msg
+[39.609s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/ChangeState.srv
+[39.610s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableStates.srv
+[39.610s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetAvailableTransitions.srv
+[39.611s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/srv/GetState.srv
+[39.611s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/package_run_dependencies/lifecycle_msgs
+[39.611s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/parent_prefix_path/lifecycle_msgs
+[39.612s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.sh
+[39.612s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/ament_prefix_path.dsv
+[39.613s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.sh
+[39.613s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/environment/path.dsv
+[39.614s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.bash
+[39.614s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.sh
+[39.614s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.zsh
+[39.615s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/local_setup.dsv
+[39.615s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.dsv
+[39.616s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/ament_index/resource_index/packages/lifecycle_msgs
+[39.617s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport.cmake
+[39.617s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cExport-noconfig.cmake
+[39.618s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[39.618s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[39.619s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[39.619s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.620s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport.cmake
+[39.620s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[39.620s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_cppExport.cmake
+[39.621s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.621s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[39.622s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[39.622s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.623s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport.cmake
+[39.624s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[39.625s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport.cmake
+[39.625s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/export_lifecycle_msgs__rosidl_generator_pyExport-noconfig.cmake
+[39.626s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake-extras.cmake
+[39.626s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.627s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.627s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[39.628s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[39.628s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.628s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.629s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig.cmake
+[39.629s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/cmake/lifecycle_msgsConfig-version.cmake
+[39.630s] -- Installing: /home/nava/microros_ws/install/lifecycle_msgs/share/lifecycle_msgs/package.xml
+[39.645s] Invoked command in '/home/nava/microros_ws/build/lifecycle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/lifecycle_msgs

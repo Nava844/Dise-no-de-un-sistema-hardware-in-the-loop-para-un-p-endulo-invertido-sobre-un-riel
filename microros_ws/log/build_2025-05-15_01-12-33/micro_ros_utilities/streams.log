@@ -1,0 +1,39 @@
+[0.062s] Invoking command in '/home/nava/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nava/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/uros/micro_ros_utilities -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/micro_ros_utilities
+[0.152s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.471s] -- Found rosidl_typesupport_introspection_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/cmake)
+[0.661s] -- Configuring done (0.5s)
+[0.678s] -- Generating done (0.0s)
+[0.679s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_utilities
+[0.757s] Invoked command in '/home/nava/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nava/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nava/microros_ws/src/uros/micro_ros_utilities -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/micro_ros_utilities
+[0.758s] Invoking command in '/home/nava/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nava/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/micro_ros_utilities -- -j12 -l12
+[0.838s] [100%] Built target micro_ros_utilities
+[0.851s] Invoked command in '/home/nava/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nava/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/micro_ros_utilities -- -j12 -l12
+[0.852s] Invoking command in '/home/nava/microros_ws/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nava/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/micro_ros_utilities
+[0.865s] -- Install configuration: ""
+[0.865s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/include
+[0.865s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities
+[0.866s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/type_utilities.h
+[0.866s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/string_utilities.h
+[0.866s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/include/micro_ros_utilities/visibility_control.h
+[0.867s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/lib/libmicro_ros_utilities.so
+[0.867s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.sh
+[0.867s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.dsv
+[0.867s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/package_run_dependencies/micro_ros_utilities
+[0.868s] -- Installing: /home/nava/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/parent_prefix_path/micro_ros_utilities
+[0.868s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.sh
+[0.868s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.dsv
+[0.868s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.sh
+[0.868s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.dsv
+[0.869s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.bash
+[0.869s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.sh
+[0.869s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.zsh
+[0.869s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.dsv
+[0.869s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.dsv
+[0.869s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/ament_index/resource_index/packages/micro_ros_utilities
+[0.870s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.871s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_libraries-extras.cmake
+[0.872s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.872s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig.cmake
+[0.872s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig-version.cmake
+[0.872s] -- Up-to-date: /home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/package.xml
+[0.874s] Invoked command in '/home/nava/microros_ws/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nava/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/micro_ros_utilities

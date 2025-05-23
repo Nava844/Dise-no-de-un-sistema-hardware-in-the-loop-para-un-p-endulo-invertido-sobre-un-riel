@@ -1,0 +1,218 @@
+<sdf version='1.11'>
+  <model name='final'>
+    <link name='base_link'>
+      <inertial>
+        <pose>-0.0080628999999999996 0.011439 -0.071869000000000002 0 0 0</pose>
+        <mass>0.48171000000000003</mass>
+        <inertia>
+          <ixx>0.0096804000000000005</ixx>
+          <ixy>-2.5984e-09</ixy>
+          <ixz>-6.4002000000000001e-06</ixz>
+          <iyy>0.0031976000000000001</iyy>
+          <iyz>6.1207000000000002e-09</iyz>
+          <izz>0.0067780999999999996</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/nava/ros2_ws/src/modelo_robot/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/nava/ros2_ws/src/modelo_robot/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name="world_base_fixed_joint" type="fixed">
+     <parent>world</parent>
+     <child>base_link</child>
+    </joint>
+    <joint name='movil_joint' type='prismatic'>
+      <pose relative_to='base_link'>-0.0048478000000000002 0.19467000000000001 0.0050000000000000001 1.5708 5.5511151231257827e-17 -1.5708</pose>
+      <parent>base_link</parent>
+      <child>movil_Link</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0.40000000000000002</upper>
+          <effort>10</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>0</damping>
+          <friction>0.10000000000000001</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='movil_Link'>
+      <pose relative_to='movil_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>1.3509000000000001e-06 0.0018795999999999999 -0.0076871999999999999 0 0 0</pose>
+        <mass>0.077463000000000004</mass>
+        <inertia>
+          <ixx>6.1041000000000001e-05</ixx>
+          <ixy>-3.9804e-09</ixy>
+          <ixz>9.7659999999999992e-10</ixz>
+          <iyy>6.1556999999999994e-05</iyy>
+          <iyz>3.8411999999999997e-06</iyz>
+          <izz>1.4866e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='movil_Link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/nava/ros2_ws/src/modelo_robot/meshes/movil_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='movil_Link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/nava/ros2_ws/src/modelo_robot/meshes/movil_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.990199983 1 1 1</diffuse>
+          <ambient>0.990199983 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='pendulo_joint' type='revolute'>
+      <pose relative_to='movil_Link'>0 0.02 -0.057500000000000002 3.1415853071795872 -2.1175823681357508e-22 -0.34603000000000012</pose>
+      <parent>movil_Link</parent>
+      <child>pendulo_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <damping>0</damping>
+          <friction>0.10000000000000001</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='pendulo_Link'>
+      <pose relative_to='pendulo_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-2.1734323583720339e-09 0.2469089641755112 -0.0059999993675756034 0 0 0</pose>
+        <mass>0.15321699999999999</mass>
+        <inertia>
+          <ixx>0.0032910906522226318</ixx>
+          <ixy>-6.3621934208751126e-11</ixy>
+          <ixz>1.1422994112266621e-11</ixz>
+          <iyy>3.5733799999884061e-06</iyy>
+          <iyz>2.8177828123652869e-10</iyz>
+          <izz>0.0032911906522226312</izz>
+        </inertia>
+      </inertial>
+      <collision name='pendulo_Link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/nava/ros2_ws/src/modelo_robot/meshes/pendulo_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='pendulo_Link_fixed_joint_lump__masa_Link_collision_1'>
+        <pose>0 0.3967 -0.0060000000000000001 3.1415853071795872 0 -3.1415853071795872</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/nava/ros2_ws/src/modelo_robot/meshes/masa_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='pendulo_Link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/nava/ros2_ws/src/modelo_robot/meshes/pendulo_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.970587492 0.946075022 0.921562433 1</diffuse>
+          <ambient>0.970587492 0.946075022 0.921562433 1</ambient>
+        </material>
+      </visual>
+      <visual name='pendulo_Link_fixed_joint_lump__masa_Link_visual_1'>
+        <pose>0 0.3967 -0.0060000000000000001 3.1415853071795872 0 -3.1415853071795872</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>file:///home/nava/ros2_ws/src/modelo_robot/meshes/masa_Link.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.970587492 0.946075022 0.921562433 1</diffuse>
+          <ambient>0.970587492 0.946075022 0.921562433 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <frame name='masa_joint' attached_to='pendulo_Link'>
+      <pose>0 0.3967 -0.0060000000000000001 3.1415853071795872 0 -3.1415853071795872</pose>
+    </frame>
+    <frame name='masa_Link' attached_to='masa_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+   <plugin name="gz::sim::systems::JointPositionController" filename="gz-sim-joint-position-controller-system">
+    <joint_name>movil_joint</joint_name>
+    <topic>movil_cmd</topic>
+    <p_gain>100.0</p_gain>
+    <i_gain>0.1</i_gain>
+    <d_gain>0.01</d_gain>
+    <i_max>1.0</i_max>
+    <i_min>-1.0</i_min>
+    <cmd_max>1000.0</cmd_max>
+    <cmd_min>-1000.0</cmd_min>
+   </plugin>
+   <plugin name="gz::sim::systems::JointPositionController" filename="gz-sim-joint-position-controller-system">
+      <joint_name>pendulo_joint</joint_name> <!-- Cambia este nombre por el de tu joint de revolución -->
+      <topic>pendulo</topic> 
+      <p_gain>10.0</p_gain> 
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1.0</i_max>
+      <i_min>-1.0</i_min>
+      <cmd_max>10.0</cmd_max> 
+      <cmd_min>-10.0</cmd_min>
+   </plugin>
+   <plugin
+      filename="gz-sim-joint-state-publisher-system"
+      name="gz::sim::systems::JointStatePublisher">
+      <topic>joint_states</topic>
+      <joint_name>movil_joint</joint_name>
+   </plugin>
+      <plugin
+      filename="gz-sim-joint-state-publisher-system"
+      name="gz::sim::systems::JointStatePublisher">
+      <topic>joint_states</topic>
+      <joint_name>pendulo_joint</joint_name>
+   </plugin>
+  </model>
+</sdf>

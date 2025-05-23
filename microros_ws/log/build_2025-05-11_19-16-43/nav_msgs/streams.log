@@ -1,0 +1,750 @@
+[0.015s] Invoking command in '/home/nava/microros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/nav_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/nav_msgs
+[0.061s] -- The C compiler identification is GNU 13.3.0
+[0.109s] -- The CXX compiler identification is GNU 13.3.0
+[0.123s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.324s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.467s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.592s] -- Found builtin_interfaces: 2.0.2 (/home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.637s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.654s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.681s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.730s] -- Found geometry_msgs: 5.3.6 (/home/nava/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.768s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.519s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.595s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.111s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.246s] -- Found PythonExtra: /usr/bin/python3  
+[3.697s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.775s] -- Configuring done (3.8s)
+[3.863s] -- Generating done (0.1s)
+[3.880s] -- Build files have been written to: /home/nava/microros_ws/build/nav_msgs
+[3.892s] Invoked command in '/home/nava/microros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/nav_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/nav_msgs
+[3.894s] Invoking command in '/home/nava/microros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/nav_msgs -- -j12 -l12
+[3.976s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.988s] [  0%] Built target ament_cmake_python_copy_nav_msgs
+[4.367s] running egg_info
+[4.368s] creating nav_msgs.egg-info
+[4.411s] writing nav_msgs.egg-info/PKG-INFO
+[4.411s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[4.411s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[4.412s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[4.535s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[4.535s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[4.581s] [  0%] Built target ament_cmake_python_build_nav_msgs_egg
+[5.291s] [  0%] Built target nav_msgs__rosidl_generator_type_description
+[5.322s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.341s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.659s] [  1%] Built target nav_msgs__cpp
+[12.203s] [  1%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__description.c.o[0m
+[12.279s] [  2%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__functions.c.o[0m
+[12.363s] [  3%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[12.411s] [  3%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__description.c.o[0m
+[12.458s] [  4%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__functions.c.o[0m
+[12.510s] [  5%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[12.543s] [  5%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__description.c.o[0m
+[12.588s] [  6%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__functions.c.o[0m
+[12.640s] [  7%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[12.676s] [  7%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__description.c.o[0m
+[12.738s] [  8%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__functions.c.o[0m
+[12.834s] [  9%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[12.888s] [  9%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__description.c.o[0m
+[12.999s] [ 10%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__functions.c.o[0m
+[13.125s] [ 11%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[13.188s] [ 11%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__description.c.o[0m
+[13.290s] [ 12%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__functions.c.o[0m
+[13.414s] [ 13%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[13.475s] [ 13%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__description.c.o[0m
+[13.581s] [ 14%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__functions.c.o[0m
+[13.706s] [ 15%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[13.768s] [ 15%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__description.c.o[0m
+[13.814s] [ 16%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[13.846s] [ 17%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__functions.c.o[0m
+[13.899s] [ 17%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__description.c.o[0m
+[13.941s] [ 18%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[13.980s] [ 19%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__functions.c.o[0m
+[14.035s] [ 19%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__description.c.o[0m
+[14.074s] [ 20%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__type_support.c.o[0m
+[14.105s] [ 21%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__functions.c.o[0m
+[14.152s] [ 21%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_c.so[0m
+[14.194s] [ 21%] Built target nav_msgs__rosidl_generator_c
+[14.204s] [ 22%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[14.279s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[14.279s]   warnings.warn(
+[15.228s] [ 23%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/goals__type_support_cpp.cpp.o[0m
+[15.505s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/goals__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.505s]   259 | [01;35m[K}[m[K;
+[15.505s]       | [01;35m[K^[m[K
+[15.505s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/goals__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.505s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/goals__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.587s] [ 23%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp.o[0m
+[15.864s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp:286:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.864s]   286 | [01;35m[K}[m[K;
+[15.864s]       | [01;35m[K^[m[K
+[15.865s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp:286:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.865s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp:286:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[15.914s] [ 24%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp.o[0m
+[16.199s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.200s]   259 | [01;35m[K}[m[K;
+[16.200s]       | [01;35m[K^[m[K
+[16.200s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.200s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp:259:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.285s] [ 25%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp.o[0m
+[16.571s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.571s]   158 | [01;35m[K}[m[K;
+[16.571s]       | [01;35m[K^[m[K
+[16.571s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.571s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:158:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s]   385 | [01;35m[K}[m[K;
+[16.572s]       | [01;35m[K^[m[K
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:385:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s]   446 | [01;35m[K}[m[K;
+[16.572s]       | [01;35m[K^[m[K
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.572s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp:446:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.620s] [ 25%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp.o[0m
+[16.894s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:242:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.894s]   242 | [01;35m[K}[m[K;
+[16.894s]       | [01;35m[K^[m[K
+[16.894s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:242:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.895s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:242:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.895s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:469:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.896s]   469 | [01;35m[K}[m[K;
+[16.896s]       | [01;35m[K^[m[K
+[16.896s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:469:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.896s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:469:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.897s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:530:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.897s]   530 | [01;35m[K}[m[K;
+[16.897s]       | [01;35m[K^[m[K
+[16.897s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:530:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.897s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:530:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.897s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:530:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.898s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:530:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.898s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:530:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.898s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:530:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.898s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp:530:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[16.947s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp.o[0m
+[17.208s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:160:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.208s]   160 | [01;35m[K}[m[K;
+[17.208s]       | [01;35m[K^[m[K
+[17.208s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:160:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.208s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:160:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.209s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:398:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.209s]   398 | [01;35m[K}[m[K;
+[17.209s]       | [01;35m[K^[m[K
+[17.209s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:398:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.209s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:398:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.209s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:459:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.209s]   459 | [01;35m[K}[m[K;
+[17.209s]       | [01;35m[K^[m[K
+[17.209s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:459:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.210s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:459:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.210s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:459:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.210s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:459:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.210s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:459:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.210s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:459:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.210s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp:459:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.254s] [ 27%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp.o[0m
+[17.499s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:231:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.500s]   231 | [01;35m[K}[m[K;
+[17.500s]       | [01;35m[K^[m[K
+[17.500s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:231:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.500s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:231:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.500s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:427:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.500s]   427 | [01;35m[K}[m[K;
+[17.500s]       | [01;35m[K^[m[K
+[17.500s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:427:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.500s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:427:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.501s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:488:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::request_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.501s]   488 | [01;35m[K}[m[K;
+[17.501s]       | [01;35m[K^[m[K
+[17.501s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:488:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::response_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.501s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:488:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_typesupport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.501s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:488:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_create_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.501s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:488:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::event_message_destroy_handle_function[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.501s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:488:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.501s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:488:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.501s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp:488:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_service_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.545s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp.o[0m
+[17.783s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp:258:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.783s]   258 | [01;35m[K}[m[K;
+[17.783s]       | [01;35m[K^[m[K
+[17.783s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp:258:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.783s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp:258:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[17.844s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp.o[0m
+[18.085s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp:264:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.085s]   264 | [01;35m[K}[m[K;
+[18.085s]       | [01;35m[K^[m[K
+[18.085s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp:264:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.086s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp:264:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.129s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp.o[0m
+[18.365s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp:281:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.365s]   281 | [01;35m[K}[m[K;
+[18.365s]       | [01;35m[K^[m[K
+[18.365s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp:281:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.365s] [01m[K/home/nava/microros_ws/build/nav_msgs/rosidl_typesupport_microxrcedds_cpp/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp:281:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[18.429s] [ 29%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[18.498s] [ 29%] Built target nav_msgs__rosidl_typesupport_microxrcedds_cpp
+[18.507s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.213s] [ 31%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/goals__type_support.cpp.o[0m
+[19.251s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o[0m
+[19.287s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[19.326s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[19.365s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[19.405s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[19.444s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[19.481s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[19.516s] [ 37%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[19.550s] [ 37%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[19.585s] [ 37%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_c.so[0m
+[19.620s] [ 37%] Built target nav_msgs__rosidl_typesupport_c
+[19.629s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.482s] [ 40%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[20.482s] [ 40%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/goals__type_support.c.o[0m
+[20.482s] [ 40%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[20.517s] [ 42%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[20.517s] [ 42%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[20.552s] [ 43%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[20.558s] [ 44%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[20.594s] [ 44%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[20.599s] [ 44%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[20.632s] [ 45%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[20.667s] [ 45%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_introspection_c.so[0m
+[20.696s] [ 45%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[20.705s] [ 48%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.705s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.705s] [ 48%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[20.772s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[20.772s]   warnings.warn(
+[21.463s] [ 49%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[21.463s] [ 49%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/goals__type_support.cpp.o[0m
+[21.466s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[21.932s] [ 51%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[21.932s] [ 51%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[21.969s] [ 52%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/goals__type_support_c.c.o[0m
+[21.980s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[21.984s] [ 53%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_c.c.o[0m
+[22.031s] [ 54%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_c.c.o[0m
+[22.055s] [ 55%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_c.c.o[0m
+[22.092s] [ 55%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/odometry__type_support_c.c.o[0m
+[22.117s] [ 56%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/msg/detail/microxrcedds/path__type_support_c.c.o[0m
+[22.184s] [ 57%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/get_map__type_support_c.c.o[0m
+[22.187s] [ 57%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_c.c.o[0m
+[22.266s] [ 58%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/load_map__type_support_c.c.o[0m
+[22.278s] [ 59%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/goals__type_support.cpp.o[0m
+[22.278s] [ 60%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/nav_msgs/srv/detail/microxrcedds/set_map__type_support_c.c.o[0m
+[22.343s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/grid_cells__type_support.cpp.o[0m
+[22.370s] [ 60%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[22.429s] [ 60%] Built target nav_msgs__rosidl_typesupport_microxrcedds_c
+[22.443s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/map_meta_data__type_support.cpp.o[0m
+[22.445s] [ 63%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.445s] [ 63%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.523s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[22.683s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o[0m
+[22.694s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[22.698s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/odometry__type_support.cpp.o[0m
+[22.703s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[22.703s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/occupancy_grid__type_support.cpp.o[0m
+[23.251s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o[0m
+[23.371s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[23.444s] [ 69%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so[0m
+[23.451s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/set_map__type_support.cpp.o[0m
+[23.620s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[23.639s] [ 70%] Built target nav_msgs__rosidl_typesupport_cpp
+[23.678s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_map__type_support.cpp.o[0m
+[24.228s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/grid_cells__type_support.cpp.o[0m
+[24.231s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/goals__type_support.cpp.o[0m
+[24.231s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/map_meta_data__type_support.cpp.o[0m
+[24.562s] [ 74%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[24.708s] [ 74%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.811s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_plan__type_support.cpp.o[0m
+[24.811s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/set_map__type_support.cpp.o[0m
+[24.828s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_map__type_support.cpp.o[0m
+[24.838s] [ 76%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[24.867s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/occupancy_grid__type_support_c.cpp.o[0m
+[24.867s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/grid_cells__type_support_c.cpp.o[0m
+[24.867s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/goals__type_support_c.cpp.o[0m
+[24.867s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/map_meta_data__type_support_c.cpp.o[0m
+[25.123s] [ 80%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/path__type_support.cpp.o[0m
+[25.526s] [ 80%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/odometry__type_support.cpp.o[0m
+[25.639s] [ 80%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_plan__type_support_c.cpp.o[0m
+[25.650s] [ 81%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/occupancy_grid__type_support.cpp.o[0m
+[25.650s] [ 82%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_map__type_support_c.cpp.o[0m
+[25.664s] [ 83%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[25.669s] [ 84%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/set_map__type_support_c.cpp.o[0m
+[25.679s] [ 85%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/odometry__type_support_c.cpp.o[0m
+[25.679s] [ 85%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/path__type_support_c.cpp.o[0m
+[26.243s] [ 85%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[26.348s] [ 85%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[26.496s] [ 85%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[26.566s] [ 85%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[26.584s] [ 85%] Built target nav_msgs
+[26.603s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.636s] [ 86%] Built target nav_msgs__py
+[28.660s] [ 87%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_grid_cells_s.c.o[0m
+[28.662s] [ 88%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_occupancy_grid_s.c.o[0m
+[28.662s] [ 88%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_map_meta_data_s.c.o[0m
+[28.663s] [ 89%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_goals_s.c.o[0m
+[28.884s] [ 90%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_set_map_s.c.o[0m
+[28.885s] [ 91%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_load_map_s.c.o[0m
+[28.885s] [ 91%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_plan_s.c.o[0m
+[28.906s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_map_s.c.o[0m
+[29.136s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_path_s.c.o[0m
+[29.146s] [ 93%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_odometry_s.c.o[0m
+[29.364s] [ 94%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_py.so[0m
+[29.428s] [ 94%] Built target nav_msgs__rosidl_generator_py
+[29.459s] [ 95%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[29.461s] [ 97%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[29.462s] [ 97%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[29.462s] [ 97%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[29.692s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so[0m
+[29.746s] [ 98%] Built target nav_msgs_s__rosidl_typesupport_c
+[29.748s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[29.748s] [100%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[29.754s] [100%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[29.799s] [100%] Built target nav_msgs_s__rosidl_typesupport_microxrcedds_c
+[29.801s] [100%] Built target nav_msgs_s__rosidl_typesupport_fastrtps_c
+[29.807s] [100%] Built target nav_msgs_s__rosidl_typesupport_introspection_c
+[29.821s] Invoked command in '/home/nava/microros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/nav_msgs -- -j12 -l12
+[29.822s] Invoking command in '/home/nava/microros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/nav_msgs
+[29.832s] -- Install configuration: ""
+[29.832s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+[29.832s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Goals.json
+[29.833s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.json
+[29.833s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.json
+[29.833s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.json
+[29.833s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.json
+[29.833s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Path.json
+[29.833s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.json
+[29.834s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.json
+[29.834s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.json
+[29.834s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.json
+[29.834s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[29.834s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[29.834s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.h
+[29.835s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[29.835s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[29.835s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__description.c
+[29.835s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.h
+[29.835s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.c
+[29.835s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[29.835s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.h
+[29.836s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[29.836s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.h
+[29.836s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__description.c
+[29.837s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__description.c
+[29.837s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.h
+[29.837s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.h
+[29.837s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.h
+[29.837s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__description.c
+[29.837s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__description.c
+[29.838s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.h
+[29.838s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.h
+[29.838s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.h
+[29.838s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__functions.h
+[29.838s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.c
+[29.838s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__struct.h
+[29.838s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[29.839s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.h
+[29.839s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.c
+[29.839s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.c
+[29.839s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.h
+[29.839s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__description.c
+[29.839s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.h
+[29.839s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__functions.c
+[29.840s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.h
+[29.840s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.c
+[29.840s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[29.840s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.h
+[29.840s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.h
+[29.840s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.h
+[29.840s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.c
+[29.841s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[29.841s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.h
+[29.841s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.h
+[29.841s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.h
+[29.841s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.h
+[29.842s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/goals.h
+[29.842s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[29.842s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[29.842s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.h
+[29.842s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.h
+[29.843s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.c
+[29.843s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__description.c
+[29.843s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.c
+[29.843s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.h
+[29.843s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.c
+[29.843s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.h
+[29.843s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[29.844s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[29.844s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__description.c
+[29.844s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[29.844s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.h
+[29.844s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.h
+[29.844s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.h
+[29.845s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[29.845s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.h
+[29.845s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.h
+[29.845s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.h
+[29.845s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__description.c
+[29.845s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.h
+[29.846s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__description.c
+[29.846s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.c
+[29.846s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.h
+[29.846s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.h
+[29.846s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.h
+[29.846s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.h
+[29.847s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.h
+[29.847s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/environment/library_path.sh
+[29.847s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/environment/library_path.dsv
+[29.847s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+[29.848s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so" to ""
+[29.848s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[29.848s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[29.848s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[29.849s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[29.849s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_fastrtps_c.h
+[29.849s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+[29.849s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[29.850s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[29.850s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+[29.850s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.850s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[29.850s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[29.850s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[29.850s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[29.851s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[29.851s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+[29.851s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[29.851s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[29.851s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[29.851s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[29.852s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[29.852s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.hpp
+[29.852s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.hpp
+[29.852s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+[29.852s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__traits.hpp
+[29.853s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp
+[29.853s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp
+[29.853s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp
+[29.853s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp
+[29.853s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__builder.hpp
+[29.853s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__traits.hpp
+[29.853s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.hpp
+[29.854s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp
+[29.854s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.hpp
+[29.854s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp
+[29.854s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+[29.854s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.hpp
+[29.854s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+[29.854s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__struct.hpp
+[29.855s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp
+[29.855s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__builder.hpp
+[29.855s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp
+[29.855s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp
+[29.855s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp
+[29.855s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__builder.hpp
+[29.856s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.hpp
+[29.856s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.hpp
+[29.856s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/goals.hpp
+[29.856s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.hpp
+[29.856s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.hpp
+[29.856s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp
+[29.857s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[29.857s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[29.857s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.hpp
+[29.857s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[29.857s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__traits.hpp
+[29.857s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__traits.hpp
+[29.858s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.hpp
+[29.858s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.hpp
+[29.858s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.hpp
+[29.858s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.hpp
+[29.858s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__traits.hpp
+[29.858s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__builder.hpp
+[29.859s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__builder.hpp
+[29.859s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.hpp
+[29.859s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.hpp
+[29.859s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.hpp
+[29.859s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp
+[29.860s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp
+[29.860s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__builder.hpp
+[29.860s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp
+[29.860s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.hpp
+[29.860s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.hpp
+[29.860s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.hpp
+[29.860s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[29.861s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[29.861s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[29.861s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[29.861s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[29.861s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[29.861s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_fastrtps_cpp.hpp
+[29.861s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/dds_fastrtps
+[29.862s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[29.862s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+[29.862s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.862s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[29.862s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[29.863s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[29.863s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[29.863s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[29.863s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/dds_fastrtps
+[29.863s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+[29.863s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[29.863s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.864s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs
+[29.864s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg
+[29.864s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail
+[29.864s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_microxrcedds_c.h
+[29.864s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_microxrcedds_c.h
+[29.864s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/goals__rosidl_typesupport_microxrcedds_c.h
+[29.865s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_microxrcedds_c.h
+[29.865s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds
+[29.865s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_microxrcedds_c.h
+[29.865s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_microxrcedds_c.h
+[29.865s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[29.865s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv
+[29.866s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail
+[29.866s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/load_map__rosidl_typesupport_microxrcedds_c.h
+[29.866s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds
+[29.866s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_microxrcedds_c.h
+[29.866s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_microxrcedds_c.h
+[29.866s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_microxrcedds_c.h
+[29.867s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_c.so
+[29.867s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[29.867s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[29.867s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[29.867s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[29.867s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[29.868s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[29.868s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[29.868s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[29.868s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+[29.868s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[29.868s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[29.868s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_introspection_c.h
+[29.869s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.c
+[29.869s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+[29.869s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+[29.869s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[29.869s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.869s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[29.869s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[29.870s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+[29.870s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[29.870s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[29.870s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[29.870s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[29.870s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[29.870s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[29.870s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[29.871s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+[29.871s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[29.871s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+[29.871s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so" to ""
+[29.871s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs
+[29.871s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg
+[29.871s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail
+[29.871s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/path__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.872s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/odometry__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.872s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.872s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.872s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds
+[29.872s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/grid_cells__type_support_cpp.cpp
+[29.872s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/map_meta_data__type_support_cpp.cpp
+[29.872s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/odometry__type_support_cpp.cpp
+[29.872s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/path__type_support_cpp.cpp
+[29.873s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/goals__type_support_cpp.cpp
+[29.873s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/microxrcedds/occupancy_grid__type_support_cpp.cpp
+[29.873s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/goals__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.873s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.873s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[29.873s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv
+[29.873s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail
+[29.873s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/set_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.874s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_plan__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.874s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds
+[29.874s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/set_map__type_support_cpp.cpp
+[29.874s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/load_map__type_support_cpp.cpp
+[29.874s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/get_map__type_support_cpp.cpp
+[29.874s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/microxrcedds/get_plan__type_support_cpp.cpp
+[29.874s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/get_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.875s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/srv/detail/load_map__rosidl_typesupport_microxrcedds_cpp.hpp
+[29.875s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[29.875s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[29.875s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[29.875s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[29.875s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[29.875s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+[29.875s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[29.876s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[29.876s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.cpp
+[29.876s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_introspection_cpp.hpp
+[29.876s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.cpp
+[29.876s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[29.876s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.cpp
+[29.876s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[29.877s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.cpp
+[29.877s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.cpp
+[29.877s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.cpp
+[29.877s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[29.877s] -- Up-to-date: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[29.877s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.cpp
+[29.877s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[29.877s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.cpp
+[29.878s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.cpp
+[29.878s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[29.878s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[29.878s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.cpp
+[29.878s] -- Installing: /home/nava/microros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+[29.878s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[29.878s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[29.879s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
+[29.879s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so" to ""
+[29.879s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.sh
+[29.879s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.dsv
+[29.879s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info
+[29.879s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[29.879s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[29.879s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[29.880s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[29.880s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs
+[29.880s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[29.880s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[29.880s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/__init__.py
+[29.880s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[29.880s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c
+[29.881s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[29.881s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg
+[29.881s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/__init__.py
+[29.881s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path_s.c
+[29.881s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py
+[29.881s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry_s.c
+[29.881s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_goals_s.c
+[29.881s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path.py
+[29.882s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py
+[29.882s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells_s.c
+[29.882s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_goals.py
+[29.882s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data_s.c
+[29.882s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py
+[29.882s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid_s.c
+[29.882s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py
+[29.883s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[29.883s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[29.883s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[29.883s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv
+[29.883s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map_s.c
+[29.883s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py
+[29.883s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py
+[29.883s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/__init__.py
+[29.884s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py
+[29.884s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py
+[29.884s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map_s.c
+[29.884s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan_s.c
+[29.884s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map_s.c
+[29.939s] Listing '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs'...
+[29.939s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/__init__.py'...
+[29.939s] Listing '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg'...
+[29.940s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/__init__.py'...
+[29.940s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_goals.py'...
+[29.940s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py'...
+[29.940s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py'...
+[29.940s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py'...
+[29.940s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py'...
+[29.940s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path.py'...
+[29.940s] Listing '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv'...
+[29.941s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/__init__.py'...
+[29.941s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py'...
+[29.941s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py'...
+[29.941s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py'...
+[29.941s] Compiling '/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py'...
+[29.949s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[29.950s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[29.950s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[29.950s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[29.951s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[29.951s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[29.951s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[29.952s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so" to ""
+[29.952s] -- Installing: /home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so
+[29.952s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so" to ""
+[29.953s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Goals.idl
+[29.953s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.idl
+[29.953s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.idl
+[29.953s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.idl
+[29.953s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.idl
+[29.953s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Path.idl
+[29.954s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.idl
+[29.954s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.idl
+[29.954s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.idl
+[29.954s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.idl
+[29.954s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Goals.msg
+[29.955s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.msg
+[29.955s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.msg
+[29.955s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.msg
+[29.955s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.msg
+[29.955s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/msg/Path.msg
+[29.956s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.srv
+[29.956s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.srv
+[29.956s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.srv
+[29.956s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.srv
+[29.956s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+[29.957s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+[29.957s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.sh
+[29.957s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.dsv
+[29.957s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/environment/path.sh
+[29.957s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/environment/path.dsv
+[29.958s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.bash
+[29.958s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.sh
+[29.958s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.zsh
+[29.958s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/local_setup.dsv
+[29.958s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/package.dsv
+[29.959s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/ament_index/resource_index/packages/nav_msgs
+[29.959s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport.cmake
+[29.959s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[29.959s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[29.960s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.960s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cppExport.cmake
+[29.960s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.960s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.960s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[29.961s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.961s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+[29.961s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[29.961s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[29.961s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.962s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+[29.962s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[29.962s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport.cmake
+[29.962s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[29.962s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+[29.963s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.963s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.963s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[29.963s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[29.963s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.964s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.964s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig.cmake
+[29.964s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+[29.964s] -- Installing: /home/nava/microros_ws/install/nav_msgs/share/nav_msgs/package.xml
+[29.968s] Invoked command in '/home/nava/microros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/nav_msgs

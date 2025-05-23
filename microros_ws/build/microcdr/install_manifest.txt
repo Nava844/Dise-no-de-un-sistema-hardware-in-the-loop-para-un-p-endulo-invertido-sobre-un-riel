@@ -1,0 +1,10 @@
+/home/nava/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+/home/nava/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0
+/home/nava/microros_ws/install/microcdr/lib/libmicrocdr.so
+/home/nava/microros_ws/install/microcdr/include/ucdr/visibility.h
+/home/nava/microros_ws/install/microcdr/include/ucdr/microcdr.h
+/home/nava/microros_ws/install/microcdr/include/ucdr/config.h
+/home/nava/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+/home/nava/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/nava/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+/home/nava/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake

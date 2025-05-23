@@ -1,0 +1,403 @@
+[0.013s] Invoking command in '/home/nava/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/trajectory_msgs
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.108s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.210s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.219s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.590s] -- Found builtin_interfaces: 2.0.2 (/home/nava/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.635s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.679s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found geometry_msgs: 5.3.6 (/home/nava/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.765s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.458s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.048s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.054s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.197s] -- Found PythonExtra: /usr/bin/python3  
+[3.648s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.724s] -- Configuring done (3.7s)
+[3.784s] -- Generating done (0.0s)
+[3.801s] -- Build files have been written to: /home/nava/microros_ws/build/trajectory_msgs
+[3.814s] Invoked command in '/home/nava/microros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nava/microros_ws/src/ros2/common_interfaces/trajectory_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/trajectory_msgs
+[3.816s] Invoking command in '/home/nava/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/trajectory_msgs -- -j12 -l12
+[3.870s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.894s] [  1%] Built target ament_cmake_python_copy_trajectory_msgs
+[4.281s] running egg_info
+[4.282s] creating trajectory_msgs.egg-info
+[4.304s] [  1%] Built target trajectory_msgs__rosidl_generator_type_description
+[4.307s] writing trajectory_msgs.egg-info/PKG-INFO
+[4.307s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[4.307s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[4.307s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[4.320s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.326s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.423s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[4.424s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[4.475s] [  3%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[5.103s] [  5%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__description.c.o[0m
+[5.106s] [  6%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[5.107s] [  7%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__description.c.o[0m
+[5.114s] [  8%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[5.114s] [ 10%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[5.116s] [ 11%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c.o[0m
+[5.118s] [ 12%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[5.203s] [ 15%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[5.203s] [ 16%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[5.204s] [ 15%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c.o[0m
+[5.249s] [ 17%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[5.252s] [ 19%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[5.381s] [ 20%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[5.415s] [ 20%] Built target trajectory_msgs__cpp
+[5.439s] [ 21%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[5.512s] [ 21%] Built target trajectory_msgs__rosidl_generator_c
+[5.543s] [ 23%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[5.549s] [ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.549s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.552s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.559s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.568s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.678s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[5.678s]   warnings.warn(
+[5.824s] /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+[5.824s]   warnings.warn(
+[7.036s] [ 30%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp.o[0m
+[7.042s] [ 32%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp.o[0m
+[7.044s] [ 33%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp.o[0m
+[7.058s] [ 34%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp.o[0m
+[7.087s] [ 35%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[7.118s] [ 37%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[7.373s] [ 38%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[7.585s] [ 39%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[7.798s] [ 41%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[7.840s] [ 42%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[7.844s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp:297:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.844s]   297 | [01;35m[K}[m[K;
+[7.844s]       | [01;35m[K^[m[K
+[7.845s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp:297:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.845s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp:297:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[7.923s] [ 43%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_c.c.o[0m
+[8.045s] [ 44%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[8.082s] [ 46%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[8.185s] [ 47%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_c.c.o[0m
+[8.262s] [ 48%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[8.375s] [ 50%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[8.445s] [ 51%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[8.547s] [ 52%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[8.562s] [ 53%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_c.c.o[0m
+[8.586s] [ 55%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[8.587s] [ 55%] Built target trajectory_msgs__rosidl_typesupport_c
+[8.644s] [ 56%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[8.644s] [ 57%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.724s] [ 58%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_c.c.o[0m
+[8.745s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp:399:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.745s]   399 | [01;35m[K}[m[K;
+[8.746s]       | [01;35m[K^[m[K
+[8.746s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp:399:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.746s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp:399:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.767s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.767s]   305 | [01;35m[K}[m[K;
+[8.767s]       | [01;35m[K^[m[K
+[8.767s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.767s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.872s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[8.891s] [ 61%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[8.906s] [ 62%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[8.942s] [ 64%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.955s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_hash_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.955s]   305 | [01;35m[K}[m[K;
+[8.956s]       | [01;35m[K^[m[K
+[8.959s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[8.959s] [01m[K/home/nava/microros_ws/build/trajectory_msgs/rosidl_typesupport_microxrcedds_cpp/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp:305:1:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krosidl_message_type_support_t::get_type_description_sources_func[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[9.055s] [ 65%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[9.143s] [ 65%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[9.196s] [ 66%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[9.273s] [ 66%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_c
+[9.314s] [ 67%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[9.340s] [ 69%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[9.590s] [ 70%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[9.905s] [ 71%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[10.525s] [ 73%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[10.555s] [ 73%] Built target trajectory_msgs__rosidl_typesupport_microxrcedds_cpp
+[10.662s] [ 73%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[11.338s] [ 74%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.545s] [ 75%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.574s] [ 75%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[11.660s] [ 76%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[11.688s] [ 76%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[12.430s] [ 78%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[12.921s] [ 79%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[13.424s] [ 80%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[13.923s] [ 82%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.029s] [ 82%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[14.049s] [ 82%] Built target trajectory_msgs
+[14.070s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.941s] [ 83%] Built target trajectory_msgs__py
+[14.961s] [ 84%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[15.088s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[15.219s] [ 87%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[15.347s] [ 88%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[15.509s] [ 89%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_py.so[0m
+[15.551s] [ 89%] Built target trajectory_msgs__rosidl_generator_py
+[15.572s] [ 91%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[15.687s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.so[0m
+[15.721s] [ 92%] Built target trajectory_msgs_s__rosidl_typesupport_microxrcedds_c
+[15.741s] [ 93%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.848s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so[0m
+[15.879s] [ 94%] Built target trajectory_msgs_s__rosidl_typesupport_c
+[15.899s] [ 96%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.005s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[16.035s] [ 97%] Built target trajectory_msgs_s__rosidl_typesupport_introspection_c
+[16.055s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.166s] [100%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.196s] [100%] Built target trajectory_msgs_s__rosidl_typesupport_fastrtps_c
+[16.208s] Invoked command in '/home/nava/microros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nava/microros_ws/build/trajectory_msgs -- -j12 -l12
+[16.209s] Invoking command in '/home/nava/microros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/trajectory_msgs
+[16.218s] -- Install configuration: ""
+[16.218s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[16.218s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.json
+[16.218s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.json
+[16.218s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.json
+[16.218s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.json
+[16.218s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__description.c
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[16.219s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[16.220s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__description.c
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[16.221s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[16.222s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[16.222s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[16.222s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[16.222s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[16.222s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[16.222s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[16.222s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[16.222s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[16.222s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[16.222s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[16.222s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[16.223s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.223s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[16.223s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.223s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[16.223s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[16.223s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[16.223s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[16.223s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[16.223s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.hpp
+[16.223s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[16.224s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[16.225s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[16.225s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[16.225s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[16.225s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.225s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[16.225s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[16.225s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[16.225s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[16.225s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[16.225s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[16.225s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.226s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.226s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[16.226s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[16.227s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[16.227s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_c.h
+[16.227s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_c.h
+[16.227s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[16.227s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so
+[16.227s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[16.227s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[16.227s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[16.227s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[16.227s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[16.228s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.228s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[16.229s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[16.229s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs
+[16.229s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg
+[16.229s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail
+[16.229s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.229s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.229s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.229s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds
+[16.229s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory__type_support_cpp.cpp
+[16.229s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory__type_support_cpp.cpp
+[16.229s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/multi_dof_joint_trajectory_point__type_support_cpp.cpp
+[16.230s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/microxrcedds/joint_trajectory_point__type_support_cpp.cpp
+[16.230s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_microxrcedds_cpp.hpp
+[16.230s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[16.230s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[16.230s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[16.230s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[16.230s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[16.230s] -- Up-to-date: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[16.230s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[16.230s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[16.231s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[16.231s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[16.231s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[16.232s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/__init__.py
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[16.233s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[16.234s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[16.277s] Listing '/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs'...
+[16.277s] Compiling '/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/__init__.py'...
+[16.277s] Listing '/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg'...
+[16.277s] Compiling '/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py'...
+[16.277s] Compiling '/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[16.277s] Compiling '/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[16.278s] Compiling '/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[16.278s] Compiling '/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[16.284s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.so
+[16.284s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_microxrcedds_c.so" to ""
+[16.284s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.284s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.284s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[16.285s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[16.285s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[16.285s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so" to ""
+[16.285s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[16.285s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[16.285s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[16.286s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[16.286s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[16.286s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[16.286s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[16.286s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[16.286s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[16.286s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[16.287s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[16.287s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[16.287s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[16.287s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[16.287s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[16.287s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[16.287s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[16.288s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[16.288s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[16.288s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[16.288s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[16.288s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[16.288s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[16.288s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.289s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.289s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.289s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[16.289s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.289s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.289s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.289s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.289s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[16.290s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.291s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.291s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.291s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.291s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.291s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.291s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[16.291s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[16.291s] -- Installing: /home/nava/microros_ws/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[16.293s] Invoked command in '/home/nava/microros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nava/microros_ws/build/trajectory_msgs

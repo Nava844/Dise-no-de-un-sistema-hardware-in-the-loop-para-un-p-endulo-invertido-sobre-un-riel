@@ -1,0 +1,1401 @@
+[0.039s] Invoking command in '/home/nava/microros_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/microxrcedds_client:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/visualization_msgs/lib:/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/rmw_microxrcedds/lib:/home/nava/microros_ws/install/rclc_parameter/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rclc/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/test_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/nava/microros_ws/install/rcl_interfaces/lib:/home/nava/microros_ws/install/microxrcedds_client/lib:/home/nava/microros_ws/install/complex_msgs/lib:/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/micro_ros_utilities/lib:/home/nava/microros_ws/install/micro_ros_msgs/lib:/home/nava/microros_ws/install/example_interfaces/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/nava/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/nava/microros_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/micro_ros_demos_rclc
+[0.081s] -- The C compiler identification is GNU 13.3.0
+[0.126s] -- The CXX compiler identification is GNU 13.3.0
+[0.138s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.313s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.852s] -- Configuring done (0.8s)
+[0.877s] -- Generating done (0.0s)
+[0.883s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc
+[0.894s] Invoked command in '/home/nava/microros_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/microxrcedds_client:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/visualization_msgs/lib:/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/rmw_microxrcedds/lib:/home/nava/microros_ws/install/rclc_parameter/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rclc/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/test_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/nava/microros_ws/install/rcl_interfaces/lib:/home/nava/microros_ws/install/microxrcedds_client/lib:/home/nava/microros_ws/install/complex_msgs/lib:/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/micro_ros_utilities/lib:/home/nava/microros_ws/install/micro_ros_msgs/lib:/home/nava/microros_ws/install/example_interfaces/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/nava/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/nava/microros_ws/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/nava/microros_ws/install/micro_ros_demos_rclc
+[0.895s] Invoking command in '/home/nava/microros_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/microxrcedds_client:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/visualization_msgs/lib:/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/rmw_microxrcedds/lib:/home/nava/microros_ws/install/rclc_parameter/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rclc/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/test_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/nava/microros_ws/install/rcl_interfaces/lib:/home/nava/microros_ws/install/microxrcedds_client/lib:/home/nava/microros_ws/install/complex_msgs/lib:/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/micro_ros_utilities/lib:/home/nava/microros_ws/install/micro_ros_msgs/lib:/home/nava/microros_ws/install/example_interfaces/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/nava/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/nava/microros_ws/build/micro_ros_demos_rclc -- -j12 -l12
+[0.950s] [  5%] [34m[1mCreating directories for 'graph_visualizer'[0m
+[0.950s] [  3%] [34m[1mCreating directories for 'addtwoints_server'[0m
+[0.950s] [  5%] [34m[1mCreating directories for 'addtwoints_client'[0m
+[0.950s] [  5%] [34m[1mCreating directories for 'configured_subscriber'[0m
+[0.951s] [  7%] [34m[1mCreating directories for 'fibonacci_action_client'[0m
+[0.951s] [  7%] [34m[1mCreating directories for 'fibonacci_action_server'[0m
+[0.951s] [  7%] [34m[1mCreating directories for 'int32_multinode'[0m
+[0.951s] [  3%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[0.951s] [  3%] [34m[1mCreating directories for 'publisher_count'[0m
+[0.951s] [  3%] [34m[1mCreating directories for 'subscription_count'[0m
+[0.951s] [  5%] [34m[1mCreating directories for 'int32_publisher'[0m
+[0.951s] [  5%] [34m[1mCreating directories for 'configured_publisher'[0m
+[0.991s] [ 10%] [34m[1mNo download step for 'fibonacci_action_client'[0m
+[0.991s] [ 10%] [34m[1mNo download step for 'addtwoints_server'[0m
+[0.991s] [ 10%] [34m[1mNo download step for 'fibonacci_action_server'[0m
+[0.991s] [ 10%] [34m[1mNo download step for 'addtwoints_client'[0m
+[0.991s] [ 10%] [34m[1mNo download step for 'int32_multinode'[0m
+[0.992s] [ 10%] [34m[1mNo download step for 'configured_subscriber'[0m
+[0.992s] [ 13%] [34m[1mNo download step for 'subscription_count'[0m
+[0.992s] [ 13%] [34m[1mNo download step for 'configured_publisher'[0m
+[0.992s] [ 13%] [34m[1mNo download step for 'int32_subscriber'[0m
+[0.992s] [ 14%] [34m[1mNo download step for 'graph_visualizer'[0m
+[0.992s] [ 14%] [34m[1mNo download step for 'publisher_count'[0m
+[0.993s] [ 14%] [34m[1mNo download step for 'int32_publisher'[0m
+[1.029s] [ 14%] [34m[1mNo update step for 'addtwoints_client'[0m
+[1.029s] [ 19%] [34m[1mNo update step for 'configured_subscriber'[0m
+[1.031s] [ 19%] [34m[1mNo update step for 'fibonacci_action_client'[0m
+[1.031s] [ 19%] [34m[1mNo update step for 'fibonacci_action_server'[0m
+[1.031s] [ 19%] [34m[1mNo update step for 'publisher_count'[0m
+[1.031s] [ 19%] [34m[1mNo update step for 'int32_publisher'[0m
+[1.031s] [ 19%] [34m[1mNo update step for 'configured_publisher'[0m
+[1.031s] [ 19%] [34m[1mNo update step for 'int32_subscriber'[0m
+[1.031s] [ 20%] [34m[1mNo update step for 'graph_visualizer'[0m
+[1.031s] [ 20%] [34m[1mNo update step for 'addtwoints_server'[0m
+[1.031s] [ 20%] [34m[1mNo update step for 'subscription_count'[0m
+[1.033s] [ 20%] [34m[1mNo update step for 'int32_multinode'[0m
+[1.067s] [ 21%] [34m[1mNo patch step for 'int32_multinode'[0m
+[1.067s] [ 21%] [34m[1mNo patch step for 'subscription_count'[0m
+[1.067s] [ 21%] [34m[1mNo patch step for 'configured_subscriber'[0m
+[1.068s] [ 22%] [34m[1mNo patch step for 'publisher_count'[0m
+[1.068s] [ 22%] [34m[1mNo patch step for 'fibonacci_action_client'[0m
+[1.068s] [ 23%] [34m[1mNo patch step for 'int32_publisher'[0m
+[1.068s] [ 23%] [34m[1mNo patch step for 'addtwoints_server'[0m
+[1.068s] [ 23%] [34m[1mNo patch step for 'graph_visualizer'[0m
+[1.068s] [ 23%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[1.068s] [ 24%] [34m[1mNo patch step for 'addtwoints_client'[0m
+[1.068s] [ 24%] [34m[1mNo patch step for 'configured_publisher'[0m
+[1.074s] [ 24%] [34m[1mNo patch step for 'fibonacci_action_server'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'fibonacci_action_client'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'configured_publisher'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'addtwoints_server'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'graph_visualizer'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'subscription_count'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'int32_multinode'[0m
+[1.108s] [ 29%] [34m[1mPerforming configure step for 'publisher_count'[0m
+[1.109s] [ 29%] [34m[1mPerforming configure step for 'addtwoints_client'[0m
+[1.109s] [ 29%] [34m[1mPerforming configure step for 'configured_subscriber'[0m
+[1.110s] [ 29%] [34m[1mPerforming configure step for 'fibonacci_action_server'[0m
+[1.122s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/tmp/publisher_count-cache-.cmake
+[1.122s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/tmp/configured_publisher-cache-.cmake
+[1.122s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/tmp/graph_visualizer-cache-.cmake
+[1.123s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/int32_publisher/tmp/int32_publisher-cache-.cmake
+[1.123s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/tmp/configured_subscriber-cache-.cmake
+[1.123s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/addtwoints_server/tmp/addtwoints_server-cache-.cmake
+[1.123s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/addtwoints_client/tmp/addtwoints_client-cache-.cmake
+[1.123s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/int32_multinode/tmp/int32_multinode-cache-.cmake
+[1.123s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/tmp/subscription_count-cache-.cmake
+[1.125s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_client/tmp/fibonacci_action_client-cache-.cmake
+[1.125s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[1.125s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_server/tmp/fibonacci_action_server-cache-.cmake
+[1.226s] -- The C compiler identification is GNU 13.3.0
+[1.226s] -- The C compiler identification is GNU 13.3.0
+[1.229s] -- The C compiler identification is GNU 13.3.0
+[1.231s] -- The C compiler identification is GNU 13.3.0
+[1.232s] -- The C compiler identification is GNU 13.3.0
+[1.232s] -- The C compiler identification is GNU 13.3.0
+[1.232s] -- The C compiler identification is GNU 13.3.0
+[1.234s] -- The C compiler identification is GNU 13.3.0
+[1.234s] -- The C compiler identification is GNU 13.3.0
+[1.234s] -- The C compiler identification is GNU 13.3.0
+[1.235s] -- The C compiler identification is GNU 13.3.0
+[1.235s] -- The C compiler identification is GNU 13.3.0
+[1.253s] -- Detecting C compiler ABI info
+[1.253s] -- Detecting C compiler ABI info
+[1.255s] -- Detecting C compiler ABI info
+[1.255s] -- Detecting C compiler ABI info
+[1.256s] -- Detecting C compiler ABI info
+[1.256s] -- Detecting C compiler ABI info
+[1.256s] -- Detecting C compiler ABI info
+[1.257s] -- Detecting C compiler ABI info
+[1.258s] -- Detecting C compiler ABI info
+[1.259s] -- Detecting C compiler ABI info
+[1.260s] -- Detecting C compiler ABI info
+[1.260s] -- Detecting C compiler ABI info
+[1.435s] -- Detecting C compiler ABI info - done
+[1.435s] -- Detecting C compiler ABI info - done
+[1.437s] -- Detecting C compiler ABI info - done
+[1.439s] -- Detecting C compiler ABI info - done
+[1.442s] -- Detecting C compiler ABI info - done
+[1.442s] -- Detecting C compiler ABI info - done
+[1.442s] -- Detecting C compiler ABI info - done
+[1.442s] -- Detecting C compiler ABI info - done
+[1.442s] -- Detecting C compiler ABI info - done
+[1.443s] -- Detecting C compiler ABI info - done
+[1.444s] -- Detecting C compiler ABI info - done
+[1.450s] -- Detecting C compiler ABI info - done
+[1.452s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.452s] -- Detecting C compile features
+[1.453s] -- Detecting C compile features - done
+[1.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.454s] -- Detecting C compile features
+[1.455s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.455s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.455s] -- Detecting C compile features - done
+[1.455s] -- Detecting C compile features
+[1.456s] -- Detecting C compile features
+[1.456s] -- Detecting C compile features - done
+[1.456s] -- Detecting C compile features - done
+[1.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.461s] -- Detecting C compile features
+[1.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.462s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.465s] -- Detecting C compile features
+[1.465s] -- Detecting C compile features
+[1.465s] -- Detecting C compile features - done
+[1.465s] -- Detecting C compile features - done
+[1.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.466s] -- Detecting C compile features - done
+[1.466s] -- Detecting C compile features
+[1.466s] -- Detecting C compile features
+[1.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.466s] -- Detecting C compile features - done
+[1.466s] -- Detecting C compile features - done
+[1.467s] -- Detecting C compile features
+[1.467s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.467s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.467s] -- Detecting C compile features
+[1.467s] -- Detecting C compile features - done
+[1.468s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.468s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.468s] -- Detecting C compile features - done
+[1.470s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.470s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.470s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.471s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.471s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.473s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.473s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.478s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.481s] -- Detecting C compile features
+[1.481s] -- Detecting C compile features - done
+[1.488s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.823s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.826s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.831s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.859s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.860s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.872s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.873s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.876s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.889s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.898s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.900s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.929s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.186s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.187s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.188s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.210s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.213s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.213s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.216s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.218s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.218s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.223s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.228s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.238s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[2.295s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.295s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.295s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.316s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.320s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.320s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.320s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.325s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.326s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.329s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.330s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.332s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.332s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.335s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.348s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.353s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.354s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.357s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.358s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.362s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.363s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.366s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.373s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.386s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.395s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.395s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.400s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.402s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.421s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.421s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.423s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.426s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.434s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.434s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.434s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.440s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.449s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.452s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.617s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.621s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.621s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.629s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.631s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.632s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.639s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.639s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.643s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.650s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.653s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.653s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.653s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.653s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.654s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.658s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.660s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.662s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.662s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.662s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.669s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.672s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.674s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.684s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.790s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.796s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.796s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.814s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.823s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.825s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.831s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.832s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.834s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.838s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.838s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.839s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.852s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.863s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.863s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.863s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.865s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.865s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.870s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.871s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.874s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.892s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.898s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.902s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.902s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.913s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.917s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.926s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.929s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.933s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.946s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.949s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.949s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.960s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.960s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.961s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.966s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.967s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[2.988s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[3.022s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[3.027s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[3.030s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[3.044s] -- Found example_interfaces: 0.12.0 (/home/nava/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[3.045s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[3.049s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[3.049s] -- Configuring done (1.9s)
+[3.052s] -- Found example_interfaces: 0.12.0 (/home/nava/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[3.056s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[3.056s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[3.059s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[3.062s] -- Found example_interfaces: 0.12.0 (/home/nava/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[3.062s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[3.064s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[3.065s] -- Generating done (0.0s)
+[3.068s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[3.073s] -- Configuring done (2.0s)
+[3.077s] -- Configuring done (2.0s)
+[3.082s] -- Configuring done (2.0s)
+[3.086s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[3.088s] -- Found example_interfaces: 0.12.0 (/home/nava/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[3.088s] -- Generating done (0.0s)
+[3.091s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.091s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[3.091s] -- Configuring done (2.0s)
+[3.094s] -- Generating done (0.0s)
+[3.097s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[3.099s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[3.100s] -- Generating done (0.0s)
+[3.101s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[3.103s] -- Configuring done (2.0s)
+[3.104s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[3.106s] -- Configuring done (2.0s)
+[3.108s] -- Generating done (0.0s)
+[3.112s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[3.113s] -- Configuring done (2.0s)
+[3.113s] -- Configuring done (2.0s)
+[3.118s] -- Configuring done (2.0s)
+[3.119s] -- Generating done (0.0s)
+[3.121s] [ 29%] [34m[1mPerforming build step for 'subscription_count'[0m
+[3.123s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[3.123s] -- Generating done (0.0s)
+[3.126s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[3.127s] -- Generating done (0.0s)
+[3.132s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[3.134s] -- Generating done (0.0s)
+[3.134s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[3.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.138s] -- Generating done (0.0s)
+[3.141s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[3.142s] [ 29%] [34m[1mPerforming build step for 'publisher_count'[0m
+[3.151s] [ 30%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[3.155s] [ 31%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[3.161s] [ 32%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[3.171s] [ 32%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[3.178s] [ 32%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[3.179s] [ 32%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[3.186s] [ 33%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[3.190s] [ 34%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[3.199s] [ 50%] [32mBuilding C object CMakeFiles/subscription_count.dir/main.c.o[0m
+[3.220s] [ 50%] [32mBuilding C object CMakeFiles/publisher_count.dir/main.c.o[0m
+[3.225s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[3.230s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[3.236s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[3.237s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.239s] -- Found Threads: TRUE  
+[3.245s] -- Configuring done (2.1s)
+[3.252s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+[3.253s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[3.255s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[3.268s] -- Generating done (0.0s)
+[3.268s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[3.268s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[3.273s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[3.286s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.286s] -- Found Threads: TRUE  
+[3.291s] -- Configuring done (2.2s)
+[3.309s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[3.309s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:51:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.310s]    51 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[3.310s]       |   [01;35m[K^~~~~~~[m[K
+[3.310s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[3.310s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/subscription_count/main.c:4[m[K:
+[3.310s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.310s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[3.310s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.315s] [ 34%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[3.323s] -- Generating done (0.0s)
+[3.323s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[3.331s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[3.331s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:51:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.332s]    51 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[3.332s]       |   [01;35m[K^~~~~~~[m[K
+[3.332s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[3.332s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/graph_introspection/publisher_count/main.c:4[m[K:
+[3.332s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.332s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[3.332s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.344s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[3.344s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:85:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.344s]    85 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[3.344s]       |         [01;35m[K^~~~~~~[m[K
+[3.344s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[3.344s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:3[m[K:
+[3.344s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.345s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[3.345s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.345s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_multinode/main.c:118:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.345s] [100%] [32m[1mLinking C executable subscription_count[0m
+[3.345s]   118 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[3.345s]       |         [01;35m[K^~~~~~~[m[K
+[3.345s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.346s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[3.346s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.360s] [100%] [32m[1mLinking C executable publisher_count[0m
+[3.365s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[3.367s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[3.368s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:49:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.368s]    49 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[3.369s]       |         [01;35m[K^~~~~~~[m[K
+[3.369s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[3.369s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher/main.c:3[m[K:
+[3.369s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.369s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[3.369s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.372s] [ 35%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[3.372s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[3.374s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[3.376s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:69:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.376s]    69 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[3.376s]       |         [01;35m[K^~~~~~~[m[K
+[3.376s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[3.377s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/configuration_example/configured_publisher/main.c:3[m[K:
+[3.377s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.377s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[3.377s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.391s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[3.399s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[3.399s] [100%] [32m[1mLinking C executable addtwoints_server[0m
+[3.405s] [100%] [32m[1mLinking C executable addtwoints_client[0m
+[3.406s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[3.424s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[3.425s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[3.457s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[3.560s] [100%] Built target subscription_count
+[3.561s] [100%] [32m[1mLinking C executable fibonacci_action_client[0m
+[3.580s] [100%] Built target publisher_count
+[3.593s] [100%] Built target int32_subscriber
+[3.602s] [ 35%] [34m[1mPerforming install step for 'subscription_count'[0m
+[3.605s] [100%] Built target graph_visualizer
+[3.613s] [ 36%] [34m[1mPerforming install step for 'publisher_count'[0m
+[3.618s] [100%] Built target int32_multinode
+[3.620s] [100%] [32m[1mLinking C executable fibonacci_action_server[0m
+[3.629s] [ 36%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[3.635s] [100%] Built target int32_publisher
+[3.636s] [ 36%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[3.642s] [100%] Built target addtwoints_client
+[3.646s] [100%] Built target addtwoints_server
+[3.646s] [100%] Built target configured_subscriber
+[3.647s] [100%] Built target configured_publisher
+[3.653s] [ 36%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[3.664s] [ 37%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[3.670s] [ 38%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[3.674s] [ 38%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[3.674s] [ 39%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[3.680s] [ 39%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[3.680s] [100%] Built target subscription_count
+[3.695s] [100%] Built target publisher_count
+[3.709s] [100%] Built target int32_subscriber
+[3.709s] [100%] Built target graph_visualizer
+[3.715s] [36mInstall the project...[0m
+[3.727s] [36mInstall the project...[0m
+[3.727s] [100%] Built target int32_multinode
+[3.730s] -- Install configuration: ""
+[3.731s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[3.731s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[3.734s] [100%] Built target fibonacci_action_client
+[3.739s] [36mInstall the project...[0m
+[3.741s] [36mInstall the project...[0m
+[3.741s] -- Install configuration: ""
+[3.742s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[3.742s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[3.747s] [100%] Built target int32_publisher
+[3.751s] [ 40%] [34m[1mCompleted 'subscription_count'[0m
+[3.753s] -- Install configuration: ""
+[3.753s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[3.753s] [100%] Built target addtwoints_client
+[3.756s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[3.756s] [100%] Built target addtwoints_server
+[3.756s] -- Install configuration: ""
+[3.757s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[3.757s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[3.759s] [ 41%] [34m[1mCompleted 'publisher_count'[0m
+[3.759s] [36mInstall the project...[0m
+[3.762s] [100%] Built target configured_publisher
+[3.762s] [100%] Built target configured_subscriber
+[3.767s] [ 41%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[3.770s] [ 41%] [34m[1mCompleted 'int32_subscriber'[0m
+[3.773s] -- Install configuration: ""
+[3.773s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[3.773s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[3.775s] [36mInstall the project...[0m
+[3.775s] [ 41%] [34m[1mCompleted 'graph_visualizer'[0m
+[3.783s] [36mInstall the project...[0m
+[3.783s] [36mInstall the project...[0m
+[3.788s] -- Install configuration: ""
+[3.789s] [ 41%] [34m[1mCompleted 'int32_multinode'[0m
+[3.789s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[3.789s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[3.791s] [36mInstall the project...[0m
+[3.795s] [100%] Built target fibonacci_action_server
+[3.795s] [36mInstall the project...[0m
+[3.799s] -- Install configuration: ""
+[3.799s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[3.799s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[3.803s] -- Install configuration: ""
+[3.803s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[3.804s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[3.806s] [ 42%] [34m[1mCompleted 'int32_publisher'[0m
+[3.806s] -- Install configuration: ""
+[3.807s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[3.807s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[3.812s] -- Install configuration: ""
+[3.812s] [ 42%] Built target subscription_count
+[3.812s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[3.812s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[3.813s] [ 42%] Built target publisher_count
+[3.814s] [ 42%] [34m[1mCompleted 'addtwoints_client'[0m
+[3.824s] [ 43%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[3.824s] [ 43%] [34m[1mCompleted 'addtwoints_server'[0m
+[3.824s] [ 43%] [34m[1mCompleted 'configured_publisher'[0m
+[3.827s] [ 43%] Built target int32_subscriber
+[3.827s] [ 43%] [34m[1mCompleted 'configured_subscriber'[0m
+[3.836s] [ 43%] Built target graph_visualizer
+[3.842s] [100%] Built target fibonacci_action_client
+[3.848s] [ 44%] [34m[1mCreating directories for 'ping_pong'[0m
+[3.848s] [ 45%] [34m[1mCreating directories for 'int32_publisher_subscriber'[0m
+[3.851s] [ 45%] Built target int32_multinode
+[3.859s] [ 45%] [34m[1mCreating directories for 'ping_uros_agent'[0m
+[3.861s] [ 45%] Built target int32_publisher
+[3.871s] [ 45%] [34m[1mCreating directories for 'fragmented_publication'[0m
+[3.871s] [ 45%] Built target addtwoints_client
+[3.874s] [36mInstall the project...[0m
+[3.875s] [ 45%] Built target addtwoints_server
+[3.878s] [ 45%] Built target configured_publisher
+[3.884s] [ 45%] Built target configured_subscriber
+[3.886s] [ 45%] [34m[1mCreating directories for 'fragmented_subscription'[0m
+[3.888s] -- Install configuration: ""
+[3.888s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[3.888s] [ 46%] [34m[1mNo download step for 'int32_publisher_subscriber'[0m
+[3.889s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[3.889s] [ 47%] [34m[1mNo download step for 'ping_pong'[0m
+[3.898s] [100%] Built target fibonacci_action_server
+[3.899s] [ 47%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[3.904s] [ 47%] [34m[1mNo download step for 'ping_uros_agent'[0m
+[3.905s] [ 47%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[3.911s] [ 48%] [34m[1mCreating directories for 'timer'[0m
+[3.911s] [ 49%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[3.912s] [ 49%] [34m[1mCreating directories for 'string_publisher'[0m
+[3.919s] [ 49%] [34m[1mNo download step for 'fragmented_publication'[0m
+[3.922s] [ 49%] [34m[1mCreating directories for 'string_subscriber'[0m
+[3.925s] [36mInstall the project...[0m
+[3.927s] [ 49%] [34m[1mNo download step for 'fragmented_subscription'[0m
+[3.932s] [ 50%] [34m[1mNo update step for 'int32_publisher_subscriber'[0m
+[3.937s] [ 51%] [34m[1mNo update step for 'ping_pong'[0m
+[3.940s] -- Install configuration: ""
+[3.940s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[3.942s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[3.942s] [ 51%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[3.946s] [ 51%] [34m[1mNo update step for 'ping_uros_agent'[0m
+[3.949s] [ 51%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[3.953s] [ 52%] [34m[1mNo download step for 'string_publisher'[0m
+[3.956s] [ 53%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[3.956s] [ 53%] [34m[1mNo download step for 'timer'[0m
+[3.965s] [ 53%] [34m[1mNo update step for 'fragmented_publication'[0m
+[3.967s] [ 53%] Built target fibonacci_action_client
+[3.970s] [ 54%] [34m[1mNo update step for 'fragmented_subscription'[0m
+[3.971s] [ 54%] [34m[1mNo download step for 'string_subscriber'[0m
+[3.971s] [ 54%] [34m[1mNo patch step for 'int32_publisher_subscriber'[0m
+[3.978s] [ 54%] [34m[1mNo patch step for 'ping_pong'[0m
+[3.983s] [ 54%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[3.991s] [ 55%] [34m[1mNo patch step for 'ping_uros_agent'[0m
+[3.992s] [ 55%] [34m[1mNo update step for 'string_publisher'[0m
+[3.998s] [ 55%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[3.998s] [ 56%] [34m[1mNo update step for 'timer'[0m
+[4.000s] [ 57%] [34m[1mCreating directories for 'autodiscover_agent'[0m
+[4.007s] [ 58%] [34m[1mNo patch step for 'fragmented_publication'[0m
+[4.012s] [ 58%] [34m[1mNo patch step for 'fragmented_subscription'[0m
+[4.013s] [ 58%] [34m[1mPerforming configure step for 'int32_publisher_subscriber'[0m
+[4.015s] [ 58%] [34m[1mNo update step for 'string_subscriber'[0m
+[4.016s] [ 58%] Built target fibonacci_action_server
+[4.021s] [ 58%] [34m[1mPerforming configure step for 'ping_pong'[0m
+[4.027s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/tmp/int32_publisher_subscriber-cache-.cmake
+[4.028s] [ 59%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[4.031s] [ 59%] [34m[1mPerforming configure step for 'ping_uros_agent'[0m
+[4.036s] [ 60%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[4.037s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/ping_pong/tmp/ping_pong-cache-.cmake
+[4.037s] [ 61%] [34m[1mNo patch step for 'string_publisher'[0m
+[4.046s] [ 62%] [34m[1mNo download step for 'autodiscover_agent'[0m
+[4.046s] [ 62%] [34m[1mNo patch step for 'timer'[0m
+[4.046s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/ping_uros_agent/tmp/ping_uros_agent-cache-.cmake
+[4.049s] [ 63%] [34m[1mCreating directories for 'static_type_handling'[0m
+[4.055s] [ 64%] [34m[1mPerforming configure step for 'fragmented_publication'[0m
+[4.056s] [ 66%] [34m[1mPerforming configure step for 'fragmented_subscription'[0m
+[4.057s] [ 66%] [34m[1mNo patch step for 'string_subscriber'[0m
+[4.070s] [ 66%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[4.070s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/fragmented_publication/tmp/fragmented_publication-cache-.cmake
+[4.070s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/fragmented_subscription/tmp/fragmented_subscription-cache-.cmake
+[4.082s] [ 66%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[4.083s] [ 67%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[4.086s] [ 68%] [34m[1mNo update step for 'autodiscover_agent'[0m
+[4.086s] [ 68%] [34m[1mPerforming configure step for 'timer'[0m
+[4.086s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[4.097s] [ 69%] [34m[1mNo download step for 'static_type_handling'[0m
+[4.098s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[4.098s] [ 70%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[4.100s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/timer/tmp/timer-cache-.cmake
+[4.100s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/string_publisher/tmp/string_publisher-cache-.cmake
+[4.110s] -- The C compiler identification is GNU 13.3.0
+[4.117s] -- The C compiler identification is GNU 13.3.0
+[4.118s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/string_subscriber/tmp/string_subscriber-cache-.cmake
+[4.125s] -- The C compiler identification is GNU 13.3.0
+[4.132s] [ 70%] [34m[1mNo patch step for 'autodiscover_agent'[0m
+[4.136s] -- Detecting C compiler ABI info
+[4.147s] -- Detecting C compiler ABI info
+[4.147s] [ 71%] [34m[1mNo update step for 'static_type_handling'[0m
+[4.152s] -- Detecting C compiler ABI info
+[4.152s] -- The C compiler identification is GNU 13.3.0
+[4.152s] -- The C compiler identification is GNU 13.3.0
+[4.169s] -- The C compiler identification is GNU 13.3.0
+[4.180s] -- Detecting C compiler ABI info
+[4.180s] [ 71%] [34m[1mPerforming configure step for 'autodiscover_agent'[0m
+[4.181s] -- Detecting C compiler ABI info
+[4.185s] -- The C compiler identification is GNU 13.3.0
+[4.187s] -- The C compiler identification is GNU 13.3.0
+[4.187s] -- The C compiler identification is GNU 13.3.0
+[4.194s] [ 71%] [34m[1mNo patch step for 'static_type_handling'[0m
+[4.194s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/autodiscover_agent/tmp/autodiscover_agent-cache-.cmake
+[4.195s] -- Detecting C compiler ABI info
+[4.201s] -- The C compiler identification is GNU 13.3.0
+[4.211s] -- Detecting C compiler ABI info
+[4.211s] -- Detecting C compiler ABI info
+[4.211s] -- Detecting C compiler ABI info
+[4.225s] -- Detecting C compiler ABI info
+[4.247s] [ 71%] [34m[1mPerforming configure step for 'static_type_handling'[0m
+[4.266s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/static_type_handling/tmp/static_type_handling-cache-.cmake
+[4.274s] -- The C compiler identification is GNU 13.3.0
+[4.293s] -- Detecting C compiler ABI info - done
+[4.299s] -- Detecting C compiler ABI info
+[4.308s] -- Detecting C compiler ABI info - done
+[4.312s] -- Detecting C compiler ABI info - done
+[4.314s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.314s] -- Detecting C compile features
+[4.314s] -- Detecting C compile features - done
+[4.320s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.322s] -- Detecting C compiler ABI info - done
+[4.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.327s] -- Detecting C compile features
+[4.329s] -- Detecting C compile features - done
+[4.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.329s] -- Detecting C compile features
+[4.330s] -- Detecting C compile features - done
+[4.333s] -- Detecting C compiler ABI info - done
+[4.336s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.337s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.341s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.341s] -- Detecting C compile features
+[4.342s] -- Detecting C compile features - done
+[4.342s] -- The C compiler identification is GNU 13.3.0
+[4.346s] -- Detecting C compiler ABI info - done
+[4.353s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.353s] -- Detecting C compile features
+[4.354s] -- Detecting C compile features - done
+[4.356s] -- Detecting C compiler ABI info - done
+[4.362s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.362s] -- Detecting C compiler ABI info - done
+[4.364s] -- Detecting C compiler ABI info - done
+[4.364s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.364s] -- Detecting C compile features
+[4.365s] -- Detecting C compile features - done
+[4.370s] -- Detecting C compiler ABI info
+[4.372s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.374s] -- Detecting C compile features
+[4.375s] -- Detecting C compile features - done
+[4.376s] -- Detecting C compiler ABI info - done
+[4.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.381s] -- Detecting C compile features
+[4.382s] -- Detecting C compile features - done
+[4.383s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.384s] -- Detecting C compile features
+[4.385s] -- Detecting C compile features - done
+[4.390s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.393s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.396s] -- Detecting C compile features
+[4.396s] -- Detecting C compile features - done
+[4.404s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.446s] -- Detecting C compiler ABI info - done
+[4.468s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.468s] -- Detecting C compile features
+[4.468s] -- Detecting C compile features - done
+[4.474s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.520s] -- Detecting C compiler ABI info - done
+[4.539s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.540s] -- Detecting C compile features
+[4.545s] -- Detecting C compile features - done
+[4.550s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.621s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.654s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.654s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.663s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.673s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.680s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.690s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.705s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.716s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.720s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.787s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.867s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.870s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.915s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.926s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.927s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.931s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.936s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.949s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.954s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.959s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.967s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[4.975s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.014s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.021s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.030s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.032s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.032s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[5.037s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.041s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.055s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.058s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.062s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.066s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.067s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.069s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.072s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.074s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.075s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.082s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.093s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.096s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.101s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.102s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.109s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.118s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[5.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.122s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.132s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.133s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.142s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.142s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.143s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.160s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.162s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.165s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.172s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.180s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.220s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.225s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.245s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.262s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.295s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.305s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.325s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.344s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.357s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.357s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.359s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.361s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.364s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.367s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.370s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.372s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.377s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.379s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.385s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.389s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.393s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.393s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.395s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.403s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.404s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.470s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.472s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.483s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.513s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.522s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.528s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.535s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.540s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.543s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.545s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.550s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.555s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.563s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.563s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.571s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.573s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.574s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.583s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.585s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.593s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.601s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.605s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.609s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.614s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.615s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.640s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.643s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.650s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.650s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.653s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.663s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.666s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.673s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.680s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.686s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.690s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.691s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.693s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.699s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.708s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.708s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.729s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.738s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.747s] -- Configuring done (1.7s)
+[5.748s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.749s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.757s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.766s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.766s] -- Generating done (0.0s)
+[5.767s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[5.767s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.772s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.782s] -- Found complex_msgs: 5.0.1 (/home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+[5.783s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.786s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.787s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.788s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.793s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.794s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.795s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.803s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.803s] -- Found complex_msgs: 5.0.1 (/home/nava/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+[5.806s] -- Configuring done (1.8s)
+[5.808s] [ 71%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[5.812s] -- Configuring done (1.7s)
+[5.818s] -- Configuring done (1.8s)
+[5.820s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.821s] -- Configuring done (1.8s)
+[5.823s] -- Generating done (0.0s)
+[5.826s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.826s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.826s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[5.830s] -- Generating done (0.0s)
+[5.836s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.836s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[5.836s] -- Generating done (0.0s)
+[5.837s] -- Configuring done (1.7s)
+[5.837s] -- Generating done (0.0s)
+[5.838s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[5.840s] -- Configuring done (1.8s)
+[5.840s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[5.841s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.842s] -- Configuring done (1.7s)
+[5.848s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[5.848s] -- Configuring done (1.7s)
+[5.852s] -- Generating done (0.0s)
+[5.856s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/timer/src/timer-build
+[5.858s] -- Generating done (0.0s)
+[5.859s] -- Configuring done (1.8s)
+[5.860s] -- Generating done (0.0s)
+[5.860s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[5.863s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[5.866s] -- Generating done (0.0s)
+[5.868s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[5.874s] [ 72%] [34m[1mPerforming build step for 'ping_pong'[0m
+[5.878s] -- Generating done (0.0s)
+[5.879s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[5.881s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[5.882s] [ 72%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[5.885s] [ 73%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[5.888s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[5.893s] [ 73%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[5.908s] [ 74%] [34m[1mPerforming build step for 'timer'[0m
+[5.910s] [ 75%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[5.916s] [ 76%] [34m[1mPerforming build step for 'string_publisher'[0m
+[5.920s] [ 76%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[5.926s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.932s] [ 76%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[5.943s] -- Configuring done (1.7s)
+[5.943s] -- Found visualization_msgs: 5.3.6 (/home/nava/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake)
+[5.952s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[5.958s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[5.960s] -- Generating done (0.0s)
+[5.963s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[5.969s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[5.970s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[5.990s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[5.990s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[5.990s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[5.995s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[5.996s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:63:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.996s]    63 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[5.996s]       |         [01;35m[K^~~~~~~[m[K
+[5.996s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[5.996s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/int32_publisher_subscriber/main.c:3[m[K:
+[5.996s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.996s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[5.996s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.997s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_publisher.dir/main.c.o[0m
+[6.009s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_subscriber.dir/main.c.o[0m
+[6.012s] [ 77%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[6.028s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[6.063s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[6.063s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:103:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.063s]   103 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(&timer, &support, RCL_MS_TO_NS(2000), ping_timer_callback));
+[6.063s]       |         [01;35m[K^~~~~~~[m[K
+[6.064s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[6.067s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:3[m[K:
+[6.067s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.068s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[6.068s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.082s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[6.083s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:50:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.083s]    50 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[6.083s]       |         [01;35m[K^~~~~~~[m[K
+[6.083s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[6.083s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/fragmented_publication/main.c:3[m[K:
+[6.083s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.083s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[6.083s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.084s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[6.084s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:131:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.084s]   131 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[6.084s]       |         [01;35m[K^~~~~~~[m[K
+[6.084s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[6.084s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/ping_uros_agent/main.c:3[m[K:
+[6.085s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.085s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[6.085s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.093s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[6.097s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[6.098s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:34:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.098s]    34 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[6.098s]       |         [01;35m[K^~~~~~~[m[K
+[6.098s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[6.099s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/timer/main.c:3[m[K:
+[6.099s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.100s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[6.100s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.100s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[6.100s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:54:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.100s]    54 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[6.100s]       |         [01;35m[K^~~~~~~[m[K
+[6.100s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[6.101s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/string_publisher/main.c:3[m[K:
+[6.101s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.101s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[6.101s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.104s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[6.110s] [100%] [32m[1mLinking C executable ping_pong[0m
+[6.120s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[6.126s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[6.127s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[6.131s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[6.137s] -- Found micro_ros_utilities: 5.0.1 (/home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[6.139s] [100%] [32m[1mLinking C executable string_publisher[0m
+[6.140s] [100%] [32m[1mLinking C executable timer[0m
+[6.152s] [100%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[6.153s] [100%] [32m[1mLinking C executable complex_msg_publisher[0m
+[6.153s] -- Configuring done (1.9s)
+[6.180s] -- Generating done (0.0s)
+[6.184s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/static_type_handling/src/static_type_handling-build
+[6.207s] [100%] Built target int32_publisher_subscriber
+[6.215s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[6.216s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:61:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.216s]    61 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[6.216s]       |         [01;35m[K^~~~~~~[m[K
+[6.216s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[6.216s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/autodiscover_agent/main.c:3[m[K:
+[6.216s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.216s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[6.216s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.253s] [ 77%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[6.256s] [ 78%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[6.263s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[6.343s] [100%] Built target ping_pong
+[6.343s] [100%] Built target fragmented_subscription
+[6.349s] [100%] Built target ping_uros_agent
+[6.352s] [ 50%] [32mBuilding C object CMakeFiles/static_type_handling.dir/main.c.o[0m
+[6.355s] [100%] Built target fragmented_publication
+[6.356s] [100%] Built target int32_publisher_subscriber
+[6.366s] [100%] Built target string_subscriber
+[6.370s] [100%] Built target string_publisher
+[6.373s] [ 79%] [34m[1mPerforming install step for 'ping_pong'[0m
+[6.373s] [ 79%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[6.375s] [100%] Built target timer
+[6.379s] [ 80%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[6.381s] [100%] Built target complex_msg_publisher
+[6.383s] [ 81%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[6.385s] [36mInstall the project...[0m
+[6.385s] [100%] Built target complex_msg_subscriber
+[6.396s] [ 82%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[6.399s] [ 82%] [34m[1mPerforming install step for 'string_publisher'[0m
+[6.399s] -- Install configuration: ""
+[6.400s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[6.400s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[6.402s] [ 82%] [34m[1mPerforming install step for 'timer'[0m
+[6.410s] [ 83%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[6.413s] [ 84%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[6.419s] [ 85%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[6.442s] [100%] Built target autodiscover_agent
+[6.450s] [100%] Built target fragmented_subscription
+[6.450s] [100%] Built target ping_pong
+[6.458s] [100%] Built target ping_uros_agent
+[6.461s] [100%] Built target fragmented_publication
+[6.468s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[6.468s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:61:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.468s]    61 |   [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[6.469s]       |   [01;35m[K^~~~~~~[m[K
+[6.469s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[6.469s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/static_type_handling/main.c:5[m[K:
+[6.469s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.469s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[6.469s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.474s] [ 85%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[6.474s] [100%] Built target string_publisher
+[6.476s] [100%] Built target timer
+[6.476s] [100%] Built target string_subscriber
+[6.481s] [36mInstall the project...[0m
+[6.481s] [36mInstall the project...[0m
+[6.481s] [ 85%] Built target int32_publisher_subscriber
+[6.488s] [100%] Built target complex_msg_publisher
+[6.488s] [100%] Built target complex_msg_subscriber
+[6.488s] [36mInstall the project...[0m
+[6.488s] [36mInstall the project...[0m
+[6.493s] -- Install configuration: ""
+[6.493s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[6.493s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[6.494s] -- Install configuration: ""
+[6.494s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[6.494s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[6.502s] -- Install configuration: ""
+[6.503s] -- Install configuration: ""
+[6.503s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[6.506s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[6.506s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[6.506s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[6.506s] [36mInstall the project...[0m
+[6.506s] [36mInstall the project...[0m
+[6.506s] [100%] [32m[1mLinking C executable static_type_handling[0m
+[6.507s] [36mInstall the project...[0m
+[6.510s] [ 86%] [34m[1mCompleted 'ping_pong'[0m
+[6.511s] [ 86%] [34m[1mCompleted 'fragmented_subscription'[0m
+[6.514s] [ 86%] [34m[1mCreating directories for 'epoch_synchronization'[0m
+[6.519s] [36mInstall the project...[0m
+[6.519s] [36mInstall the project...[0m
+[6.519s] [ 86%] [34m[1mCompleted 'fragmented_publication'[0m
+[6.519s] -- Install configuration: ""
+[6.519s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[6.521s] [ 86%] [34m[1mCompleted 'ping_uros_agent'[0m
+[6.522s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[6.523s] -- Install configuration: ""
+[6.524s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[6.524s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[6.525s] -- Install configuration: ""
+[6.525s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer
+[6.525s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[6.534s] -- Install configuration: ""
+[6.534s] -- Install configuration: ""
+[6.534s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[6.535s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[6.535s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[6.535s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[6.540s] [ 86%] [34m[1mCompleted 'string_publisher'[0m
+[6.542s] [ 87%] [34m[1mCompleted 'string_subscriber'[0m
+[6.542s] [ 87%] [34m[1mCompleted 'timer'[0m
+[6.544s] [100%] Built target autodiscover_agent
+[6.551s] [ 88%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[6.552s] [ 88%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[6.562s] [ 88%] [34m[1mNo download step for 'epoch_synchronization'[0m
+[6.566s] [ 88%] Built target fragmented_subscription
+[6.567s] [ 88%] Built target ping_pong
+[6.575s] [36mInstall the project...[0m
+[6.581s] [ 88%] Built target ping_uros_agent
+[6.581s] [ 88%] Built target fragmented_publication
+[6.590s] -- Install configuration: ""
+[6.590s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[6.591s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[6.593s] [ 88%] [34m[1mCreating directories for 'multithread_publisher_subscriber'[0m
+[6.593s] [ 88%] Built target timer
+[6.594s] [ 88%] Built target string_publisher
+[6.597s] [ 88%] Built target string_subscriber
+[6.597s] [ 89%] [34m[1mCreating directories for 'parameter_server'[0m
+[6.603s] [ 89%] [34m[1mNo update step for 'epoch_synchronization'[0m
+[6.604s] [ 89%] Built target complex_msg_subscriber
+[6.605s] [ 89%] [34m[1mCompleted 'autodiscover_agent'[0m
+[6.607s] [ 89%] Built target complex_msg_publisher
+[6.627s] [ 89%] [34m[1mNo download step for 'multithread_publisher_subscriber'[0m
+[6.627s] [ 89%] [34m[1mNo download step for 'parameter_server'[0m
+[6.634s] [ 90%] [34m[1mNo patch step for 'epoch_synchronization'[0m
+[6.645s] [ 90%] Built target autodiscover_agent
+[6.649s] [100%] Built target static_type_handling
+[6.654s] [ 91%] [34m[1mNo update step for 'parameter_server'[0m
+[6.654s] [ 90%] [34m[1mNo update step for 'multithread_publisher_subscriber'[0m
+[6.662s] [ 92%] [34m[1mPerforming configure step for 'epoch_synchronization'[0m
+[6.667s] [ 92%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[6.671s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/epoch_synchronization/tmp/epoch_synchronization-cache-.cmake
+[6.680s] [ 93%] [34m[1mNo patch step for 'parameter_server'[0m
+[6.680s] [ 93%] [34m[1mNo patch step for 'multithread_publisher_subscriber'[0m
+[6.706s] [ 95%] [34m[1mPerforming configure step for 'parameter_server'[0m
+[6.706s] [ 95%] [34m[1mPerforming configure step for 'multithread_publisher_subscriber'[0m
+[6.712s] [100%] Built target static_type_handling
+[6.714s] -- The C compiler identification is GNU 13.3.0
+[6.714s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/parameter_server/tmp/parameter_server-cache-.cmake
+[6.715s] loading initial cache file /home/nava/microros_ws/build/micro_ros_demos_rclc/multithread_publisher_subscriber/tmp/multithread_publisher_subscriber-cache-.cmake
+[6.729s] -- Detecting C compiler ABI info
+[6.732s] [36mInstall the project...[0m
+[6.741s] -- Install configuration: ""
+[6.741s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+[6.742s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling" to ""
+[6.751s] [ 95%] [34m[1mCompleted 'static_type_handling'[0m
+[6.756s] -- The C compiler identification is GNU 13.3.0
+[6.756s] -- The C compiler identification is GNU 13.3.0
+[6.771s] -- Detecting C compiler ABI info
+[6.771s] -- Detecting C compiler ABI info
+[6.784s] [ 95%] Built target static_type_handling
+[6.807s] -- Detecting C compiler ABI info - done
+[6.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.816s] -- Detecting C compile features
+[6.816s] -- Detecting C compile features - done
+[6.820s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.848s] -- Detecting C compiler ABI info - done
+[6.848s] -- Detecting C compiler ABI info - done
+[6.856s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.856s] -- Detecting C compile features
+[6.857s] -- Detecting C compile features - done
+[6.857s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.857s] -- Detecting C compile features
+[6.858s] -- Detecting C compile features - done
+[6.861s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.862s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.978s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.016s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.016s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.115s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[7.134s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[7.152s] -- Found rcl: 9.2.6 (/opt/ros/jazzy/share/rcl/cmake)
+[7.166s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.183s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.184s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.201s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.202s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.212s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.219s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.230s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.249s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.319s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.324s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.336s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.341s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.354s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.359s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.401s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.416s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.420s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.435s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.436s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.441s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.454s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.465s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[7.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.481s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[7.500s] -- Found rclc: 6.1.0 (/home/nava/microros_ws/install/rclc/share/rclc/cmake)
+[7.513s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[7.529s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[7.532s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[7.541s] -- Configuring done (0.9s)
+[7.547s] -- Found std_msgs: 5.3.6 (/home/nava/microros_ws/install/std_msgs/share/std_msgs/cmake)
+[7.548s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[7.549s] -- Generating done (0.0s)
+[7.550s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-build
+[7.553s] -- Found micro_ros_utilities: 5.0.1 (/home/nava/microros_ws/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[7.556s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.566s] -- Found rclc_parameter: 6.1.0 (/home/nava/microros_ws/install/rclc_parameter/share/rclc_parameter/cmake)
+[7.570s] -- Found rmw_microxrcedds: 5.0.1 (/home/nava/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[7.572s] [ 95%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[7.578s] -- Configuring done (0.9s)
+[7.587s] -- Generating done (0.0s)
+[7.588s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build
+[7.609s] [ 95%] [34m[1mPerforming build step for 'parameter_server'[0m
+[7.609s] [ 50%] [32mBuilding C object CMakeFiles/epoch_synchronization.dir/main.c.o[0m
+[7.626s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.627s] -- Found Threads: TRUE  
+[7.632s] -- Configuring done (0.9s)
+[7.641s] -- Generating done (0.0s)
+[7.642s] -- Build files have been written to: /home/nava/microros_ws/build/micro_ros_demos_rclc/multithread_publisher_subscriber/src/multithread_publisher_subscriber-build
+[7.649s] [ 50%] [32mBuilding C object CMakeFiles/parameter_server.dir/main.c.o[0m
+[7.663s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[7.663s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:53:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.663s]    53 |         [01;35m[KRCCHECK[m[K(rclc_timer_init_default(
+[7.663s]       |         [01;35m[K^~~~~~~[m[K
+[7.664s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[7.664s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/epoch_synchronization/main.c:3[m[K:
+[7.664s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.664s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[7.664s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.664s] [ 95%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+[7.680s] [100%] [32m[1mLinking C executable epoch_synchronization[0m
+[7.702s] [ 50%] [32mBuilding C object CMakeFiles/multithread_publisher_subscriber.dir/main.c.o[0m
+[7.713s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[7.713s] [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:91:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclc_timer_init_default[m[K’ is deprecated: Call rclc_timer_init_default2 instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.713s]    91 |   [01;35m[KRCCHECK[m[K(
+[7.713s]       |   [01;35m[K^~~~~~~[m[K
+[7.713s] In file included from [01m[K/home/nava/microros_ws/install/rclc/include/rclc/rclc.h:32[m[K,
+[7.713s]                  from [01m[K/home/nava/microros_ws/src/uros/micro-ROS-demos/rclc/parameter_server/main.c:3[m[K:
+[7.713s] [01m[K/home/nava/microros_ws/install/rclc/include/rclc/timer.h:63:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.713s]    63 | [01;36m[Krclc_timer_init_default[m[K(
+[7.713s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.734s] [100%] [32m[1mLinking C executable parameter_server[0m
+[7.752s] [100%] Built target epoch_synchronization
+[7.769s] [ 96%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[7.782s] [100%] [32m[1mLinking C executable multithread_publisher_subscriber[0m
+[7.806s] [100%] Built target parameter_server
+[7.810s] [100%] Built target epoch_synchronization
+[7.823s] [ 96%] [34m[1mPerforming install step for 'parameter_server'[0m
+[7.828s] [36mInstall the project...[0m
+[7.836s] -- Install configuration: ""
+[7.836s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+[7.836s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization" to ""
+[7.845s] [ 97%] [34m[1mCompleted 'epoch_synchronization'[0m
+[7.856s] [100%] Built target multithread_publisher_subscriber
+[7.866s] [100%] Built target parameter_server
+[7.870s] [ 98%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[7.877s] [ 98%] Built target epoch_synchronization
+[7.881s] [36mInstall the project...[0m
+[7.889s] -- Install configuration: ""
+[7.889s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+[7.889s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server" to ""
+[7.897s] [ 99%] [34m[1mCompleted 'parameter_server'[0m
+[7.908s] [100%] Built target multithread_publisher_subscriber
+[7.925s] [36mInstall the project...[0m
+[7.926s] [ 99%] Built target parameter_server
+[7.932s] -- Install configuration: ""
+[7.932s] -- Installing: /home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+[7.932s] -- Set non-toolchain portion of runtime path of "/home/nava/microros_ws/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber" to ""
+[7.941s] [100%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[7.968s] [100%] Built target multithread_publisher_subscriber
+[7.979s] Invoked command in '/home/nava/microros_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/microxrcedds_client:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/visualization_msgs/lib:/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/rmw_microxrcedds/lib:/home/nava/microros_ws/install/rclc_parameter/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rclc/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/test_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/nava/microros_ws/install/rcl_interfaces/lib:/home/nava/microros_ws/install/microxrcedds_client/lib:/home/nava/microros_ws/install/complex_msgs/lib:/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/micro_ros_utilities/lib:/home/nava/microros_ws/install/micro_ros_msgs/lib:/home/nava/microros_ws/install/example_interfaces/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/nava/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/nava/microros_ws/build/micro_ros_demos_rclc -- -j12 -l12
+[7.979s] Invoking command in '/home/nava/microros_ws/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/microxrcedds_client:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/visualization_msgs/lib:/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/rmw_microxrcedds/lib:/home/nava/microros_ws/install/rclc_parameter/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rclc/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/test_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/nava/microros_ws/install/rcl_interfaces/lib:/home/nava/microros_ws/install/microxrcedds_client/lib:/home/nava/microros_ws/install/complex_msgs/lib:/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/micro_ros_utilities/lib:/home/nava/microros_ws/install/micro_ros_msgs/lib:/home/nava/microros_ws/install/example_interfaces/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/nava/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/nava/microros_ws/build/micro_ros_demos_rclc
+[7.986s] -- Install configuration: ""
+[7.986s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[7.986s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[7.986s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[7.986s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[7.986s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[7.987s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[7.988s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[7.989s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[7.990s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[7.991s] -- Installing: /home/nava/microros_ws/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[7.992s] Invoked command in '/home/nava/microros_ws/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nava/microros_ws/install/visualization_msgs:/home/nava/microros_ws/install/sensor_msgs:/home/nava/microros_ws/install/rmw_microxrcedds:/home/nava/microros_ws/install/rclc_parameter:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/nava/microros_ws/install/rclc:/home/nava/microros_ws/install/geometry_msgs:/home/nava/microros_ws/install/test_msgs:/home/nava/microros_ws/install/std_msgs:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/nava/microros_ws/install/rcl_interfaces:/home/nava/microros_ws/install/microxrcedds_client:/home/nava/microros_ws/install/complex_msgs:/home/nava/microros_ws/install/test_interface_files:/home/nava/microros_ws/install/microcdr:/home/nava/microros_ws/install/micro_ros_utilities:/home/nava/microros_ws/install/micro_ros_msgs:/home/nava/microros_ws/install/example_interfaces:/home/nava/microros_ws/install/builtin_interfaces:/home/nava/microros_ws/install/micro_ros_setup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nava/microros_ws/install/visualization_msgs/lib:/home/nava/microros_ws/install/sensor_msgs/lib:/home/nava/microros_ws/install/rmw_microxrcedds/lib:/home/nava/microros_ws/install/rclc_parameter/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/nava/microros_ws/install/rclc/lib:/home/nava/microros_ws/install/geometry_msgs/lib:/home/nava/microros_ws/install/test_msgs/lib:/home/nava/microros_ws/install/std_msgs/lib:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/nava/microros_ws/install/rcl_interfaces/lib:/home/nava/microros_ws/install/microxrcedds_client/lib:/home/nava/microros_ws/install/complex_msgs/lib:/home/nava/microros_ws/install/microcdr/lib:/home/nava/microros_ws/install/micro_ros_utilities/lib:/home/nava/microros_ws/install/micro_ros_msgs/lib:/home/nava/microros_ws/install/example_interfaces/lib:/home/nava/microros_ws/install/builtin_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/nava/microros_ws/install/visualization_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.12/site-packages:/home/nava/microros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/test_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/std_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.12/site-packages:/home/nava/microros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/complex_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/nava/microros_ws/install/example_interfaces/lib/python3.12/site-packages:/home/nava/microros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/nava/microros_ws/build/micro_ros_demos_rclc

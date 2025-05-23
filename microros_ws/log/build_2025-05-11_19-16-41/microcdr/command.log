@@ -1,0 +1,4 @@
+Invoking command in '/home/nava/microros_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/microcdr -- -j12 -l12
+Invoked command in '/home/nava/microros_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nava/microros_ws/build/microcdr -- -j12 -l12
+Invoking command in '/home/nava/microros_ws/build/microcdr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/microcdr
+Invoked command in '/home/nava/microros_ws/build/microcdr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nava/microros_ws/build/microcdr
