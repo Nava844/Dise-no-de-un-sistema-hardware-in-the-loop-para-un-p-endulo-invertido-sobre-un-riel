@@ -3,7 +3,7 @@
 ## RViz y Gazebo
 https://github.com/user-attachments/assets/40fa5955-9b4c-4265-8a6d-3a43da75b027
 ### Costruir el Espacio de Trabajo
-
+LOs siguientes comandos son necesarios para cargar el entorno de Ros2 y guardar cambios.
 ```bash
 cd ros2_ws/
 colcon build
