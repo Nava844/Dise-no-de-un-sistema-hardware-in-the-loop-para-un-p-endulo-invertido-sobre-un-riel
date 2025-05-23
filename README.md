@@ -10,4 +10,8 @@ cd ros2_ws/
 colcon build
 source install/setup.bash
 ros2 launch modelo_robot robot_simulation_launch.py
-
+```
+### Comado para mover el carro
+```bash
+ros2 topic pub /movil_cmd std_msgs/msg/Float64 '{data: 0.22}'
+```
