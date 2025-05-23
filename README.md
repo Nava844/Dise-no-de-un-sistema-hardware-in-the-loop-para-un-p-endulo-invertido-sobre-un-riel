@@ -1,7 +1,7 @@
 # Diseño de un sistema hardware in the loop para un péndulo invertido sobre un riel
 ![Pendulo](https://github.com/Nava844/Dise-no-de-un-sistema-hardware-in-the-loop-para-un-p-endulo-invertido-sobre-un-riel/blob/main/ros2_ws/src/Renders/Pendulo%20de%20furuta.png)
 ## RViz y Gazebo
-
+![video](https://github.com/user-attachments/assets/40fa5955-9b4c-4265-8a6d-3a43da75b027)
 ---
 ### Comandos para correr la simulación
 
