@@ -15,6 +15,7 @@ Este comando manda a llamar a Rviz y Gazebo desde el archivo robot_simulation_la
 ros2 launch modelo_robot robot_simulation_launch.py
 ```
 ### Comado para mover el carro
+Estos comandos le mandan un dato en metros y en radianes a los topicos declarados en el final.sdf y en el archivo robot_simulation_launch.py
 ```bash
 ros2 topic pub /movil_cmd std_msgs/msg/Float64 '{data: 0.22}'
 ros2 topic pub /pendulo std_msgs/msg/Float64 '{data: 2.8}'
